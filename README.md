@@ -3,7 +3,6 @@
 This repository holds the code and experiment records for the paper
 
 > Vocabulary Budget and Tokenizer Family in Synthetic Grammatical Error Correction: A Controlled Study
-> (under review; Indonesian and Turkish).
 
 We compare SentencePiece BPE, WordPiece (Hugging Face `tokenizers` 0.20.3) and SentencePiece Unigram at vocabulary sizes of 5,000 and 20,000. All six conditions use the same Transformer encoder-decoder in Fairseq, trained from scratch with seeds 42, 43 and 44, which gives 18 Indonesian runs. The checkpoint of each run is chosen by validation chrF2 and frozen before any test output is produced. The same design is repeated on GECTurk. We also report an overlap sensitivity analysis, a continuation of training to 20 epochs, and an Indonesian control with the same training size as GECTurk.
 
