@@ -1,0 +1,2051 @@
+{
+  "source": "retained training source + target only; no validation/test",
+  "corpus_sha256": "1ee6868f8ecc25ba32509bfb138e941a0e9c58cb649ef2bf48c4f8824646fa15",
+  "characters": [
+    {
+      "character": "!",
+      "codepoint": "U+0021",
+      "count": 3714
+    },
+    {
+      "character": "\"",
+      "codepoint": "U+0022",
+      "count": 4500764
+    },
+    {
+      "character": "#",
+      "codepoint": "U+0023",
+      "count": 3442
+    },
+    {
+      "character": "$",
+      "codepoint": "U+0024",
+      "count": 7773
+    },
+    {
+      "character": "%",
+      "codepoint": "U+0025",
+      "count": 16103
+    },
+    {
+      "character": "&",
+      "codepoint": "U+0026",
+      "count": 8479
+    },
+    {
+      "character": "'",
+      "codepoint": "U+0027",
+      "count": 64495
+    },
+    {
+      "character": "(",
+      "codepoint": "U+0028",
+      "count": 578177
+    },
+    {
+      "character": ")",
+      "codepoint": "U+0029",
+      "count": 581026
+    },
+    {
+      "character": "*",
+      "codepoint": "U+002A",
+      "count": 2163
+    },
+    {
+      "character": "+",
+      "codepoint": "U+002B",
+      "count": 7052
+    },
+    {
+      "character": ",",
+      "codepoint": "U+002C",
+      "count": 3475732
+    },
+    {
+      "character": "-",
+      "codepoint": "U+002D",
+      "count": 880531
+    },
+    {
+      "character": ".",
+      "codepoint": "U+002E",
+      "count": 3230756
+    },
+    {
+      "character": "/",
+      "codepoint": "U+002F",
+      "count": 301192
+    },
+    {
+      "character": "0",
+      "codepoint": "U+0030",
+      "count": 932152
+    },
+    {
+      "character": "1",
+      "codepoint": "U+0031",
+      "count": 979069
+    },
+    {
+      "character": "2",
+      "codepoint": "U+0032",
+      "count": 789573
+    },
+    {
+      "character": "3",
+      "codepoint": "U+0033",
+      "count": 273303
+    },
+    {
+      "character": "4",
+      "codepoint": "U+0034",
+      "count": 231182
+    },
+    {
+      "character": "5",
+      "codepoint": "U+0035",
+      "count": 471612
+    },
+    {
+      "character": "6",
+      "codepoint": "U+0036",
+      "count": 192064
+    },
+    {
+      "character": "7",
+      "codepoint": "U+0037",
+      "count": 180732
+    },
+    {
+      "character": "8",
+      "codepoint": "U+0038",
+      "count": 178632
+    },
+    {
+      "character": "9",
+      "codepoint": "U+0039",
+      "count": 198294
+    },
+    {
+      "character": ":",
+      "codepoint": "U+003A",
+      "count": 70770
+    },
+    {
+      "character": ";",
+      "codepoint": "U+003B",
+      "count": 14529
+    },
+    {
+      "character": "<",
+      "codepoint": "U+003C",
+      "count": 1968
+    },
+    {
+      "character": "=",
+      "codepoint": "U+003D",
+      "count": 6478
+    },
+    {
+      "character": ">",
+      "codepoint": "U+003E",
+      "count": 2708
+    },
+    {
+      "character": "?",
+      "codepoint": "U+003F",
+      "count": 22658
+    },
+    {
+      "character": "@",
+      "codepoint": "U+0040",
+      "count": 6157
+    },
+    {
+      "character": "[",
+      "codepoint": "U+005B",
+      "count": 4299
+    },
+    {
+      "character": "\\",
+      "codepoint": "U+005C",
+      "count": 42
+    },
+    {
+      "character": "]",
+      "codepoint": "U+005D",
+      "count": 4326
+    },
+    {
+      "character": "^",
+      "codepoint": "U+005E",
+      "count": 20
+    },
+    {
+      "character": "_",
+      "codepoint": "U+005F",
+      "count": 3234
+    },
+    {
+      "character": "`",
+      "codepoint": "U+0060",
+      "count": 455
+    },
+    {
+      "character": "a",
+      "codepoint": "U+0061",
+      "count": 50943820
+    },
+    {
+      "character": "b",
+      "codepoint": "U+0062",
+      "count": 7021102
+    },
+    {
+      "character": "c",
+      "codepoint": "U+0063",
+      "count": 1955875
+    },
+    {
+      "character": "d",
+      "codepoint": "U+0064",
+      "count": 10691291
+    },
+    {
+      "character": "e",
+      "codepoint": "U+0065",
+      "count": 22987533
+    },
+    {
+      "character": "f",
+      "codepoint": "U+0066",
+      "count": 954347
+    },
+    {
+      "character": "g",
+      "codepoint": "U+0067",
+      "count": 9659735
+    },
+    {
+      "character": "h",
+      "codepoint": "U+0068",
+      "count": 5676256
+    },
+    {
+      "character": "i",
+      "codepoint": "U+0069",
+      "count": 21459058
+    },
+    {
+      "character": "j",
+      "codepoint": "U+006A",
+      "count": 2966862
+    },
+    {
+      "character": "k",
+      "codepoint": "U+006B",
+      "count": 13238386
+    },
+    {
+      "character": "l",
+      "codepoint": "U+006C",
+      "count": 9217717
+    },
+    {
+      "character": "m",
+      "codepoint": "U+006D",
+      "count": 12214733
+    },
+    {
+      "character": "n",
+      "codepoint": "U+006E",
+      "count": 27824571
+    },
+    {
+      "character": "o",
+      "codepoint": "U+006F",
+      "count": 6418513
+    },
+    {
+      "character": "p",
+      "codepoint": "U+0070",
+      "count": 9687421
+    },
+    {
+      "character": "q",
+      "codepoint": "U+0071",
+      "count": 49833
+    },
+    {
+      "character": "r",
+      "codepoint": "U+0072",
+      "count": 14748337
+    },
+    {
+      "character": "s",
+      "codepoint": "U+0073",
+      "count": 12893822
+    },
+    {
+      "character": "t",
+      "codepoint": "U+0074",
+      "count": 14322256
+    },
+    {
+      "character": "u",
+      "codepoint": "U+0075",
+      "count": 13252129
+    },
+    {
+      "character": "v",
+      "codepoint": "U+0076",
+      "count": 669270
+    },
+    {
+      "character": "w",
+      "codepoint": "U+0077",
+      "count": 1402560
+    },
+    {
+      "character": "x",
+      "codepoint": "U+0078",
+      "count": 71845
+    },
+    {
+      "character": "y",
+      "codepoint": "U+0079",
+      "count": 4110335
+    },
+    {
+      "character": "z",
+      "codepoint": "U+007A",
+      "count": 213572
+    },
+    {
+      "character": "{",
+      "codepoint": "U+007B",
+      "count": 692
+    },
+    {
+      "character": "|",
+      "codepoint": "U+007C",
+      "count": 208
+    },
+    {
+      "character": "}",
+      "codepoint": "U+007D",
+      "count": 661
+    },
+    {
+      "character": "~",
+      "codepoint": "U+007E",
+      "count": 39
+    },
+    {
+      "character": "",
+      "codepoint": "U+007F",
+      "count": 5
+    },
+    {
+      "character": "®",
+      "codepoint": "U+00AE",
+      "count": 33
+    },
+    {
+      "character": "°",
+      "codepoint": "U+00B0",
+      "count": 737
+    },
+    {
+      "character": "±",
+      "codepoint": "U+00B1",
+      "count": 303
+    },
+    {
+      "character": "²",
+      "codepoint": "U+00B2",
+      "count": 138
+    },
+    {
+      "character": "³",
+      "codepoint": "U+00B3",
+      "count": 10
+    },
+    {
+      "character": "´",
+      "codepoint": "U+00B4",
+      "count": 14
+    },
+    {
+      "character": "µ",
+      "codepoint": "U+00B5",
+      "count": 50
+    },
+    {
+      "character": "·",
+      "codepoint": "U+00B7",
+      "count": 2
+    },
+    {
+      "character": "º",
+      "codepoint": "U+00BA",
+      "count": 187
+    },
+    {
+      "character": "¼",
+      "codepoint": "U+00BC",
+      "count": 2
+    },
+    {
+      "character": "½",
+      "codepoint": "U+00BD",
+      "count": 2
+    },
+    {
+      "character": "¾",
+      "codepoint": "U+00BE",
+      "count": 10
+    },
+    {
+      "character": "×",
+      "codepoint": "U+00D7",
+      "count": 106
+    },
+    {
+      "character": "ß",
+      "codepoint": "U+00DF",
+      "count": 12
+    },
+    {
+      "character": "à",
+      "codepoint": "U+00E0",
+      "count": 2
+    },
+    {
+      "character": "á",
+      "codepoint": "U+00E1",
+      "count": 11
+    },
+    {
+      "character": "â",
+      "codepoint": "U+00E2",
+      "count": 5
+    },
+    {
+      "character": "ä",
+      "codepoint": "U+00E4",
+      "count": 2
+    },
+    {
+      "character": "é",
+      "codepoint": "U+00E9",
+      "count": 6
+    },
+    {
+      "character": "ê",
+      "codepoint": "U+00EA",
+      "count": 4
+    },
+    {
+      "character": "í",
+      "codepoint": "U+00ED",
+      "count": 2
+    },
+    {
+      "character": "î",
+      "codepoint": "U+00EE",
+      "count": 2
+    },
+    {
+      "character": "ï",
+      "codepoint": "U+00EF",
+      "count": 12
+    },
+    {
+      "character": "ü",
+      "codepoint": "U+00FC",
+      "count": 7
+    },
+    {
+      "character": "ā",
+      "codepoint": "U+0101",
+      "count": 97
+    },
+    {
+      "character": "ī",
+      "codepoint": "U+012B",
+      "count": 29
+    },
+    {
+      "character": "ı",
+      "codepoint": "U+0131",
+      "count": 18
+    },
+    {
+      "character": "ū",
+      "codepoint": "U+016B",
+      "count": 10
+    },
+    {
+      "character": "ż",
+      "codepoint": "U+017C",
+      "count": 2
+    },
+    {
+      "character": "ʃ",
+      "codepoint": "U+0283",
+      "count": 6
+    },
+    {
+      "character": "˂",
+      "codepoint": "U+02C2",
+      "count": 6
+    },
+    {
+      "character": "˃",
+      "codepoint": "U+02C3",
+      "count": 6
+    },
+    {
+      "character": "ˉ",
+      "codepoint": "U+02C9",
+      "count": 4
+    },
+    {
+      "character": "˚",
+      "codepoint": "U+02DA",
+      "count": 13
+    },
+    {
+      "character": "̃",
+      "codepoint": "U+0303",
+      "count": 4
+    },
+    {
+      "character": "̅",
+      "codepoint": "U+0305",
+      "count": 4
+    },
+    {
+      "character": "̊",
+      "codepoint": "U+030A",
+      "count": 5
+    },
+    {
+      "character": "α",
+      "codepoint": "U+03B1",
+      "count": 236
+    },
+    {
+      "character": "β",
+      "codepoint": "U+03B2",
+      "count": 193
+    },
+    {
+      "character": "γ",
+      "codepoint": "U+03B3",
+      "count": 18
+    },
+    {
+      "character": "δ",
+      "codepoint": "U+03B4",
+      "count": 8
+    },
+    {
+      "character": "ε",
+      "codepoint": "U+03B5",
+      "count": 20
+    },
+    {
+      "character": "ι",
+      "codepoint": "U+03B9",
+      "count": 2
+    },
+    {
+      "character": "λ",
+      "codepoint": "U+03BB",
+      "count": 41
+    },
+    {
+      "character": "μ",
+      "codepoint": "U+03BC",
+      "count": 14
+    },
+    {
+      "character": "π",
+      "codepoint": "U+03C0",
+      "count": 18
+    },
+    {
+      "character": "ρ",
+      "codepoint": "U+03C1",
+      "count": 14
+    },
+    {
+      "character": "σ",
+      "codepoint": "U+03C3",
+      "count": 24
+    },
+    {
+      "character": "φ",
+      "codepoint": "U+03C6",
+      "count": 8
+    },
+    {
+      "character": "ω",
+      "codepoint": "U+03C9",
+      "count": 24
+    },
+    {
+      "character": "а",
+      "codepoint": "U+0430",
+      "count": 6
+    },
+    {
+      "character": "е",
+      "codepoint": "U+0435",
+      "count": 4
+    },
+    {
+      "character": "о",
+      "codepoint": "U+043E",
+      "count": 2
+    },
+    {
+      "character": "р",
+      "codepoint": "U+0440",
+      "count": 4
+    },
+    {
+      "character": "ф",
+      "codepoint": "U+0444",
+      "count": 2
+    },
+    {
+      "character": "ѕ",
+      "codepoint": "U+0455",
+      "count": 2
+    },
+    {
+      "character": "і",
+      "codepoint": "U+0456",
+      "count": 6
+    },
+    {
+      "character": "ս",
+      "codepoint": "U+057D",
+      "count": 16
+    },
+    {
+      "character": "֩",
+      "codepoint": "U+05A9",
+      "count": 1
+    },
+    {
+      "character": "،",
+      "codepoint": "U+060C",
+      "count": 8
+    },
+    {
+      "character": "ء",
+      "codepoint": "U+0621",
+      "count": 6
+    },
+    {
+      "character": "آ",
+      "codepoint": "U+0622",
+      "count": 3
+    },
+    {
+      "character": "أ",
+      "codepoint": "U+0623",
+      "count": 15
+    },
+    {
+      "character": "ؤ",
+      "codepoint": "U+0624",
+      "count": 3
+    },
+    {
+      "character": "إ",
+      "codepoint": "U+0625",
+      "count": 7
+    },
+    {
+      "character": "ئ",
+      "codepoint": "U+0626",
+      "count": 15
+    },
+    {
+      "character": "ا",
+      "codepoint": "U+0627",
+      "count": 267
+    },
+    {
+      "character": "ب",
+      "codepoint": "U+0628",
+      "count": 54
+    },
+    {
+      "character": "ة",
+      "codepoint": "U+0629",
+      "count": 28
+    },
+    {
+      "character": "ت",
+      "codepoint": "U+062A",
+      "count": 78
+    },
+    {
+      "character": "ث",
+      "codepoint": "U+062B",
+      "count": 10
+    },
+    {
+      "character": "ج",
+      "codepoint": "U+062C",
+      "count": 26
+    },
+    {
+      "character": "ح",
+      "codepoint": "U+062D",
+      "count": 18
+    },
+    {
+      "character": "خ",
+      "codepoint": "U+062E",
+      "count": 14
+    },
+    {
+      "character": "د",
+      "codepoint": "U+062F",
+      "count": 26
+    },
+    {
+      "character": "ذ",
+      "codepoint": "U+0630",
+      "count": 18
+    },
+    {
+      "character": "ر",
+      "codepoint": "U+0631",
+      "count": 74
+    },
+    {
+      "character": "ز",
+      "codepoint": "U+0632",
+      "count": 8
+    },
+    {
+      "character": "س",
+      "codepoint": "U+0633",
+      "count": 47
+    },
+    {
+      "character": "ش",
+      "codepoint": "U+0634",
+      "count": 14
+    },
+    {
+      "character": "ص",
+      "codepoint": "U+0635",
+      "count": 15
+    },
+    {
+      "character": "ض",
+      "codepoint": "U+0636",
+      "count": 10
+    },
+    {
+      "character": "ط",
+      "codepoint": "U+0637",
+      "count": 2
+    },
+    {
+      "character": "ظ",
+      "codepoint": "U+0638",
+      "count": 2
+    },
+    {
+      "character": "ع",
+      "codepoint": "U+0639",
+      "count": 84
+    },
+    {
+      "character": "غ",
+      "codepoint": "U+063A",
+      "count": 6
+    },
+    {
+      "character": "ف",
+      "codepoint": "U+0641",
+      "count": 62
+    },
+    {
+      "character": "ق",
+      "codepoint": "U+0642",
+      "count": 26
+    },
+    {
+      "character": "ك",
+      "codepoint": "U+0643",
+      "count": 69
+    },
+    {
+      "character": "ل",
+      "codepoint": "U+0644",
+      "count": 232
+    },
+    {
+      "character": "م",
+      "codepoint": "U+0645",
+      "count": 154
+    },
+    {
+      "character": "ن",
+      "codepoint": "U+0646",
+      "count": 138
+    },
+    {
+      "character": "ه",
+      "codepoint": "U+0647",
+      "count": 90
+    },
+    {
+      "character": "و",
+      "codepoint": "U+0648",
+      "count": 153
+    },
+    {
+      "character": "ى",
+      "codepoint": "U+0649",
+      "count": 18
+    },
+    {
+      "character": "ي",
+      "codepoint": "U+064A",
+      "count": 159
+    },
+    {
+      "character": "ً",
+      "codepoint": "U+064B",
+      "count": 10
+    },
+    {
+      "character": "ٌ",
+      "codepoint": "U+064C",
+      "count": 27
+    },
+    {
+      "character": "ٍ",
+      "codepoint": "U+064D",
+      "count": 25
+    },
+    {
+      "character": "َ",
+      "codepoint": "U+064E",
+      "count": 526
+    },
+    {
+      "character": "ُ",
+      "codepoint": "U+064F",
+      "count": 173
+    },
+    {
+      "character": "ِ",
+      "codepoint": "U+0650",
+      "count": 217
+    },
+    {
+      "character": "ّ",
+      "codepoint": "U+0651",
+      "count": 97
+    },
+    {
+      "character": "ْ",
+      "codepoint": "U+0652",
+      "count": 232
+    },
+    {
+      "character": "ٖ",
+      "codepoint": "U+0656",
+      "count": 2
+    },
+    {
+      "character": "ٗ",
+      "codepoint": "U+0657",
+      "count": 1
+    },
+    {
+      "character": "ٰ",
+      "codepoint": "U+0670",
+      "count": 36
+    },
+    {
+      "character": "ٱ",
+      "codepoint": "U+0671",
+      "count": 2
+    },
+    {
+      "character": "ۗ",
+      "codepoint": "U+06D7",
+      "count": 3
+    },
+    {
+      "character": "ۚ",
+      "codepoint": "U+06DA",
+      "count": 5
+    },
+    {
+      "character": "ۢ",
+      "codepoint": "U+06E2",
+      "count": 16
+    },
+    {
+      "character": "ᴼ",
+      "codepoint": "U+1D3C",
+      "count": 4
+    },
+    {
+      "character": "ᵒ",
+      "codepoint": "U+1D52",
+      "count": 2
+    },
+    {
+      "character": "ᵢ",
+      "codepoint": "U+1D62",
+      "count": 4
+    },
+    {
+      "character": "ᵦ",
+      "codepoint": "U+1D66",
+      "count": 6
+    },
+    {
+      "character": "ḍ",
+      "codepoint": "U+1E0D",
+      "count": 14
+    },
+    {
+      "character": "ḥ",
+      "codepoint": "U+1E25",
+      "count": 2
+    },
+    {
+      "character": "ṣ",
+      "codepoint": "U+1E63",
+      "count": 12
+    },
+    {
+      "character": "ṭ",
+      "codepoint": "U+1E6D",
+      "count": 4
+    },
+    {
+      "character": "ẓ",
+      "codepoint": "U+1E93",
+      "count": 22
+    },
+    {
+      "character": "‐",
+      "codepoint": "U+2010",
+      "count": 2
+    },
+    {
+      "character": "–",
+      "codepoint": "U+2013",
+      "count": 1991
+    },
+    {
+      "character": "—",
+      "codepoint": "U+2014",
+      "count": 24
+    },
+    {
+      "character": "‘",
+      "codepoint": "U+2018",
+      "count": 150
+    },
+    {
+      "character": "’",
+      "codepoint": "U+2019",
+      "count": 1889
+    },
+    {
+      "character": "“",
+      "codepoint": "U+201C",
+      "count": 3134
+    },
+    {
+      "character": "”",
+      "codepoint": "U+201D",
+      "count": 3183
+    },
+    {
+      "character": "„",
+      "codepoint": "U+201E",
+      "count": 4
+    },
+    {
+      "character": "‟",
+      "codepoint": "U+201F",
+      "count": 21
+    },
+    {
+      "character": "•",
+      "codepoint": "U+2022",
+      "count": 112
+    },
+    {
+      "character": "…",
+      "codepoint": "U+2026",
+      "count": 175
+    },
+    {
+      "character": "′",
+      "codepoint": "U+2032",
+      "count": 21
+    },
+    {
+      "character": "″",
+      "codepoint": "U+2033",
+      "count": 2
+    },
+    {
+      "character": "⁄",
+      "codepoint": "U+2044",
+      "count": 2
+    },
+    {
+      "character": "⁰",
+      "codepoint": "U+2070",
+      "count": 128
+    },
+    {
+      "character": "⁴",
+      "codepoint": "U+2074",
+      "count": 2
+    },
+    {
+      "character": "⁶",
+      "codepoint": "U+2076",
+      "count": 2
+    },
+    {
+      "character": "⁷",
+      "codepoint": "U+2077",
+      "count": 2
+    },
+    {
+      "character": "⁺",
+      "codepoint": "U+207A",
+      "count": 12
+    },
+    {
+      "character": "₀",
+      "codepoint": "U+2080",
+      "count": 99
+    },
+    {
+      "character": "₁",
+      "codepoint": "U+2081",
+      "count": 21
+    },
+    {
+      "character": "₂",
+      "codepoint": "U+2082",
+      "count": 29
+    },
+    {
+      "character": "₃",
+      "codepoint": "U+2083",
+      "count": 32
+    },
+    {
+      "character": "₄",
+      "codepoint": "U+2084",
+      "count": 2
+    },
+    {
+      "character": "₅",
+      "codepoint": "U+2085",
+      "count": 84
+    },
+    {
+      "character": "₇",
+      "codepoint": "U+2087",
+      "count": 1
+    },
+    {
+      "character": "€",
+      "codepoint": "U+20AC",
+      "count": 4
+    },
+    {
+      "character": "℃",
+      "codepoint": "U+2103",
+      "count": 138
+    },
+    {
+      "character": "ℇ",
+      "codepoint": "U+2107",
+      "count": 2
+    },
+    {
+      "character": "ℎ",
+      "codepoint": "U+210E",
+      "count": 70
+    },
+    {
+      "character": "ⅳ",
+      "codepoint": "U+2173",
+      "count": 1
+    },
+    {
+      "character": "→",
+      "codepoint": "U+2192",
+      "count": 16
+    },
+    {
+      "character": "∆",
+      "codepoint": "U+2206",
+      "count": 26
+    },
+    {
+      "character": "∑",
+      "codepoint": "U+2211",
+      "count": 214
+    },
+    {
+      "character": "−",
+      "codepoint": "U+2212",
+      "count": 233
+    },
+    {
+      "character": "∕",
+      "codepoint": "U+2215",
+      "count": 4
+    },
+    {
+      "character": "∗",
+      "codepoint": "U+2217",
+      "count": 14
+    },
+    {
+      "character": "∘",
+      "codepoint": "U+2218",
+      "count": 2
+    },
+    {
+      "character": "∙",
+      "codepoint": "U+2219",
+      "count": 12
+    },
+    {
+      "character": "√",
+      "codepoint": "U+221A",
+      "count": 79
+    },
+    {
+      "character": "∝",
+      "codepoint": "U+221D",
+      "count": 4
+    },
+    {
+      "character": "∶",
+      "codepoint": "U+2236",
+      "count": 18
+    },
+    {
+      "character": "≈",
+      "codepoint": "U+2248",
+      "count": 8
+    },
+    {
+      "character": "≠",
+      "codepoint": "U+2260",
+      "count": 46
+    },
+    {
+      "character": "≤",
+      "codepoint": "U+2264",
+      "count": 172
+    },
+    {
+      "character": "≥",
+      "codepoint": "U+2265",
+      "count": 206
+    },
+    {
+      "character": "─",
+      "codepoint": "U+2500",
+      "count": 6
+    },
+    {
+      "character": "▪",
+      "codepoint": "U+25AA",
+      "count": 6
+    },
+    {
+      "character": "○",
+      "codepoint": "U+25CB",
+      "count": 2
+    },
+    {
+      "character": "●",
+      "codepoint": "U+25CF",
+      "count": 21
+    },
+    {
+      "character": "◦",
+      "codepoint": "U+25E6",
+      "count": 12
+    },
+    {
+      "character": "✓",
+      "codepoint": "U+2713",
+      "count": 20
+    },
+    {
+      "character": "⸰",
+      "codepoint": "U+2E30",
+      "count": 2
+    },
+    {
+      "character": "が",
+      "codepoint": "U+304C",
+      "count": 2
+    },
+    {
+      "character": "ま",
+      "codepoint": "U+307E",
+      "count": 2
+    },
+    {
+      "character": "ん",
+      "codepoint": "U+3093",
+      "count": 2
+    },
+    {
+      "character": "ア",
+      "codepoint": "U+30A2",
+      "count": 2
+    },
+    {
+      "character": "ニ",
+      "codepoint": "U+30CB",
+      "count": 2
+    },
+    {
+      "character": "メ",
+      "codepoint": "U+30E1",
+      "count": 2
+    },
+    {
+      "character": "會",
+      "codepoint": "U+6703",
+      "count": 1
+    },
+    {
+      "character": "漫",
+      "codepoint": "U+6F2B",
+      "count": 2
+    },
+    {
+      "character": "画",
+      "codepoint": "U+753B",
+      "count": 2
+    },
+    {
+      "character": "空",
+      "codepoint": "U+7A7A",
+      "count": 1
+    },
+    {
+      "character": "ꞵ",
+      "codepoint": "U+A7B5",
+      "count": 40
+    },
+    {
+      "character": "ﹾ",
+      "codepoint": "U+FE7E",
+      "count": 10
+    },
+    {
+      "character": "𝐀",
+      "codepoint": "U+1D400",
+      "count": 7
+    },
+    {
+      "character": "𝐁",
+      "codepoint": "U+1D401",
+      "count": 13
+    },
+    {
+      "character": "𝐂",
+      "codepoint": "U+1D402",
+      "count": 14
+    },
+    {
+      "character": "𝐄",
+      "codepoint": "U+1D404",
+      "count": 10
+    },
+    {
+      "character": "𝐅",
+      "codepoint": "U+1D405",
+      "count": 8
+    },
+    {
+      "character": "𝐇",
+      "codepoint": "U+1D407",
+      "count": 2
+    },
+    {
+      "character": "𝐈",
+      "codepoint": "U+1D408",
+      "count": 9
+    },
+    {
+      "character": "𝐊",
+      "codepoint": "U+1D40A",
+      "count": 6
+    },
+    {
+      "character": "𝐋",
+      "codepoint": "U+1D40B",
+      "count": 3
+    },
+    {
+      "character": "𝐌",
+      "codepoint": "U+1D40C",
+      "count": 2
+    },
+    {
+      "character": "𝐍",
+      "codepoint": "U+1D40D",
+      "count": 19
+    },
+    {
+      "character": "𝐎",
+      "codepoint": "U+1D40E",
+      "count": 3
+    },
+    {
+      "character": "𝐏",
+      "codepoint": "U+1D40F",
+      "count": 23
+    },
+    {
+      "character": "𝐐",
+      "codepoint": "U+1D410",
+      "count": 4
+    },
+    {
+      "character": "𝐑",
+      "codepoint": "U+1D411",
+      "count": 31
+    },
+    {
+      "character": "𝐓",
+      "codepoint": "U+1D413",
+      "count": 28
+    },
+    {
+      "character": "𝐔",
+      "codepoint": "U+1D414",
+      "count": 4
+    },
+    {
+      "character": "𝐕",
+      "codepoint": "U+1D415",
+      "count": 16
+    },
+    {
+      "character": "𝐗",
+      "codepoint": "U+1D417",
+      "count": 12
+    },
+    {
+      "character": "𝐘",
+      "codepoint": "U+1D418",
+      "count": 2
+    },
+    {
+      "character": "𝐚",
+      "codepoint": "U+1D41A",
+      "count": 43
+    },
+    {
+      "character": "𝐛",
+      "codepoint": "U+1D41B",
+      "count": 19
+    },
+    {
+      "character": "𝐝",
+      "codepoint": "U+1D41D",
+      "count": 6
+    },
+    {
+      "character": "𝐞",
+      "codepoint": "U+1D41E",
+      "count": 23
+    },
+    {
+      "character": "𝐟",
+      "codepoint": "U+1D41F",
+      "count": 2
+    },
+    {
+      "character": "𝐠",
+      "codepoint": "U+1D420",
+      "count": 2
+    },
+    {
+      "character": "𝐡",
+      "codepoint": "U+1D421",
+      "count": 5
+    },
+    {
+      "character": "𝐢",
+      "codepoint": "U+1D422",
+      "count": 29
+    },
+    {
+      "character": "𝐣",
+      "codepoint": "U+1D423",
+      "count": 2
+    },
+    {
+      "character": "𝐤",
+      "codepoint": "U+1D424",
+      "count": 6
+    },
+    {
+      "character": "𝐥",
+      "codepoint": "U+1D425",
+      "count": 13
+    },
+    {
+      "character": "𝐧",
+      "codepoint": "U+1D427",
+      "count": 21
+    },
+    {
+      "character": "𝐨",
+      "codepoint": "U+1D428",
+      "count": 14
+    },
+    {
+      "character": "𝐩",
+      "codepoint": "U+1D429",
+      "count": 30
+    },
+    {
+      "character": "𝐫",
+      "codepoint": "U+1D42B",
+      "count": 16
+    },
+    {
+      "character": "𝐬",
+      "codepoint": "U+1D42C",
+      "count": 28
+    },
+    {
+      "character": "𝐭",
+      "codepoint": "U+1D42D",
+      "count": 40
+    },
+    {
+      "character": "𝐮",
+      "codepoint": "U+1D42E",
+      "count": 15
+    },
+    {
+      "character": "𝐯",
+      "codepoint": "U+1D42F",
+      "count": 3
+    },
+    {
+      "character": "𝐱",
+      "codepoint": "U+1D431",
+      "count": 5
+    },
+    {
+      "character": "𝐲",
+      "codepoint": "U+1D432",
+      "count": 4
+    },
+    {
+      "character": "𝐴",
+      "codepoint": "U+1D434",
+      "count": 39
+    },
+    {
+      "character": "𝐵",
+      "codepoint": "U+1D435",
+      "count": 29
+    },
+    {
+      "character": "𝐶",
+      "codepoint": "U+1D436",
+      "count": 46
+    },
+    {
+      "character": "𝐷",
+      "codepoint": "U+1D437",
+      "count": 35
+    },
+    {
+      "character": "𝐸",
+      "codepoint": "U+1D438",
+      "count": 21
+    },
+    {
+      "character": "𝐹",
+      "codepoint": "U+1D439",
+      "count": 36
+    },
+    {
+      "character": "𝐺",
+      "codepoint": "U+1D43A",
+      "count": 5
+    },
+    {
+      "character": "𝐻",
+      "codepoint": "U+1D43B",
+      "count": 62
+    },
+    {
+      "character": "𝐼",
+      "codepoint": "U+1D43C",
+      "count": 25
+    },
+    {
+      "character": "𝐽",
+      "codepoint": "U+1D43D",
+      "count": 9
+    },
+    {
+      "character": "𝐾",
+      "codepoint": "U+1D43E",
+      "count": 36
+    },
+    {
+      "character": "𝐿",
+      "codepoint": "U+1D43F",
+      "count": 42
+    },
+    {
+      "character": "𝑀",
+      "codepoint": "U+1D440",
+      "count": 40
+    },
+    {
+      "character": "𝑁",
+      "codepoint": "U+1D441",
+      "count": 67
+    },
+    {
+      "character": "𝑂",
+      "codepoint": "U+1D442",
+      "count": 20
+    },
+    {
+      "character": "𝑃",
+      "codepoint": "U+1D443",
+      "count": 103
+    },
+    {
+      "character": "𝑄",
+      "codepoint": "U+1D444",
+      "count": 5
+    },
+    {
+      "character": "𝑅",
+      "codepoint": "U+1D445",
+      "count": 60
+    },
+    {
+      "character": "𝑆",
+      "codepoint": "U+1D446",
+      "count": 78
+    },
+    {
+      "character": "𝑇",
+      "codepoint": "U+1D447",
+      "count": 37
+    },
+    {
+      "character": "𝑈",
+      "codepoint": "U+1D448",
+      "count": 2
+    },
+    {
+      "character": "𝑉",
+      "codepoint": "U+1D449",
+      "count": 35
+    },
+    {
+      "character": "𝑊",
+      "codepoint": "U+1D44A",
+      "count": 10
+    },
+    {
+      "character": "𝑋",
+      "codepoint": "U+1D44B",
+      "count": 80
+    },
+    {
+      "character": "𝑌",
+      "codepoint": "U+1D44C",
+      "count": 18
+    },
+    {
+      "character": "𝑍",
+      "codepoint": "U+1D44D",
+      "count": 3
+    },
+    {
+      "character": "𝑎",
+      "codepoint": "U+1D44E",
+      "count": 575
+    },
+    {
+      "character": "𝑏",
+      "codepoint": "U+1D44F",
+      "count": 138
+    },
+    {
+      "character": "𝑐",
+      "codepoint": "U+1D450",
+      "count": 33
+    },
+    {
+      "character": "𝑑",
+      "codepoint": "U+1D451",
+      "count": 99
+    },
+    {
+      "character": "𝑒",
+      "codepoint": "U+1D452",
+      "count": 262
+    },
+    {
+      "character": "𝑓",
+      "codepoint": "U+1D453",
+      "count": 57
+    },
+    {
+      "character": "𝑔",
+      "codepoint": "U+1D454",
+      "count": 71
+    },
+    {
+      "character": "𝑖",
+      "codepoint": "U+1D456",
+      "count": 323
+    },
+    {
+      "character": "𝑗",
+      "codepoint": "U+1D457",
+      "count": 20
+    },
+    {
+      "character": "𝑘",
+      "codepoint": "U+1D458",
+      "count": 131
+    },
+    {
+      "character": "𝑙",
+      "codepoint": "U+1D459",
+      "count": 204
+    },
+    {
+      "character": "𝑚",
+      "codepoint": "U+1D45A",
+      "count": 64
+    },
+    {
+      "character": "𝑛",
+      "codepoint": "U+1D45B",
+      "count": 323
+    },
+    {
+      "character": "𝑜",
+      "codepoint": "U+1D45C",
+      "count": 162
+    },
+    {
+      "character": "𝑝",
+      "codepoint": "U+1D45D",
+      "count": 115
+    },
+    {
+      "character": "𝑟",
+      "codepoint": "U+1D45F",
+      "count": 273
+    },
+    {
+      "character": "𝑠",
+      "codepoint": "U+1D460",
+      "count": 214
+    },
+    {
+      "character": "𝑡",
+      "codepoint": "U+1D461",
+      "count": 288
+    },
+    {
+      "character": "𝑢",
+      "codepoint": "U+1D462",
+      "count": 103
+    },
+    {
+      "character": "𝑣",
+      "codepoint": "U+1D463",
+      "count": 30
+    },
+    {
+      "character": "𝑤",
+      "codepoint": "U+1D464",
+      "count": 6
+    },
+    {
+      "character": "𝑥",
+      "codepoint": "U+1D465",
+      "count": 145
+    },
+    {
+      "character": "𝑦",
+      "codepoint": "U+1D466",
+      "count": 38
+    },
+    {
+      "character": "𝑧",
+      "codepoint": "U+1D467",
+      "count": 2
+    },
+    {
+      "character": "𝑨",
+      "codepoint": "U+1D468",
+      "count": 4
+    },
+    {
+      "character": "𝑩",
+      "codepoint": "U+1D469",
+      "count": 14
+    },
+    {
+      "character": "𝑪",
+      "codepoint": "U+1D46A",
+      "count": 17
+    },
+    {
+      "character": "𝑬",
+      "codepoint": "U+1D46C",
+      "count": 2
+    },
+    {
+      "character": "𝑭",
+      "codepoint": "U+1D46D",
+      "count": 6
+    },
+    {
+      "character": "𝑯",
+      "codepoint": "U+1D46F",
+      "count": 2
+    },
+    {
+      "character": "𝑲",
+      "codepoint": "U+1D472",
+      "count": 4
+    },
+    {
+      "character": "𝑵",
+      "codepoint": "U+1D475",
+      "count": 5
+    },
+    {
+      "character": "𝑷",
+      "codepoint": "U+1D477",
+      "count": 14
+    },
+    {
+      "character": "𝑸",
+      "codepoint": "U+1D478",
+      "count": 3
+    },
+    {
+      "character": "𝑹",
+      "codepoint": "U+1D479",
+      "count": 26
+    },
+    {
+      "character": "𝑺",
+      "codepoint": "U+1D47A",
+      "count": 11
+    },
+    {
+      "character": "𝑻",
+      "codepoint": "U+1D47B",
+      "count": 6
+    },
+    {
+      "character": "𝑽",
+      "codepoint": "U+1D47D",
+      "count": 4
+    },
+    {
+      "character": "𝒂",
+      "codepoint": "U+1D482",
+      "count": 58
+    },
+    {
+      "character": "𝒃",
+      "codepoint": "U+1D483",
+      "count": 6
+    },
+    {
+      "character": "𝒄",
+      "codepoint": "U+1D484",
+      "count": 4
+    },
+    {
+      "character": "𝒅",
+      "codepoint": "U+1D485",
+      "count": 12
+    },
+    {
+      "character": "𝒆",
+      "codepoint": "U+1D486",
+      "count": 23
+    },
+    {
+      "character": "𝒈",
+      "codepoint": "U+1D488",
+      "count": 6
+    },
+    {
+      "character": "𝒉",
+      "codepoint": "U+1D489",
+      "count": 2
+    },
+    {
+      "character": "𝒊",
+      "codepoint": "U+1D48A",
+      "count": 25
+    },
+    {
+      "character": "𝒌",
+      "codepoint": "U+1D48C",
+      "count": 7
+    },
+    {
+      "character": "𝒍",
+      "codepoint": "U+1D48D",
+      "count": 15
+    },
+    {
+      "character": "𝒎",
+      "codepoint": "U+1D48E",
+      "count": 2
+    },
+    {
+      "character": "𝒏",
+      "codepoint": "U+1D48F",
+      "count": 44
+    },
+    {
+      "character": "𝒐",
+      "codepoint": "U+1D490",
+      "count": 19
+    },
+    {
+      "character": "𝒑",
+      "codepoint": "U+1D491",
+      "count": 19
+    },
+    {
+      "character": "𝒓",
+      "codepoint": "U+1D493",
+      "count": 24
+    },
+    {
+      "character": "𝒔",
+      "codepoint": "U+1D494",
+      "count": 4
+    },
+    {
+      "character": "𝒕",
+      "codepoint": "U+1D495",
+      "count": 27
+    },
+    {
+      "character": "𝒖",
+      "codepoint": "U+1D496",
+      "count": 4
+    },
+    {
+      "character": "𝒗",
+      "codepoint": "U+1D497",
+      "count": 4
+    },
+    {
+      "character": "𝒙",
+      "codepoint": "U+1D499",
+      "count": 24
+    },
+    {
+      "character": "𝒚",
+      "codepoint": "U+1D49A",
+      "count": 15
+    },
+    {
+      "character": "𝚤",
+      "codepoint": "U+1D6A4",
+      "count": 2
+    },
+    {
+      "character": "𝚺",
+      "codepoint": "U+1D6BA",
+      "count": 6
+    },
+    {
+      "character": "𝛌",
+      "codepoint": "U+1D6CC",
+      "count": 4
+    },
+    {
+      "character": "𝛑",
+      "codepoint": "U+1D6D1",
+      "count": 2
+    },
+    {
+      "character": "𝛒",
+      "codepoint": "U+1D6D2",
+      "count": 4
+    },
+    {
+      "character": "𝛧",
+      "codepoint": "U+1D6E7",
+      "count": 6
+    },
+    {
+      "character": "𝛳",
+      "codepoint": "U+1D6F3",
+      "count": 26
+    },
+    {
+      "character": "𝛴",
+      "codepoint": "U+1D6F4",
+      "count": 2
+    },
+    {
+      "character": "𝛼",
+      "codepoint": "U+1D6FC",
+      "count": 10
+    },
+    {
+      "character": "𝛽",
+      "codepoint": "U+1D6FD",
+      "count": 12
+    },
+    {
+      "character": "𝜄",
+      "codepoint": "U+1D704",
+      "count": 6
+    },
+    {
+      "character": "𝜆",
+      "codepoint": "U+1D706",
+      "count": 8
+    },
+    {
+      "character": "𝜋",
+      "codepoint": "U+1D70B",
+      "count": 12
+    },
+    {
+      "character": "𝜌",
+      "codepoint": "U+1D70C",
+      "count": 2
+    },
+    {
+      "character": "𝜎",
+      "codepoint": "U+1D70E",
+      "count": 18
+    },
+    {
+      "character": "𝜶",
+      "codepoint": "U+1D736",
+      "count": 2
+    },
+    {
+      "character": "𝜺",
+      "codepoint": "U+1D73A",
+      "count": 2
+    },
+    {
+      "character": "𝝀",
+      "codepoint": "U+1D740",
+      "count": 3
+    },
+    {
+      "character": "𝝅",
+      "codepoint": "U+1D745",
+      "count": 12
+    },
+    {
+      "character": "𝟎",
+      "codepoint": "U+1D7CE",
+      "count": 79
+    },
+    {
+      "character": "𝟏",
+      "codepoint": "U+1D7CF",
+      "count": 83
+    },
+    {
+      "character": "𝟐",
+      "codepoint": "U+1D7D0",
+      "count": 70
+    },
+    {
+      "character": "𝟑",
+      "codepoint": "U+1D7D1",
+      "count": 16
+    },
+    {
+      "character": "𝟒",
+      "codepoint": "U+1D7D2",
+      "count": 53
+    },
+    {
+      "character": "𝟓",
+      "codepoint": "U+1D7D3",
+      "count": 43
+    },
+    {
+      "character": "𝟔",
+      "codepoint": "U+1D7D4",
+      "count": 44
+    },
+    {
+      "character": "𝟕",
+      "codepoint": "U+1D7D5",
+      "count": 31
+    },
+    {
+      "character": "𝟖",
+      "codepoint": "U+1D7D6",
+      "count": 10
+    },
+    {
+      "character": "𝟗",
+      "codepoint": "U+1D7D7",
+      "count": 7
+    }
+  ]
+}

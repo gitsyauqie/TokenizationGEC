@@ -1,0 +1,23 @@
+{
+  "script_sha256": "2fbe6d6ab3f7ba558dc0436e7726f66234a3f3b39d94420d7f5617ff6126eeeb",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50",
+  "versions": {
+    "sentencepiece": "0.2.0",
+    "tokenizers": "0.20.3"
+  },
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "models": [
+    "spbpe_5k",
+    "spbpe_20k",
+    "wp_5k",
+    "wp_20k",
+    "spuni_5k",
+    "spuni_20k"
+  ],
+  "reused_from": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v1",
+  "repair": "SentencePiece required_chars explicitly covers retained train alphabet; validation/test characters are not added.",
+  "scope": "New pilot preparation only. Full retained train source then train target for tokenizer fitting; no valid/test fitting.",
+  "implementation_change": "SentencePiece BPE replaces historical subword-nmt merge-budget BPE; do not merge result tables as identical conditions.",
+  "limits": "Historical split/group overlap and reference quality retained; derived data is not a clean GEC benchmark. Fixed tokenizer artifacts reused across later training seeds; deterministic retraining across platforms not guaranteed."
+}

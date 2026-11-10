@@ -1,0 +1,28 @@
+{
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50",
+  "script_sha256": "e61fd093a60f780b5bf2e880bc13393eb195dcc6acf3efe559ea58fe6a23bd82",
+  "split": "valid",
+  "seed": 20261008,
+  "per_category": 10,
+  "population_counts": {
+    "preposisi": 16773,
+    "sintaksis_frasa": 25261,
+    "pembentukan_kata": 16372,
+    "ambigu": 6604,
+    "kelengkapan_kalimat": 15876,
+    "afiksasi": 26322,
+    "diksi_claude": 350,
+    "reduplikasi": 8927,
+    "diksi": 14122,
+    "pleonasme": 2718,
+    "pleonasme_claude": 350,
+    "ambigu_claude": 349
+  },
+  "n_sample": 120,
+  "raw_sha256": {
+    "source": "733e701e8752ac9234904c1b0a486d56ff4cda1da77faea69f80d2e69e4d193e",
+    "target": "9bfa7a3e01c2ee0a9efa6472de98f380c6921cf949f31820a495c61432aae21f",
+    "category": "28fcc75223b73ead8e2fb2ed1fe0d817ed0f001951469a55888876981b0dadb7"
+  },
+  "selection": "Reservoir sampling within each original category; not prevalence-weighted."
+}

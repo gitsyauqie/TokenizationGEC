@@ -1,0 +1,48 @@
+{
+  "script_sha256": "88a583d8a7e00cba4a4a76593f899b9697bba7b2171a9ba9be01986860ee514a",
+  "tokenizer_sha256": {
+    "spbpe_5k": "7d0b6b24205430f4188736b0a4aa183c50c00d1f95535e5aea95bce0c78de134",
+    "spbpe_20k": "599ee41be5a277bc53299e3501da98994d064dd75fa70bcb77ccfff1e4469321",
+    "wp_5k": "05727b20659d50c7dce4fe46a050a9faa3ae77b67289e02d0e89e381ef10a6b3",
+    "wp_20k": "2fcbdf80c7e72de5fed688f3ea4666c20183b74fe025695c8fe87eb28a869e1a",
+    "spuni_5k": "96201229b06507bffbd12bcb67f74420997e07c5c0d8deef1349dbf3b5662805",
+    "spuni_20k": "a53a4fe526f4b0396cc7b8da22b62c88f81f746e191cdb5ef01e264e09696069"
+  },
+  "test_source_sha256": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093",
+  "test_target_sha256": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1",
+  "gate": "Concatenated per-word segmentation equals sentence segmentation on ~3000 sampled sentences (source and target).",
+  "gate_results": {
+    "spbpe_5k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "spbpe_20k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "wp_5k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "wp_20k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "spuni_5k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "spuni_20k": {
+      "checked_lines": 6094,
+      "mismatched_lines": 0,
+      "examples": []
+    }
+  },
+  "max_mismatch_rate": 0.001,
+  "substitutions": "Merged gold edits spanning one source word and one replacement word (M4 alignment)."
+}

@@ -1,0 +1,57 @@
+{
+  "script_sha256": "951b7183293461a7e62530459c1e6d29e9a915da2bd8d2758cf58b68594f0de8",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50",
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "inputs": {
+    "train/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.source",
+      "sha256": "5ab120528bed8f2d6d2386e84c53ae65b4b5a46fb601fbb98574d69019f6bdae",
+      "bytes": 170599579
+    },
+    "train/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.target",
+      "sha256": "947e992870da8574ba1417ee04cc0f4af8d786dca4514f3dc8278d72d8a3a572",
+      "bytes": 168341047
+    },
+    "train/category": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.category",
+      "sha256": "438468ff91f9f7787041f53d584c90e8f4b8a36dbed118a3062ab32ca9b4bc89",
+      "bytes": 13482430
+    },
+    "valid/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.source",
+      "sha256": "733e701e8752ac9234904c1b0a486d56ff4cda1da77faea69f80d2e69e4d193e",
+      "bytes": 21269966
+    },
+    "valid/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.target",
+      "sha256": "9bfa7a3e01c2ee0a9efa6472de98f380c6921cf949f31820a495c61432aae21f",
+      "bytes": 20987842
+    },
+    "valid/category": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.category",
+      "sha256": "28fcc75223b73ead8e2fb2ed1fe0d817ed0f001951469a55888876981b0dadb7",
+      "bytes": 1685298
+    },
+    "test/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.source",
+      "sha256": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+      "bytes": 21320980
+    },
+    "test/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.target",
+      "sha256": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+      "bytes": 21040339
+    },
+    "test/category": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.category",
+      "sha256": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19",
+      "bytes": 1685321
+    }
+  },
+  "trigger": "Observed validation ID 133463 in Step05; exact source Error in API call.",
+  "scope": "Observed marker only; other failure messages may exist and are not ruled out.",
+  "policy": "No exclusions, resplits, reference changes or model scoring. Test IDs only, no test text exported.",
+  "examples": "First 5 valid rows per category/source-flag/target-flag; targeted inspection, not prevalence sample."
+}

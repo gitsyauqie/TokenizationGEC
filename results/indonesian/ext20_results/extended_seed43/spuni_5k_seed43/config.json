@@ -1,0 +1,18 @@
+{
+  "tag": "spuni_5k",
+  "seed": 43,
+  "source_checkpoint": "controlled_training_seed43/spuni_5k_seed43/checkpoint_best.pt",
+  "source_checkpoint_sha256": "0b7818f2fc458b177e5b95e0479326fef53208993fcd9d2e8b5f0ab5e07c23ac",
+  "validate_every": 10,
+  "recipe": "train_controlled.train_args unchanged; one Fairseq process per epoch resuming checkpoint_last.pt",
+  "source_epoch": 9,
+  "train_controlled_sha256": "65fc8de57cda150151027c3095b5e1cd4766d5d65bf9e20dcfcd06b3db38e000",
+  "versions": {
+    "fairseq": "0.10.2",
+    "torch": "2.4.1+cu121",
+    "sacrebleu": "1.5.1",
+    "tokenizers": "0.20.3",
+    "sentencepiece": "0.2.0"
+  },
+  "policy": "Continuation of the frozen validation-selected state (epochs after it retrained if it precedes 10). Main paper results remain the 10-epoch frozen runs. Test checkpoint is the pre-declared --until epoch; no test-based selection."
+}

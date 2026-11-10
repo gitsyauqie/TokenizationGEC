@@ -1,0 +1,28 @@
+{
+  "prepared": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v2",
+  "binary": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_binary_smoke_v1",
+  "seed": 44,
+  "epochs": 10,
+  "selection": "full VALID corpus chrF2; strict improvement; earliest epoch wins ties",
+  "script_sha256": "65fc8de57cda150151027c3095b5e1cd4766d5d65bf9e20dcfcd06b3db38e000",
+  "dependencies": {
+    "common.py": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+    "build_and_smoke.py": "2221c1ce653343e51ee497f6f62396feb5dca42e3255f8a3193310e8d35cea8e",
+    "eval_reconstruction.py": "65b127fe2c029f37d3645936c68d2dca7f056e45e0bb3c8112a1f39d2aa898d1"
+  },
+  "binary_status_sha256": "2d68c1d5713ab0006877946bcbee630d48f7a5b19af0cee0a6e06982010f53d7",
+  "binary_provenance_sha256": "a8c3767887fff7b68f3308e58bfc0f9b88da630e7dd4de15eb096a99827677db",
+  "versions": {
+    "fairseq": "0.10.2",
+    "torch": "2.4.1+cu121",
+    "sacrebleu": "1.5.1",
+    "tokenizers": "0.20.3",
+    "sentencepiece": "0.2.0"
+  },
+  "max_tokens": 3200,
+  "max_sentences": 64,
+  "update_freq": 2,
+  "warmup_updates": 4000,
+  "gpu_policy": "one selected GPU, sequential; GPU identity may differ on resume",
+  "limits": "Epoch-matched exposure, not equal updates or FLOPs. Historical split/reference limitations remain. No test access."
+}

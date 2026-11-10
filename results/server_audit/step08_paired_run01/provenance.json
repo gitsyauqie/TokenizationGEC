@@ -1,0 +1,29 @@
+{
+  "script_sha256": "9dba0888b9f17e462a5d396aecb8740b91fdbe199bb8f1c4cf05e362cb5455cc",
+  "manifest_sha256": "89102aed276e4e63c1743dc9a89f0e7718615b758d5a63d2a71dea127472ddb1",
+  "step07_provenance_sha256": "7ba1ded42ea83940557a0ea9f8c3b4f7e3b108cc3e3630b3bcd55407ae3d9c1a",
+  "step07_scores_sha256": "c4f6d64532eebfcf626516e67e5f92b87d4b17a955308ba4ffc893b6f07f2c63",
+  "step07_status_sha256": "6f27aa8fd2ca5d26b44123abb8eb51d0d6e1275e954a27b531d96ee39fa0d899",
+  "numpy": "1.24.4",
+  "models": [
+    "COPY_INPUT",
+    "bpe_20k",
+    "bpe_30k",
+    "uni_20k",
+    "uni_30k",
+    "uni_5k",
+    "wp_10k",
+    "wp_20k",
+    "wp_30k",
+    "wp_5k"
+  ],
+  "raw_sha256": {
+    "source": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+    "target": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+    "category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+  },
+  "replicates": 50000,
+  "seed": "sha256 of 20261008|model_a|model_b first 16 hex digits",
+  "method": "Paired row bootstrap of binary exact-match differences, multinomial sufficient counts, percentile nominal 95% intervals.",
+  "limits": "Post-hoc exploratory; all eligible seed42 pairs and COPY_INPUT. No multiplicity adjustment, document clustering, training-seed uncertainty, BLEU/chrF inference or causal comparison. Unknown row dependence can understate uncertainty."
+}

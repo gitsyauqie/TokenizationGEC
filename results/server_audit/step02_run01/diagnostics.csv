@@ -1,0 +1,3 @@
+run_id,n,legacy_word_set_f1_pct,exact_match_pct,changed_sentence_pct,n_clean,n_erroneous,clean_overcorrection_pct,erroneous_exact_correction_pct
+COPY_INPUT,134025,89.3581537712009,0.42230927065845925,0.0,566,133459,0.0,0.0
+REFERENCE_ORACLE_SANITY,134025,100.0,100.0,99.57769072934154,566,133459,0.0,100.0

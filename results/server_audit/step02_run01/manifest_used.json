@@ -1,0 +1,269 @@
+{
+  "source": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.source",
+  "target": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.target",
+  "category": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.category",
+  "case": "lower",
+  "expected_sha256": {
+    "source": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+    "target": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+    "category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+  },
+  "runs": [
+    {
+      "id": "bpe_20k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_20k.out",
+      "decoder": "bpe",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "bpe_30k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_30k.out",
+      "decoder": "bpe",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "bpe_30k_seed1",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_30k_seed1.out",
+      "decoder": "bpe",
+      "training_seed": 1,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "bpe_30k_seed2",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_30k_seed2.out",
+      "decoder": "bpe",
+      "training_seed": 2,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "bpe_30k_seed3",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_30k_seed3.out",
+      "decoder": "bpe",
+      "training_seed": 3,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "bpe_5k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_5k.out",
+      "decoder": "bpe",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134024,
+        "T": 134024,
+        "H": 134024
+      },
+      "status": "retrospective_diagnostic_only",
+      "note": "One missing record expected to BLOCK; investigate exact ID, do not silently drop it."
+    },
+    {
+      "id": "legacy_bpe",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/legacy_bpe.out",
+      "decoder": "bpe",
+      "training_seed": null,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "legacy_unigram",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/legacy_unigram.out",
+      "decoder": "sentencepiece",
+      "training_seed": null,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "legacy_wordpiece",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/legacy_wordpiece.out",
+      "decoder": "wordpiece",
+      "training_seed": null,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134023,
+        "T": 134023,
+        "H": 134023
+      },
+      "status": "retrospective_diagnostic_only",
+      "note": "Separate legacy WordPiece; dictionaries ~20K. Do not label WP-10K. Two missing records in inventory."
+    },
+    {
+      "id": "uni_20k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/uni_20k.out",
+      "decoder": "text",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "uni_30k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/uni_30k.out",
+      "decoder": "text",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "uni_5k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/uni_5k.out",
+      "decoder": "text",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only"
+    },
+    {
+      "id": "wp_10k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_10k.out",
+      "decoder": "wordpiece",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_20k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_20k.out",
+      "decoder": "wordpiece",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_30k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_30k.out",
+      "decoder": "wordpiece",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_5k",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_5k.out",
+      "decoder": "wordpiece",
+      "training_seed": 42,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_5k_seed1",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_5k_seed1.out",
+      "decoder": "wordpiece",
+      "training_seed": 1,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_5k_seed2",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_5k_seed2.out",
+      "decoder": "wordpiece",
+      "training_seed": 2,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    },
+    {
+      "id": "wp_5k_seed3",
+      "generation": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/wp_5k_seed3.out",
+      "decoder": "wordpiece",
+      "training_seed": 3,
+      "expected_n": 134025,
+      "stage01_record_counts": {
+        "S": 134025,
+        "T": 134025,
+        "H": 134025
+      },
+      "status": "retrospective_diagnostic_only",
+      "checkpoint_rule_note": "BLEU remove marker ## in seed1/2/3 logs; @@ in seed42 logs. Not an identical multiseed protocol."
+    }
+  ]
+}

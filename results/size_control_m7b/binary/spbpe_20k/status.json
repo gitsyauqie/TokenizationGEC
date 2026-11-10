@@ -1,0 +1,21 @@
+{
+  "tag": "spbpe_20k",
+  "parameters": 21815296,
+  "sha256": {
+    "dict.source.txt": "c91e12b675b2b8d6675fad5ad929369f242cd72c800ff7ee9a74349783e8d9e4",
+    "dict.target.txt": "c91e12b675b2b8d6675fad5ad929369f242cd72c800ff7ee9a74349783e8d9e4",
+    "preprocess.log": "b0a8c8620fe6c482f0a29ef83e52d62c973d2df4458d4acfbe008644f27ee787",
+    "test.source-target.source.bin": "1f9f5a355e5bea5fa1b7eea33d5f5c385cd36606092e7fff9b3a0616d5c48645",
+    "test.source-target.source.idx": "d1199690a37d2594f9fc383266591e6cef2209f49c86db65565d552979ca7f3e",
+    "test.source-target.target.bin": "052708ef7e9a581c0271dc1f8966496e94c5e89f4fdff4196282c2e07a178fbd",
+    "test.source-target.target.idx": "dfe986cac4e1cac4264f2bb7d3cf89d3b9b7f1f5b458cb704194b39e49c3069f",
+    "train.source-target.source.bin": "55706b098176affbd7b2ab5bf31893b0637e1ba08465ab1c0da0449b9692b4a1",
+    "train.source-target.source.idx": "12d985e2f8f940429119a7218a75e3c72df1977e5268bfdb97b2d25d8c9b72ac",
+    "train.source-target.target.bin": "0c0fe35e1ac7fffdf40c773e1734502855e35da70c99203be61026fdf7a3791e",
+    "train.source-target.target.idx": "cb0fa9f6b06447eef3f99b4280dc4e232ae606fe4b183f3a26191f6fe2345cfd",
+    "valid.source-target.source.bin": "73af58ad6d667c9f9336adced958288a1e5a852e1a95ad7f0e2957be76ff56a7",
+    "valid.source-target.source.idx": "b7d05f7675d75fb02a4a8f1d533e9558db0fa2d9ed85d1b03a6b3df56a76afe7",
+    "valid.source-target.target.bin": "cb0e868a9d005640f444187d166c210afabdda5ca5560d34bb74a17466224d53",
+    "valid.source-target.target.idx": "9dfc9e526d81434ced990502c1a4d4997a809629c67b90201f1c26acbc862431"
+  }
+}

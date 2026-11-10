@@ -1,0 +1,24 @@
+{
+  "method": "AST extracts function/class definitions only; original entrypoints, PDF reads, NLTK path and dataset generation not executed",
+  "source_sha256": {
+    "create_dataset.py": "3d0bc59731147ab332222afb4502cdb7b824d4942bbee8ab80e2b102c14af054",
+    "SynGECIndo.py": "67a55c7ba5c21ef20c3cc7da6da0ed659ca8e67f90dd140cbea745b7741762ff",
+    "corpus.py": "c17dc4d0f13121d6ca02dafeb18049fb3bc858eb7bb8111b163ac37a2d2ef092"
+  },
+  "checks": {
+    "fallback_currency": [
+      "Harga barang itu Rp.",
+      "100.000 untuk satu paket."
+    ],
+    "fallback_abbreviation": [
+      "Dr.",
+      "Budi datang ke rumah pagi ini."
+    ],
+    "heading_cleanup": "BAB IV HASIL DAN PEMBAHASAN Penelitian ini dilakukan pada sekolah.",
+    "subheading_cleanup": "ujuan Penelitian.",
+    "ellipsis_cleanup": "Ia berkata. lalu berhenti.",
+    "table_removal_layout": "Nama Nilai\nAndi 90",
+    "short_target_passes_filter": false,
+    "affix_nonmorphological": "kolah ita baga"
+  }
+}

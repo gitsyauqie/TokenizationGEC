@@ -1,0 +1,62 @@
+[
+  {
+    "tag": "spbpe_5k",
+    "seed": 43,
+    "epoch": 10,
+    "n": 134023,
+    "chrf2_pct": 96.19152888471973,
+    "bleu": 92.21274797551573,
+    "exact_match_pct": 45.37430142587466,
+    "checkpoint_sha256": "6613242a31e9dd3724f7c42e15220fcd5e481239f5c2a753522b3e667b113fa6"
+  },
+  {
+    "tag": "spbpe_20k",
+    "seed": 43,
+    "epoch": 10,
+    "n": 134023,
+    "chrf2_pct": 95.96637700594167,
+    "bleu": 91.7101286571391,
+    "exact_match_pct": 42.37556240346806,
+    "checkpoint_sha256": "f2782f63fef84569b24cd4ab524bddb1d1b67797023d5fe9ffb1b1a59404787e"
+  },
+  {
+    "tag": "wp_5k",
+    "seed": 43,
+    "epoch": 8,
+    "n": 134023,
+    "chrf2_pct": 96.0895802915418,
+    "bleu": 92.0127696232489,
+    "exact_match_pct": 44.42371831700529,
+    "checkpoint_sha256": "bd0f81320cb34602122c258ba9ee1de73962f46317251655084dc3794c93f716"
+  },
+  {
+    "tag": "wp_20k",
+    "seed": 43,
+    "epoch": 10,
+    "n": 134023,
+    "chrf2_pct": 95.91301841392011,
+    "bleu": 91.64363148915213,
+    "exact_match_pct": 41.53839266394574,
+    "checkpoint_sha256": "ad3a8df914820f93f7e260f741d4d5ede5ffba749b5f3d6f8ae6a0f02e76bdfa"
+  },
+  {
+    "tag": "spuni_5k",
+    "seed": 43,
+    "epoch": 9,
+    "n": 134023,
+    "chrf2_pct": 96.0989989934729,
+    "bleu": 91.97523934387331,
+    "exact_match_pct": 44.12600822246928,
+    "checkpoint_sha256": "0b7818f2fc458b177e5b95e0479326fef53208993fcd9d2e8b5f0ab5e07c23ac"
+  },
+  {
+    "tag": "spuni_20k",
+    "seed": 43,
+    "epoch": 10,
+    "n": 134023,
+    "chrf2_pct": 96.08073621012879,
+    "bleu": 92.01973600663305,
+    "exact_match_pct": 43.3388299023302,
+    "checkpoint_sha256": "0117a565e83f676a425eb88295e0cd24e38c90f8f2fb593c2cdc07c9ff57a3ab"
+  }
+]

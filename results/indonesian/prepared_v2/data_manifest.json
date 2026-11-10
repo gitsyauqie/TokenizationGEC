@@ -1,0 +1,119 @@
+{
+  "splits": {
+    "train": {
+      "original_n": 1072192,
+      "retained_n": 1072191,
+      "excluded_n": 1,
+      "original_categories": {
+        "sintaksis_frasa": 202086,
+        "diksi": 112979,
+        "preposisi": 134188,
+        "ambigu": 52830,
+        "reduplikasi": 71413,
+        "afiksasi": 210574,
+        "pembentukan_kata": 130980,
+        "pleonasme": 21740,
+        "kelengkapan_kalimat": 127013,
+        "pleonasme_claude": 2800,
+        "ambigu_claude": 2791,
+        "diksi_claude": 2798
+      },
+      "retained_categories": {
+        "sintaksis_frasa": 202086,
+        "diksi": 112979,
+        "preposisi": 134188,
+        "ambigu": 52830,
+        "reduplikasi": 71413,
+        "afiksasi": 210574,
+        "pembentukan_kata": 130980,
+        "pleonasme": 21740,
+        "kelengkapan_kalimat": 127013,
+        "pleonasme_claude": 2799,
+        "ambigu_claude": 2791,
+        "diksi_claude": 2798
+      }
+    },
+    "valid": {
+      "original_n": 134024,
+      "retained_n": 134023,
+      "excluded_n": 1,
+      "original_categories": {
+        "preposisi": 16773,
+        "sintaksis_frasa": 25261,
+        "pembentukan_kata": 16372,
+        "ambigu": 6604,
+        "kelengkapan_kalimat": 15876,
+        "afiksasi": 26322,
+        "diksi_claude": 350,
+        "reduplikasi": 8927,
+        "diksi": 14122,
+        "pleonasme": 2718,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349
+      },
+      "retained_categories": {
+        "preposisi": 16773,
+        "sintaksis_frasa": 25261,
+        "pembentukan_kata": 16372,
+        "ambigu": 6604,
+        "kelengkapan_kalimat": 15876,
+        "afiksasi": 26322,
+        "diksi_claude": 350,
+        "reduplikasi": 8927,
+        "diksi": 14122,
+        "pleonasme": 2718,
+        "pleonasme_claude": 349,
+        "ambigu_claude": 349
+      }
+    }
+  },
+  "raw_inputs": {
+    "train/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.source",
+      "sha256": "5ab120528bed8f2d6d2386e84c53ae65b4b5a46fb601fbb98574d69019f6bdae",
+      "bytes": 170599579
+    },
+    "train/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.target",
+      "sha256": "947e992870da8574ba1417ee04cc0f4af8d786dca4514f3dc8278d72d8a3a572",
+      "bytes": 168341047
+    },
+    "train/category": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.category",
+      "sha256": "438468ff91f9f7787041f53d584c90e8f4b8a36dbed118a3062ab32ca9b4bc89",
+      "bytes": 13482430
+    },
+    "valid/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.source",
+      "sha256": "733e701e8752ac9234904c1b0a486d56ff4cda1da77faea69f80d2e69e4d193e",
+      "bytes": 21269966
+    },
+    "valid/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.target",
+      "sha256": "9bfa7a3e01c2ee0a9efa6472de98f380c6921cf949f31820a495c61432aae21f",
+      "bytes": 20987842
+    },
+    "valid/category": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.category",
+      "sha256": "28fcc75223b73ead8e2fb2ed1fe0d817ed0f001951469a55888876981b0dadb7",
+      "bytes": 1685298
+    }
+  },
+  "surface_rule": "[^\\W_]+|[^\\w\\s]|_",
+  "case": "lower",
+  "unicode": "no NFKC or accent removal",
+  "exclusion": "exact observed API-failure marker only, new derived copy",
+  "test": "not read or encoded",
+  "corpus_sha256": "1ee6868f8ecc25ba32509bfb138e941a0e9c58cb649ef2bf48c4f8824646fa15",
+  "surface_files": {
+    "surface/train.category": "7aa04d8063b6cc09f0f4a284c80fad23bc3b915ee0afed43e6b95e421a6f2770",
+    "surface/train.ids.csv": "a5556b78033101874b9f0446cad5d82086acf44f6bd154159852cee62a44a2fc",
+    "surface/train.source": "e8ded4508c2b3fd05d02578c32de130aaacb62546a4e7ca344af730674f0b485",
+    "surface/train.source_plus_target.txt": "1ee6868f8ecc25ba32509bfb138e941a0e9c58cb649ef2bf48c4f8824646fa15",
+    "surface/train.target": "69bfa216d6e2a04c793948906424694b0f60be28fab97107726d82a9137f84af",
+    "surface/valid.category": "1dc39fa18eb69a099a1a7fcf535fccf697fb9993d8d522befc0d02b47e3e35d2",
+    "surface/valid.ids.csv": "edb7423aa211d3c6bf75146d873652ced2d5bd511ea8207462abe5eda3e05887",
+    "surface/valid.source": "6b36bfaa66ab500b5f857da3d269f2ee247a9a524aa3674050a46f7740e42883",
+    "surface/valid.target": "ba013e501298d69f0223a0b28893f799c0f749ccdb9393b87a59cb9f0940ef93"
+  }
+}

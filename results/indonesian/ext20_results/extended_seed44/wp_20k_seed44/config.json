@@ -1,0 +1,18 @@
+{
+  "tag": "wp_20k",
+  "seed": 44,
+  "source_checkpoint": "controlled_training_seed44/wp_20k_seed44/checkpoint_best.pt",
+  "source_checkpoint_sha256": "f819603057cc799a68e15d48cfc4550c47f9d9473151e82805afd5d37b3272e3",
+  "validate_every": 10,
+  "recipe": "train_controlled.train_args unchanged; one Fairseq process per epoch resuming checkpoint_last.pt",
+  "source_epoch": 10,
+  "train_controlled_sha256": "65fc8de57cda150151027c3095b5e1cd4766d5d65bf9e20dcfcd06b3db38e000",
+  "versions": {
+    "fairseq": "0.10.2",
+    "torch": "2.4.1+cu121",
+    "sacrebleu": "1.5.1",
+    "tokenizers": "0.20.3",
+    "sentencepiece": "0.2.0"
+  },
+  "policy": "Continuation of the frozen validation-selected state (epochs after it retrained if it precedes 10). Main paper results remain the 10-epoch frozen runs. Test checkpoint is the pre-declared --until epoch; no test-based selection."
+}

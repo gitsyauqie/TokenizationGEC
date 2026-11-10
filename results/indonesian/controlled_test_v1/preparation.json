@@ -1,0 +1,176 @@
+{
+  "spbpe_5k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 6,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 6,
+        "n": 134025,
+        "max_tokens_with_eos": 1008
+      },
+      "target": {
+        "unknown_rows": 7,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 7,
+        "n": 134025,
+        "max_tokens_with_eos": 974
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "38eca6d2501589d09ee26aaf85aa2a6184288b885c45b349e986df49b9ca0d33",
+      "encoded/test.source": "b9e46191e9603564efa32bab3fbc82e89a9cbc2d70e0e6c1b032956d7b7044da",
+      "bin/test.source-target.target.idx": "5a729abb579d3920c8d15c84ee1fe928b27f68c561812dcf8282c8092dde48b8",
+      "bin/test.source-target.target.bin": "f78e7ac3a66940b46ee43893bfec247007a027144c58f67c1ea2d0d0c77852ca",
+      "bin/test.source-target.source.idx": "3c7384ae92a2181972a040ef0f19aac0b141b2b71cd5ef95b0cd39bd73995eb9",
+      "bin/preprocess.log": "e3d1e58cba4b3ca33a50d593d45fb799523b7e48778b733ed21a5bb492ccc2dd",
+      "bin/test.source-target.source.bin": "b0b3ebce39bc349c3a459c94238d2ae2ef8f9b19dbbdd4eba1b7a975b3b4dfd5",
+      "bin/dict.source.txt": "d5f6936b966e3c4c650d2c5eb0bb22f1f9fb5c15260efca649b9be952bdb28c0",
+      "bin/dict.target.txt": "d5f6936b966e3c4c650d2c5eb0bb22f1f9fb5c15260efca649b9be952bdb28c0"
+    }
+  },
+  "spbpe_20k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 6,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 6,
+        "n": 134025,
+        "max_tokens_with_eos": 815
+      },
+      "target": {
+        "unknown_rows": 7,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 7,
+        "n": 134025,
+        "max_tokens_with_eos": 797
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "5013036096e6c28eecf30d8ace05e53478bf0c6306e6de0c6268520495aaaa95",
+      "encoded/test.source": "53108dce91444439249986da6b39bbaee6ac9fc77e3efb501eb79b1e2b40b100",
+      "bin/test.source-target.target.idx": "ddb9eb819cc02546ca77ec3ed6428bc2dc0ceb702cdf6427c96db509ac51e465",
+      "bin/test.source-target.target.bin": "cfce256ac28a9ad60bfc12fc8760ea9e58e76b467e2b346f8a31bb5528e91b9d",
+      "bin/test.source-target.source.idx": "8fe5c7745156085746a7e2395a18c2345f67280f63c26a9e6e0e0acc50be40d0",
+      "bin/preprocess.log": "b10603f0ad4ad3cf670aebaaf3e17a45f9792e055993c954a186166004887fab",
+      "bin/test.source-target.source.bin": "e9724dac621a0fac6e1702e380489283ccbaf3f7127e3c4585ad7853fcfbb30b",
+      "bin/dict.source.txt": "1de35bf6ca9554e852d9fab4558376572ccdb7e10ad1bc7d61ee78fefeab8480",
+      "bin/dict.target.txt": "1de35bf6ca9554e852d9fab4558376572ccdb7e10ad1bc7d61ee78fefeab8480"
+    }
+  },
+  "wp_5k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 9,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 9,
+        "n": 134025,
+        "max_tokens_with_eos": 1005
+      },
+      "target": {
+        "unknown_rows": 10,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 10,
+        "n": 134025,
+        "max_tokens_with_eos": 957
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "017b655426c0c31a7e1edbd8369ad0429518e8430c3c29da7eae8ebe8421857e",
+      "encoded/test.source": "669d77866ef016021633fd9d27c9b89eafb2e5c1249c2f8ee1b262913678695d",
+      "bin/test.source-target.target.idx": "bf0a209f7861bcb6442b3d92bfbedb520776088b1252db890ce01560c5c91be0",
+      "bin/test.source-target.target.bin": "8e3de851148e86b642abf7813371552786301afec7152547f06a8fef0561ca4b",
+      "bin/test.source-target.source.idx": "a26b062f550911332d15532665bd2910af71bc574ad43ae3554745934a8dc484",
+      "bin/preprocess.log": "4ae1c0e11766b48c5ba7c3cdd054dcd0de75dd06d09955de20ac103bcd5daba9",
+      "bin/test.source-target.source.bin": "552b7ab710f85cc5fc4b9d356df44abc36c2cc6da63230aa13219b313ca51745",
+      "bin/dict.source.txt": "b195f3349097cbdaea8446d5e0044db378098514c5076e04efec40b4a7e7f02c",
+      "bin/dict.target.txt": "b195f3349097cbdaea8446d5e0044db378098514c5076e04efec40b4a7e7f02c"
+    }
+  },
+  "wp_20k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 9,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 9,
+        "n": 134025,
+        "max_tokens_with_eos": 793
+      },
+      "target": {
+        "unknown_rows": 10,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 10,
+        "n": 134025,
+        "max_tokens_with_eos": 778
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "261557e3e7a218944acd22c4ccf3ed2e8a18133f3f57447feaceaf94ee3da830",
+      "encoded/test.source": "b0c7c425dd5ee8456ea9c65037c0f374e1bf0987883c9820144a8c27c0640bd2",
+      "bin/test.source-target.target.idx": "fb22420aa0bf065f69f02d85ac67e9a9cdb74c548f69c2662d8e6eaa39f254cd",
+      "bin/test.source-target.target.bin": "66c1a75645c15025122ea5948d41cce14bae79e7e91581c338570fb40431034e",
+      "bin/test.source-target.source.idx": "441b3aef55b12fb43daad9b598088a6fc83ed33fad6952bd9937512d9a8d1d1f",
+      "bin/preprocess.log": "fe9210675aa0d0ee5b954e90ff475a0910590dfa1740a23189605660a919b947",
+      "bin/test.source-target.source.bin": "21d87704e88cb501259d3d909eb8988fef12319c6c099915bc5546bdf0394493",
+      "bin/dict.source.txt": "9025fd85e8cca1314db184d572815ab32f29e5efa8be456f8f025ed7f6bda192",
+      "bin/dict.target.txt": "9025fd85e8cca1314db184d572815ab32f29e5efa8be456f8f025ed7f6bda192"
+    }
+  },
+  "spuni_5k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 6,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 6,
+        "n": 134025,
+        "max_tokens_with_eos": 1060
+      },
+      "target": {
+        "unknown_rows": 7,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 7,
+        "n": 134025,
+        "max_tokens_with_eos": 1002
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "860af2c43329c7c65850ae81a6021ce23fb02eddc26124d24a0e9e12865ea90a",
+      "encoded/test.source": "e8ad6a229ade45bac7e830fcbecbee3bc5cf6348bf61d8c5691de135795f425e",
+      "bin/test.source-target.target.idx": "37013336d08c02712b05ace3230a225180507df1252321c439f63e21809f941a",
+      "bin/test.source-target.target.bin": "4c4d235b7fea113f4eca9a1d5603198df93583fb4c6ef26fb0c718d86ab18136",
+      "bin/test.source-target.source.idx": "c2c8b42d82d048c97d9c4a0339b9cdf0f130792daf7afe60ec262a4544a8c78e",
+      "bin/preprocess.log": "c805be29fa0dfb4532b5ce7720d355e20ed7f09bdba416a3d857c35b77516ac9",
+      "bin/test.source-target.source.bin": "3426b6edbacdc71046ab920769d6a22dfcf595f1e94ca2e82ebb06849f8a906f",
+      "bin/dict.source.txt": "0955edd26c04727c482fd79f6afadba59c4fda12f983089cd1dc0e20ba3ad595",
+      "bin/dict.target.txt": "0955edd26c04727c482fd79f6afadba59c4fda12f983089cd1dc0e20ba3ad595"
+    }
+  },
+  "spuni_20k": {
+    "diagnostics": {
+      "source": {
+        "unknown_rows": 6,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 6,
+        "n": 134025,
+        "max_tokens_with_eos": 844
+      },
+      "target": {
+        "unknown_rows": 7,
+        "roundtrip_mismatch_without_unknown": 0,
+        "roundtrip_mismatch_with_unknown": 7,
+        "n": 134025,
+        "max_tokens_with_eos": 820
+      }
+    },
+    "sha256": {
+      "encoded/test.target": "e607cc105a57969b468ab2ab747b81db0384cee96927f6057155b65c89dd76a2",
+      "encoded/test.source": "a60481a596d83fea439a6a8678a566fd66d2d9e7d5ad1d0f6d06c12b4a3b5a7a",
+      "bin/test.source-target.target.idx": "5879075b60d9ea2a5348fc13814c48cdfbc49f3b36bd30c67f9068febd69e9d2",
+      "bin/test.source-target.target.bin": "563afa9e965c8e32646d9d27e0de1386b3c04a0db2c2b23462398a40c91745cc",
+      "bin/test.source-target.source.idx": "edb5da3af818c4a5e92615e7bc81efd170edf1feb25fa174269ff3cc72ad8343",
+      "bin/preprocess.log": "b8488aa848f5329ce1cf0a432596c8f43fd2d64d065058b6074730b8bb7f47c6",
+      "bin/test.source-target.source.bin": "92ef71539246807d58fdaf83176b3b2e690466acf83d16fe502bbc18af86d559",
+      "bin/dict.source.txt": "b24fc578d33879056da9866ac1e6f1031e867a0f83f9ac9864b60e162e84a62d",
+      "bin/dict.target.txt": "b24fc578d33879056da9866ac1e6f1031e867a0f83f9ac9864b60e162e84a62d"
+    }
+  }
+}

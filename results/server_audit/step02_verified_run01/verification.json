@@ -1,0 +1,997 @@
+[
+  {
+    "run_id": "bpe_20k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "13708ea8a75640c00ab68696e2e58c56ae78a090bbf1975beef69be1cbabbe00",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/bpe_20k.codes": "e472a9e3703209fd2310ea5c6a12a22d4476336fc965fadc72837add028eb71d",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_20k/dict.source.txt": "5350bd25d3de663d3f29b4880eeee2fdb7a050af2e72f718242f4ef899f2143e",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_20k/dict.target.txt": "b2ce51fa5f307b2302a4538d4a0d0a2ca0efaa1b4841d073c3c93e1fe416b629"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 11,
+        "total_rows_reencoded": 31,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 20,
+        "total_rows_reencoded": 40,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "meber": 1,
+          "𝑧": 1,
+          "celona": 1,
+          "bagianan": 1,
+          "melanjutk": 1,
+          "JAKART@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "ݥ@@": 1,
+          "menila": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "mendapatk": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "bpe_30k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "d49e190b4a0480912a79624a9572de5ffb48b2c693ab0740a3539e2b71253697",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/bpe_30k.codes": "a13661e2d77546f5ea9c697819524c711036904896605505e7df4916f2616631",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.source.txt": "ebd3fd31dc13bf241fc619ead9ee5b2f05441b4a8fbb78765322937e8671e868",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.target.txt": "75db8c839e2127c790d7ae1fdfecf1b022a384671cf9b826385ddf3e22da2201"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 12,
+        "total_rows_reencoded": 32,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "INGT@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 34,
+        "total_rows_reencoded": 52,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "intelek@@": 1,
+          "á": 1,
+          "Ƹ@@": 1,
+          "menggerak": 1,
+          "meber": 1,
+          "INGT@@": 1,
+          "𝑧": 1,
+          "celona": 1,
+          "bagianan": 1,
+          "meproses": 1,
+          "melanjutk": 1,
+          "JAKART@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "resm@@": 1,
+          "ݥ@@": 1,
+          "persaing": 1,
+          "menila": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "peraya": 1,
+          "÷@@": 1,
+          "إ@@": 2,
+          "msaih": 1,
+          "𝛽@@": 2,
+          "－": 1,
+          "Informas": 1,
+          "gelintir": 1,
+          "sudah-sudah": 1,
+          "mendapatk": 1,
+          "½@@": 1,
+          "Kesehat": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "bpe_30k_seed1",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "cf3cd511604ce5be953645c5db56ca54a97f6f3a8c32b1d4f82782397f98684c",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/bpe_30k.codes": "a13661e2d77546f5ea9c697819524c711036904896605505e7df4916f2616631",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.source.txt": "ebd3fd31dc13bf241fc619ead9ee5b2f05441b4a8fbb78765322937e8671e868",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.target.txt": "75db8c839e2127c790d7ae1fdfecf1b022a384671cf9b826385ddf3e22da2201"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 12,
+        "total_rows_reencoded": 32,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "INGT@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 34,
+        "total_rows_reencoded": 52,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "intelek@@": 1,
+          "á": 1,
+          "Ƹ@@": 1,
+          "menggerak": 1,
+          "meber": 1,
+          "INGT@@": 1,
+          "𝑧": 1,
+          "celona": 1,
+          "bagianan": 1,
+          "meproses": 1,
+          "melanjutk": 1,
+          "JAKART@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "resm@@": 1,
+          "ݥ@@": 1,
+          "persaing": 1,
+          "menila": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "peraya": 1,
+          "÷@@": 1,
+          "إ@@": 2,
+          "msaih": 1,
+          "𝛽@@": 2,
+          "－": 1,
+          "Informas": 1,
+          "gelintir": 1,
+          "sudah-sudah": 1,
+          "mendapatk": 1,
+          "½@@": 1,
+          "Kesehat": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "bpe_30k_seed2",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "a5701177eb4b9cf80cd60317a3dbd0baedbe3d2fde0378f0f82116a5a1a6e8f8",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/bpe_30k.codes": "a13661e2d77546f5ea9c697819524c711036904896605505e7df4916f2616631",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.source.txt": "ebd3fd31dc13bf241fc619ead9ee5b2f05441b4a8fbb78765322937e8671e868",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.target.txt": "75db8c839e2127c790d7ae1fdfecf1b022a384671cf9b826385ddf3e22da2201"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 12,
+        "total_rows_reencoded": 32,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "INGT@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 34,
+        "total_rows_reencoded": 52,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "intelek@@": 1,
+          "á": 1,
+          "Ƹ@@": 1,
+          "menggerak": 1,
+          "meber": 1,
+          "INGT@@": 1,
+          "𝑧": 1,
+          "celona": 1,
+          "bagianan": 1,
+          "meproses": 1,
+          "melanjutk": 1,
+          "JAKART@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "resm@@": 1,
+          "ݥ@@": 1,
+          "persaing": 1,
+          "menila": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "peraya": 1,
+          "÷@@": 1,
+          "إ@@": 2,
+          "msaih": 1,
+          "𝛽@@": 2,
+          "－": 1,
+          "Informas": 1,
+          "gelintir": 1,
+          "sudah-sudah": 1,
+          "mendapatk": 1,
+          "½@@": 1,
+          "Kesehat": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "bpe_30k_seed3",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "cb9cc455ad235016a9193561ebf10dd5fe3b68d6865aa189fb1e9b94a3194a84",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/bpe_30k.codes": "a13661e2d77546f5ea9c697819524c711036904896605505e7df4916f2616631",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.source.txt": "ebd3fd31dc13bf241fc619ead9ee5b2f05441b4a8fbb78765322937e8671e868",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_bpe_30k/dict.target.txt": "75db8c839e2127c790d7ae1fdfecf1b022a384671cf9b826385ddf3e22da2201"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 12,
+        "total_rows_reencoded": 32,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "á": 1,
+          "Ƹ@@": 1,
+          "INGT@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "÷@@": 1,
+          "إ@@": 2,
+          "𝛽@@": 2,
+          "－": 1,
+          "½@@": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 34,
+        "total_rows_reencoded": 52,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "intelek@@": 1,
+          "á": 1,
+          "Ƹ@@": 1,
+          "menggerak": 1,
+          "meber": 1,
+          "INGT@@": 1,
+          "𝑧": 1,
+          "celona": 1,
+          "bagianan": 1,
+          "meproses": 1,
+          "melanjutk": 1,
+          "JAKART@@": 1,
+          "―@@": 1,
+          "‖@@": 1,
+          "resm@@": 1,
+          "ݥ@@": 1,
+          "persaing": 1,
+          "menila": 1,
+          "𝐠": 2,
+          "𝐦@@": 1,
+          "⁄@@": 2,
+          "peraya": 1,
+          "÷@@": 1,
+          "إ@@": 2,
+          "msaih": 1,
+          "𝛽@@": 2,
+          "－": 1,
+          "Informas": 1,
+          "gelintir": 1,
+          "sudah-sudah": 1,
+          "mendapatk": 1,
+          "½@@": 1,
+          "Kesehat": 1,
+          "𝑴@@": 5,
+          "𝑰@@": 1,
+          "𝒈@@": 1,
+          "𝒕": 1,
+          "𝒐": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "bpe_5k",
+    "status": "BLOCKED",
+    "generation_sha256": "abab011a62f0c8b9805b6aa102d197068d22cbec25ede43064d119bc13933e81",
+    "error": "ValueError: /ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_5k.out: S coverage mismatch; expected=134025, actual=134024, missing=[1589], extra=[]"
+  },
+  {
+    "run_id": "legacy_bpe",
+    "status": "BLOCKED",
+    "error": "ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "legacy_unigram",
+    "status": "BLOCKED",
+    "error": "ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "legacy_wordpiece",
+    "status": "BLOCKED",
+    "error": "ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "uni_20k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "14f323ca09178683865d992710ffae3a889a6e9b4378b276264d94dc48b5a710",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/uni_20k.model": "f8e617c2ba3b58150a8014299126b593d166eee8e676091609bfa0a59ce81318",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_20k/dict.source.txt": "f9c0caf03992d8e7d0db53f3747b4425e5ff8912ada25651f65e9ae72f9320ee",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_20k/dict.target.txt": "595d360326a076f13a23e2a4401577d63183ea00bf2ad4ac6c1b130531532d94"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 89,
+        "total_rows_reencoded": 109,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "Ƹ": 1,
+          "―": 1,
+          "‖": 1,
+          "÷": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 112,
+        "total_rows_reencoded": 132,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "▁kpeada": 1,
+          "▁penggant": 1,
+          "Ƹ": 1,
+          "▁mep": 1,
+          "hayna": 1,
+          "▁eS": 1,
+          "▁memanfaatk": 1,
+          "▁menyimp": 2,
+          "▁epr": 2,
+          "―": 1,
+          "‖": 1,
+          "▁adri": 1,
+          "▁okn": 2,
+          "ݥ": 1,
+          "▁persaing": 1,
+          "▁ndiri": 1,
+          "÷": 1,
+          "▁menampilk": 1,
+          "▁menawark": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "uni_30k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "3cd4da9e719babf9a23023a761589c9cb2851426c3e16d3ffa57e70c3d66fa03",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/uni_30k.model": "d92eb6a2c9939931e2d615c284e88384b3336ccb6d286e6b99f70dad693258c0",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_30k/dict.source.txt": "aa0319faf2a96360dfe680876a987f433f4456aac4750d3f46ccd631af362b7d",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_30k/dict.target.txt": "dba3da889abd3974b1e7d2018cdd1ab830af42c8def82c299304873f20b347cd"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 89,
+        "total_rows_reencoded": 109,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "Ƹ": 1,
+          "―": 1,
+          "‖": 1,
+          "÷": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 136,
+        "total_rows_reencoded": 156,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "▁meperpanjang": 1,
+          "▁merugik": 1,
+          "▁kpeada": 1,
+          "▁penggant": 1,
+          "Ƹ": 1,
+          "Kmai": 1,
+          "▁meperbaik": 1,
+          "hayna": 1,
+          "▁eS": 1,
+          "▁memanfaatk": 1,
+          "▁aH": 2,
+          "▁meproses": 1,
+          "▁hait": 1,
+          "▁menyimp": 2,
+          "▁epr": 2,
+          "▁banyka": 1,
+          "―": 1,
+          "‖": 1,
+          "▁adri": 1,
+          "▁berunjung": 1,
+          "▁okn": 2,
+          "▁amsuk": 1,
+          "ݥ": 1,
+          "▁persaing": 1,
+          "▁prdouk": 1,
+          "▁ndiri": 1,
+          "÷": 1,
+          "▁anton": 1,
+          "▁Jaakrta": 1,
+          "▁ruu": 1,
+          "▁bakrie": 1,
+          "▁perharap": 1,
+          "▁meperhatik": 1,
+          "▁fuad": 1,
+          "▁mengatkaan": 1,
+          "▁memunculk": 1,
+          "▁menampilk": 1,
+          "▁ferrari": 1,
+          "▁pemerintha": 1,
+          "▁daearh": 1,
+          "▁menawark": 1,
+          "▁repso": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "uni_5k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "1f1d51e323b384b236b66a39bcea331732aa163aa8cc71f6851eabbad6576ab3",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/uni_5k.model": "39980110b9d0a3998e8aac9c04873cf555e013dd350d7f9e26b39992a5fec622",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_5k/dict.source.txt": "e1dfb1b7b186c932f327ee2ec46917dc253a56de5875147bbfc16e113b62f70b",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_uni_5k/dict.target.txt": "85c0c0cfa9217f4eea30105a83d099b9de0d5d67757d18457d3fb6c40c160635"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 89,
+        "total_rows_reencoded": 109,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "Ƹ": 1,
+          "―": 1,
+          "‖": 1,
+          "÷": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 95,
+        "total_rows_reencoded": 115,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "Ƹ": 1,
+          "―": 1,
+          "‖": 1,
+          "ݥ": 1,
+          "÷": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_10k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "de8e3df99e49423c698a909ef083f41a59da39f5b5615161a16f0ddd25a50f37",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_10k.json": "159df690f389e5f277412653f2588705fd0ff7fb0913018eba33a9dfd6bde93f",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_10k/dict.source.txt": "f9bb44750804cd7eee1347e202b3ba655adac73522491c5e1d6b4575b26fe99f",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_10k/dict.target.txt": "3b017dc840798d3c3557b02ded20398c882ff60fd8933ddac1c3daa9af21a83c"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 113,
+        "total_rows_reencoded": 133,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 132,
+        "total_rows_reencoded": 152,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 17,
+          "##erjanya": 1,
+          "mengp": 1,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##ukanan": 1,
+          "##𝐴": 3,
+          "##itiman": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_20k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "797eeec36a1d62794a167796a592dcf71f0378b03f788c38ea0a1257bd47613f",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_20k.json": "a179bc6c912d3e1d208e260418e804af1424896214726188ccee52ebea6c80c4",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_20k/dict.source.txt": "3f37670adb56a30f174316f5f44e69d2f0b0c0e172ed2d4fdb9b97e0ab740889",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_20k/dict.target.txt": "947d0068c4a395717db06cac21de01dfb2ac9f5ca6931a2ffe28d4246f3ce6f4"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 114,
+        "total_rows_reencoded": 134,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##amendi": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 163,
+        "total_rows_reencoded": 182,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "##ihal": 1,
+          "penggant": 1,
+          "[UNK]": 17,
+          "##utuskan": 1,
+          "##erjanya": 1,
+          "memanfaatk": 1,
+          "##ancangan": 1,
+          "##hatinan": 1,
+          "mengp": 1,
+          "ancel": 2,
+          "bagianan": 1,
+          "metaw": 1,
+          "melew": 1,
+          "meproses": 1,
+          "##turunan": 1,
+          "menyimp": 2,
+          "𝟖": 1,
+          "##ulainya": 1,
+          "𝐲": 2,
+          "ndiri": 1,
+          "®": 1,
+          "##amendi": 1,
+          "##ukanan": 1,
+          "##𝐴": 3,
+          "msaih": 1,
+          "jaakrta": 1,
+          "##umulasi": 1,
+          "##itiman": 1,
+          "pensat": 1,
+          "##underland": 1,
+          "##ombinasikan": 1,
+          "menampilk": 1,
+          "penle": 1,
+          "##antunya": 1,
+          "perseter": 1,
+          "menawark": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_30k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "99bf34ed6726c6d15757d90438217c4718950a8060e8af3d1bcd2eb735f31fd6",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_30k.json": "73c70f075dbcf2b292f67be18580a1f7a0bc1226a65dfbe4625f1c309ed74ff9",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_30k/dict.source.txt": "2c3505e5e5a55650ece6c7e57f9b55e2b486cc13153c1d64f15650b0f3223e60",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_30k/dict.target.txt": "2f2ec4d6cfb253f58f6d1a00fe88df5d01dbf89036ba138f45db14648a1647ba"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 125,
+        "total_rows_reencoded": 145,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "##anggunya": 1,
+          "[UNK]": 16,
+          "##tular": 1,
+          "penneger": 1,
+          "##anggis": 1,
+          "##shere": 1,
+          "𝟖": 1,
+          "##tumbuhanan": 1,
+          "##dsky": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##amendi": 1,
+          "##igami": 1,
+          "indonse": 1,
+          "##otherm": 1,
+          "##ataakn": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 216,
+        "total_rows_reencoded": 235,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "akrena": 2,
+          "perkelah": 1,
+          "##gaa": 1,
+          "##usial": 1,
+          "##hawatirk": 1,
+          "pemani": 1,
+          "merugik": 1,
+          "kpeada": 1,
+          "##endak": 1,
+          "penggant": 1,
+          "[UNK]": 17,
+          "grabta": 1,
+          "##utuskan": 1,
+          "perwujud": 1,
+          "meperb": 2,
+          "##erjanya": 1,
+          "##atuhkan": 1,
+          "memanfaatk": 1,
+          "##ancangan": 1,
+          "##ambatan": 1,
+          "##ebatan": 2,
+          "##erifikasi": 1,
+          "##esimp": 1,
+          "kenaik": 1,
+          "mengp": 1,
+          "ancel": 2,
+          "dangk": 3,
+          "##emangat": 1,
+          "jakartaan": 1,
+          "baig": 1,
+          "##anggis": 1,
+          "##onisan": 1,
+          "bagianan": 1,
+          "metaw": 1,
+          "melew": 1,
+          "##daftaran": 1,
+          "##shere": 1,
+          "meperk": 1,
+          "meproses": 1,
+          "##turunan": 1,
+          "menyimp": 2,
+          "2015an": 1,
+          "##ahabat": 1,
+          "𝟖": 1,
+          "##tumbuhan": 3,
+          "banyka": 1,
+          "##ulainya": 1,
+          "mengmen": 1,
+          "konstitus": 2,
+          "meak": 1,
+          "berunjung": 1,
+          "##isihan": 2,
+          "menggug": 1,
+          "𝐲": 2,
+          "##itraan": 1,
+          "ndiri": 1,
+          "®": 1,
+          "##amendi": 1,
+          "##ukanan": 1,
+          "##𝐴": 3,
+          "msaih": 1,
+          "jaakrta": 1,
+          "seproduk": 1,
+          "##igami": 1,
+          "vallec": 1,
+          "perharap": 1,
+          "##angkas": 1,
+          "kapit": 1,
+          "##esuai": 1,
+          "##itiman": 1,
+          "pensat": 1,
+          "##underland": 1,
+          "##ombinasikan": 1,
+          "##amac": 1,
+          "menampilk": 1,
+          "##otherm": 1,
+          "penle": 1,
+          "##antunya": 1,
+          "daearh": 1,
+          "perseter": 1,
+          "##enue": 2,
+          "##amaian": 1,
+          "menawark": 1
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_5k",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "b161ace289edca2c75802de95ba813bc0e6bf12c0e2094d1c9d0071b77638008",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_5k.json": "51406de80a35d448f121383638354e22a7de0732856f5b613c0354d641da168c",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.source.txt": "22c3ac34d992d0ac1d5c4f795dbf7b23c414b69101f4d5b90f8870b659272305",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.target.txt": "35fd3748cb5f90addc6da82904348e03f74127fb52e2c989b0b1239e0d5e9bd0"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 113,
+        "total_rows_reencoded": 133,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 128,
+        "total_rows_reencoded": 148,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 17,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##𝐴": 3
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_5k_seed1",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "fb5b884adb8cec33224b8ed69f9c1b99d3cee2d3d8bd4e5d8cfdc8f30c659d9e",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_5k.json": "51406de80a35d448f121383638354e22a7de0732856f5b613c0354d641da168c",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.source.txt": "22c3ac34d992d0ac1d5c4f795dbf7b23c414b69101f4d5b90f8870b659272305",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.target.txt": "35fd3748cb5f90addc6da82904348e03f74127fb52e2c989b0b1239e0d5e9bd0"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 113,
+        "total_rows_reencoded": 133,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 128,
+        "total_rows_reencoded": 148,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 17,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##𝐴": 3
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_5k_seed2",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "f56b1af3a88b5181169355c62b74e219e96c966ba70c7db92d7f21afcd20f96e",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_5k.json": "51406de80a35d448f121383638354e22a7de0732856f5b613c0354d641da168c",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.source.txt": "22c3ac34d992d0ac1d5c4f795dbf7b23c414b69101f4d5b90f8870b659272305",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.target.txt": "35fd3748cb5f90addc6da82904348e03f74127fb52e2c989b0b1239e0d5e9bd0"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 113,
+        "total_rows_reencoded": 133,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 128,
+        "total_rows_reencoded": 148,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 17,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##𝐴": 3
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  },
+  {
+    "run_id": "wp_5k_seed3",
+    "status": "VERIFIED_FOR_RETROSPECTIVE_DIAGNOSTICS",
+    "generation_sha256": "79e013321cd765dac30cd78172a55830145baf2c9a636b3ca5b8155e7da79f41",
+    "artifact_sha256": {
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/tok/wp_5k.json": "51406de80a35d448f121383638354e22a7de0732856f5b613c0354d641da168c",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.source.txt": "22c3ac34d992d0ac1d5c4f795dbf7b23c414b69101f4d5b90f8870b659272305",
+      "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/bin_wp_5k/dict.target.txt": "35fd3748cb5f90addc6da82904348e03f74127fb52e2c989b0b1239e0d5e9bd0"
+    },
+    "verification": {
+      "S": {
+        "mismatch_rows_checked": 113,
+        "total_rows_reencoded": 133,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 16,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1
+        }
+      },
+      "T": {
+        "mismatch_rows_checked": 128,
+        "total_rows_reencoded": 148,
+        "failures": 0,
+        "failure_examples": [],
+        "unknown_pieces_in_checked_rows": {
+          "[UNK]": 17,
+          "𝟖": 1,
+          "𝐲": 2,
+          "®": 1,
+          "##𝐴": 3
+        }
+      }
+    },
+    "hypotheses_with_unknown_marker": 0
+  }
+]

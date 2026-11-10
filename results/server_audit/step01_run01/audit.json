@@ -1,0 +1,204 @@
+{
+  "created_utc": "2026-10-07T07:41:23.531830+00:00",
+  "script_sha256": "ad7e76695464ab15a60b4affaa108f92c4c8f772e5d60a7a0b9d7322103db724",
+  "splits": {
+    "train": {
+      "files": {
+        "source": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.source",
+          "sha256": "5ab120528bed8f2d6d2386e84c53ae65b4b5a46fb601fbb98574d69019f6bdae",
+          "bytes": 170599579
+        },
+        "target": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.target",
+          "sha256": "947e992870da8574ba1417ee04cc0f4af8d786dca4514f3dc8278d72d8a3a572",
+          "bytes": 168341047
+        },
+        "category": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/train.category",
+          "sha256": "438468ff91f9f7787041f53d584c90e8f4b8a36dbed118a3062ab32ca9b4bc89",
+          "bytes": 13482430
+        }
+      },
+      "errors": [],
+      "n_pairs": 1072192,
+      "n_unchanged": 4207,
+      "blank_source": 0,
+      "blank_target": 0,
+      "categories": {
+        "sintaksis_frasa": 202086,
+        "diksi": 112979,
+        "preposisi": 134188,
+        "ambigu": 52830,
+        "reduplikasi": 71413,
+        "afiksasi": 210574,
+        "pembentukan_kata": 130980,
+        "pleonasme": 21740,
+        "kelengkapan_kalimat": 127013,
+        "pleonasme_claude": 2800,
+        "ambigu_claude": 2791,
+        "diksi_claude": 2798
+      },
+      "group_provenance_available": false,
+      "normalization": "strip/collapse whitespace, preserve case/Unicode",
+      "line_counts": {
+        "source": 1072192,
+        "target": 1072192,
+        "category": 1072192
+      },
+      "lengths": {
+        "gt_256_words": 353,
+        "gt_512_words": 5,
+        "gt_1024_words": 0,
+        "max_words": 805
+      },
+      "unique": {
+        "source": 1071860,
+        "target": 1060412,
+        "pair": 1071911,
+        "group_id": 0
+      },
+      "duplicate_pair_rows": 281
+    },
+    "valid": {
+      "files": {
+        "source": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.source",
+          "sha256": "733e701e8752ac9234904c1b0a486d56ff4cda1da77faea69f80d2e69e4d193e",
+          "bytes": 21269966
+        },
+        "target": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.target",
+          "sha256": "9bfa7a3e01c2ee0a9efa6472de98f380c6921cf949f31820a495c61432aae21f",
+          "bytes": 20987842
+        },
+        "category": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/valid.category",
+          "sha256": "28fcc75223b73ead8e2fb2ed1fe0d817ed0f001951469a55888876981b0dadb7",
+          "bytes": 1685298
+        }
+      },
+      "errors": [],
+      "n_pairs": 134024,
+      "n_unchanged": 557,
+      "blank_source": 0,
+      "blank_target": 0,
+      "categories": {
+        "preposisi": 16773,
+        "sintaksis_frasa": 25261,
+        "pembentukan_kata": 16372,
+        "ambigu": 6604,
+        "kelengkapan_kalimat": 15876,
+        "afiksasi": 26322,
+        "diksi_claude": 350,
+        "reduplikasi": 8927,
+        "diksi": 14122,
+        "pleonasme": 2718,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349
+      },
+      "group_provenance_available": false,
+      "normalization": "strip/collapse whitespace, preserve case/Unicode",
+      "line_counts": {
+        "source": 134024,
+        "target": 134024,
+        "category": 134024
+      },
+      "lengths": {
+        "gt_256_words": 39,
+        "gt_512_words": 1,
+        "gt_1024_words": 0,
+        "max_words": 538
+      },
+      "unique": {
+        "source": 134018,
+        "target": 133801,
+        "pair": 134018,
+        "group_id": 0
+      },
+      "duplicate_pair_rows": 6
+    },
+    "test": {
+      "files": {
+        "source": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.source",
+          "sha256": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+          "bytes": 21320980
+        },
+        "target": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.target",
+          "sha256": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+          "bytes": 21040339
+        },
+        "category": {
+          "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/raw-basic/test.category",
+          "sha256": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19",
+          "bytes": 1685321
+        }
+      },
+      "errors": [],
+      "n_pairs": 134025,
+      "n_unchanged": 562,
+      "blank_source": 0,
+      "blank_target": 0,
+      "categories": {
+        "sintaksis_frasa": 25261,
+        "preposisi": 16774,
+        "kelengkapan_kalimat": 15877,
+        "diksi": 14123,
+        "pleonasme": 2717,
+        "afiksasi": 26322,
+        "pembentukan_kata": 16373,
+        "ambigu": 6603,
+        "reduplikasi": 8927,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349,
+        "diksi_claude": 349
+      },
+      "group_provenance_available": false,
+      "normalization": "strip/collapse whitespace, preserve case/Unicode",
+      "line_counts": {
+        "source": 134025,
+        "target": 134025,
+        "category": 134025
+      },
+      "lengths": {
+        "gt_256_words": 35,
+        "gt_512_words": 0,
+        "gt_1024_words": 0,
+        "max_words": 483
+      },
+      "unique": {
+        "source": 134020,
+        "target": 133804,
+        "pair": 134020,
+        "group_id": 0
+      },
+      "duplicate_pair_rows": 5
+    }
+  },
+  "overlap": {
+    "train__valid": {
+      "source": 60,
+      "target": 2627,
+      "pair": 49,
+      "group_id": 0
+    },
+    "train__test": {
+      "source": 61,
+      "target": 2623,
+      "pair": 55,
+      "group_id": 0
+    },
+    "valid__test": {
+      "source": 14,
+      "target": 358,
+      "pair": 13,
+      "group_id": 0
+    }
+  },
+  "warnings": [
+    "No near-duplicate/document leakage proof without group provenance.",
+    "Exact target overlap flags shared clean sentences; investigate before retraining."
+  ]
+}

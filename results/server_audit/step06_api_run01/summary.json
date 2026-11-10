@@ -1,0 +1,32 @@
+{
+  "train": {
+    "n": 1072192,
+    "source_exact_observed_marker": 1,
+    "target_exact_observed_marker": 0,
+    "any_exact_marker": 1,
+    "source_phrase_candidate_needs_review": 0,
+    "target_phrase_candidate_needs_review": 0,
+    "any_flag": 1,
+    "distinct_raw_targets_for_source_exact_marker": 1
+  },
+  "valid": {
+    "n": 134024,
+    "source_exact_observed_marker": 1,
+    "target_exact_observed_marker": 0,
+    "any_exact_marker": 1,
+    "source_phrase_candidate_needs_review": 0,
+    "target_phrase_candidate_needs_review": 0,
+    "any_flag": 1,
+    "distinct_raw_targets_for_source_exact_marker": 1
+  },
+  "test": {
+    "n": 134025,
+    "source_exact_observed_marker": 0,
+    "target_exact_observed_marker": 0,
+    "any_exact_marker": 0,
+    "source_phrase_candidate_needs_review": 0,
+    "target_phrase_candidate_needs_review": 0,
+    "any_flag": 0,
+    "distinct_raw_targets_for_source_exact_marker": 0
+  }
+}

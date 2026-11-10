@@ -1,0 +1,21 @@
+{
+  "tag": "spbpe_5k",
+  "parameters": 14135296,
+  "sha256": {
+    "dict.source.txt": "26c1967686c6cfaefb98675e7a808e3486c3c7c953fa13342c580d101499b025",
+    "dict.target.txt": "26c1967686c6cfaefb98675e7a808e3486c3c7c953fa13342c580d101499b025",
+    "preprocess.log": "4d6ba691a87c2238d1a5e67de7e4a8cba5e466e0ae4434aad5640af6bffed09c",
+    "test.source-target.source.bin": "d06848b6b065ab18387cb31fab3e09352e29c051f6d1a0c1494b22a492a86387",
+    "test.source-target.source.idx": "7ae2fb2c765ed3f6f2915e56b5cb114391bad5113b68fa3de264ec55c81b2526",
+    "test.source-target.target.bin": "add131ff5b91ddc9bcff71bc4c7d35014c6f41973f07f96d867507291e1a80a4",
+    "test.source-target.target.idx": "2e1445579b7d3d4eb8556c762e5a07aead70ce8b260b3e6ebe3a2ca0eb65701f",
+    "train.source-target.source.bin": "fc198f795f476bf9cade2d4a92df1558295f63b933e7f12239a8698a884ff316",
+    "train.source-target.source.idx": "7db91b99886c63d356f9275d6882ff2eb5230f5b234a298acb1ecda5486ebd1d",
+    "train.source-target.target.bin": "582f77f9e6a0abb60f1be9ac521a2259ebf7813b98dc4aee24b593c979abcba2",
+    "train.source-target.target.idx": "09b5ac22de056b6e120951606e64bab13102ae7b046ffb3beda065550eda3e54",
+    "valid.source-target.source.bin": "ba15f791b07c78d2161fefae4be6ebfa40413ab112b6353388e43800e41b2734",
+    "valid.source-target.source.idx": "6d8792c7ac15ec9b67d920a8fb209913db5470622bfdfd7a174d8a228770f801",
+    "valid.source-target.target.bin": "1b98bb18227fb8ff9dcdd4c0ea807b764a57f16113e41414725a8376e7939614",
+    "valid.source-target.target.idx": "533b42bfd43886903060d014ef39fcecaba1594c560e29019f111b1ef7dcbf75"
+  }
+}

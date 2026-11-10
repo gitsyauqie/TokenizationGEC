@@ -1,0 +1,23 @@
+{
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "executable": "/ssd-data1/sq2023/.conda/envs/fairseq/bin/python",
+  "platform": "Linux-5.4.0-113-generic-x86_64-with-glibc2.17",
+  "packages": {
+    "torch": "2.4.1",
+    "fairseq": "0.10.2",
+    "tokenizers": "0.20.3",
+    "sentencepiece": "0.2.0",
+    "subword-nmt": "0.3.8",
+    "sacrebleu": "1.5.1",
+    "numpy": "1.24.4",
+    "scipy": "1.10.1",
+    "Sastrawi": null,
+    "nltk": "3.9.1"
+  },
+  "commands": {
+    "fairseq-train": "/ssd-data1/sq2023/.conda/envs/fairseq/bin/fairseq-train",
+    "fairseq-generate": "/ssd-data1/sq2023/.conda/envs/fairseq/bin/fairseq-generate",
+    "fairseq-preprocess": "/ssd-data1/sq2023/.conda/envs/fairseq/bin/fairseq-preprocess"
+  },
+  "gpu": "NVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15\nNVIDIA GeForce RTX 3090, 24576 MiB, 550.54.15"
+}

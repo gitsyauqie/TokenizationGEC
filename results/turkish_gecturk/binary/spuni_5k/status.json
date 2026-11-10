@@ -1,0 +1,21 @@
+{
+  "tag": "spuni_5k",
+  "parameters": 14135296,
+  "sha256": {
+    "dict.source.txt": "83b90f2c70a2d8c53bfab4901ec86e6747d240da14acc84b76769c567b1d22e9",
+    "dict.target.txt": "83b90f2c70a2d8c53bfab4901ec86e6747d240da14acc84b76769c567b1d22e9",
+    "preprocess.log": "de3742a3595e6cdea43e680ba0864641bbc8abf162cd42cd025ae0a8aa846ae7",
+    "test.source-target.source.bin": "30f75b83b7b8b90ffb02e1f8f76c768228851839d6d8b54feced984300091f19",
+    "test.source-target.source.idx": "f62b940c28928fa251867724ad3bc055f0ec306ad222c78d381677d8d7096caa",
+    "test.source-target.target.bin": "b63f2d590e0873fe91591c2d34f005e60253828a710edadafbc039a45a4a8237",
+    "test.source-target.target.idx": "8dcebb5472615486eb32a968755100815d2e4d100442d3c9b832223d57c123ec",
+    "train.source-target.source.bin": "af587dd8d408d6eb284ef9ce42e94f2485d2d9dd5d66e490dce2db73f2626989",
+    "train.source-target.source.idx": "f08c407e66bb00100ee40738da48c311d9debf670814ec6b2f95f6f771ae5023",
+    "train.source-target.target.bin": "e93ae7de6a00d0dc24f8f1c0591f2a5355ea2db707d91f7e94d23115a85cf0c0",
+    "train.source-target.target.idx": "8ff4d4bb85a12375eed89b2a7934bbd687174ed9973a5bcdaa41f4e1cd22b6fd",
+    "valid.source-target.source.bin": "3492a49723f9823e89e0842834ffb526f18f3bf2bf1b301e9bfe6fa8187911bb",
+    "valid.source-target.source.idx": "cdf111febf101e174abef62511b231f07a36558db1900ead510bf51242502c5d",
+    "valid.source-target.target.bin": "14ffa07d800586650206c3d01eea557792b774a5d18de56d070d3700d00c4f23",
+    "valid.source-target.target.idx": "d589e7c64bd9c92a59818ce5f637d7a0a6ed8184691dbad4468022ec037b9c23"
+  }
+}

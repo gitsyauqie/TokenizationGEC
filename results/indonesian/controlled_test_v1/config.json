@@ -1,0 +1,20 @@
+{
+  "script_sha256": "d12cf55c49eb8483f82ce81fea206feb388a2e87566a8e00e34c19a6702841eb",
+  "manifest_sha256": "cb0053292790326a0ef9d8d990923ea73601a9be661b306c42c6b59ed1cb91e6",
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50",
+  "root": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007",
+  "versions": {
+    "fairseq": "0.10.2",
+    "torch": "2.4.1+cu121",
+    "sacrebleu": "1.5.1",
+    "sentencepiece": "0.2.0",
+    "tokenizers": "0.20.3"
+  },
+  "dependencies": {
+    "common.py": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+    "train_controlled.py": "65fc8de57cda150151027c3095b5e1cd4766d5d65bf9e20dcfcd06b3db38e000",
+    "build_and_smoke.py": "2221c1ce653343e51ee497f6f62396feb5dca42e3255f8a3193310e8d35cea8e",
+    "eval_reconstruction.py": "65b127fe2c029f37d3645936c68d2dca7f056e45e0bb3c8112a1f39d2aa898d1"
+  },
+  "policy": "Full original test; fixed validation-selected checkpoints; original IDs; no row dropping, gold repair or tokenizer fitting."
+}

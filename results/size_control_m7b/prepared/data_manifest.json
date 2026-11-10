@@ -1,0 +1,134 @@
+{
+  "raw_inputs": {
+    "train/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/train.src",
+      "sha256": "262919211c2ad01d28bbf8ac7429d11428dc84f8e6cd6b9ead63d4044ed4615e"
+    },
+    "train/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/train.tgt",
+      "sha256": "f892997a6c6102d7ec75c30334ebfdb0e533adc266c18d24b4697e60cc9b6f67"
+    },
+    "valid/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/dev.src",
+      "sha256": "f6180e15385335121e555d67f419ef62bd19099ede898a880375f146e61987a4"
+    },
+    "valid/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/dev.tgt",
+      "sha256": "f692b626eb2d3fd546339fd39577a8ea6f87f0fcddd42b4bef1167f72ff0dde3"
+    },
+    "test/source": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/test.src",
+      "sha256": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093"
+    },
+    "test/target": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/test.tgt",
+      "sha256": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1"
+    },
+    "train/files": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/train.cat",
+      "sha256": "66c1303fa161be9ebb5185c237af4deba7d3f7031f95e4519b1773d199280fe0"
+    },
+    "valid/files": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/dev.cat",
+      "sha256": "05f4885e83be522a2172f6d1343f97bd0f745052f100d6270b850a48a40fb0b1"
+    },
+    "test/files": {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/data/iged_sub97k/raw/test.cat",
+      "sha256": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+    }
+  },
+  "splits": {
+    "train": {
+      "original_n": 96919,
+      "retained_n": 96919,
+      "excluded_n": 0,
+      "m2_sentences": 96919,
+      "m2_aligned": true,
+      "m2_text_mismatches": 0,
+      "categories": {
+        "diksi": 10213,
+        "ambigu": 4775,
+        "sintaksis_frasa": 18267,
+        "kelengkapan_kalimat": 11481,
+        "reduplikasi": 6455,
+        "afiksasi": 19035,
+        "preposisi": 12130,
+        "pembentukan_kata": 11840,
+        "pleonasme": 1965,
+        "diksi_claude": 253,
+        "pleonasme_claude": 253,
+        "ambigu_claude": 252
+      },
+      "identical_pairs": 354
+    },
+    "valid": {
+      "original_n": 20769,
+      "retained_n": 20769,
+      "excluded_n": 0,
+      "m2_sentences": 20769,
+      "m2_aligned": true,
+      "m2_text_mismatches": 0,
+      "categories": {
+        "afiksasi": 4079,
+        "kelengkapan_kalimat": 2460,
+        "diksi_claude": 54,
+        "pembentukan_kata": 2537,
+        "ambigu": 1024,
+        "sintaksis_frasa": 3915,
+        "reduplikasi": 1383,
+        "preposisi": 2599,
+        "diksi": 2189,
+        "pleonasme": 421,
+        "pleonasme_claude": 54,
+        "ambigu_claude": 54
+      },
+      "identical_pairs": 90
+    },
+    "test": {
+      "original_n": 134025,
+      "retained_n": 134025,
+      "excluded_n": 0,
+      "m2_sentences": 134025,
+      "m2_aligned": true,
+      "m2_text_mismatches": 0,
+      "categories": {
+        "sintaksis_frasa": 25261,
+        "preposisi": 16774,
+        "kelengkapan_kalimat": 15877,
+        "diksi": 14123,
+        "pleonasme": 2717,
+        "afiksasi": 26322,
+        "pembentukan_kata": 16373,
+        "ambigu": 6603,
+        "reduplikasi": 8927,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349,
+        "diksi_claude": 349
+      },
+      "identical_pairs": 566
+    }
+  },
+  "case": "lower",
+  "surface_rule": "[^\\W_]+|[^\\w\\s]|_",
+  "category": "label from raw/<split>.cat",
+  "corpus_sha256": "13e6796018e8d5ac5fde30d0dbfb58e83b9385be8df65eaadecee996a308eb98",
+  "versions": {
+    "sentencepiece": "0.2.0",
+    "tokenizers": "0.20.3"
+  },
+  "surface_files": {
+    "surface/test.category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19",
+    "surface/test.original_id": "dcf16594b0bdfa0161d445df0953dbebd0dee448a2551ceb183c1a34a5d122e3",
+    "surface/test.source": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093",
+    "surface/test.target": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1",
+    "surface/train.category": "66c1303fa161be9ebb5185c237af4deba7d3f7031f95e4519b1773d199280fe0",
+    "surface/train.original_id": "88bbc6163f3ec0356e7bf632169db842c5b7cbaf84a04b7152fecd681524ccce",
+    "surface/train.source": "262919211c2ad01d28bbf8ac7429d11428dc84f8e6cd6b9ead63d4044ed4615e",
+    "surface/train.source_plus_target.txt": "13e6796018e8d5ac5fde30d0dbfb58e83b9385be8df65eaadecee996a308eb98",
+    "surface/train.target": "f892997a6c6102d7ec75c30334ebfdb0e533adc266c18d24b4697e60cc9b6f67",
+    "surface/valid.category": "05f4885e83be522a2172f6d1343f97bd0f745052f100d6270b850a48a40fb0b1",
+    "surface/valid.original_id": "ec2278abcc186cdc42777ef0cd84786f9e99a79c401406a057cff8bd31b12b37",
+    "surface/valid.source": "f6180e15385335121e555d67f419ef62bd19099ede898a880375f146e61987a4",
+    "surface/valid.target": "f692b626eb2d3fd546339fd39577a8ea6f87f0fcddd42b4bef1167f72ff0dde3"
+  }
+}

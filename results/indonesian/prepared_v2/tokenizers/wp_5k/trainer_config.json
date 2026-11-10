@@ -1,0 +1,15 @@
+{
+  "vocab_size": 5000,
+  "min_frequency": 1,
+  "normalizer": null,
+  "pre_tokenizer": "WhitespaceSplit",
+  "decoder": "WordPiece(cleanup=False)",
+  "special_tokens": [
+    "<s>",
+    "<pad>",
+    "</s>",
+    "<unk>"
+  ],
+  "continuing_subword_prefix": "##",
+  "max_input_chars_per_word": 100000
+}

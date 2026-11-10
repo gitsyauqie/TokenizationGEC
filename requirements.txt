@@ -1,0 +1,11 @@
+# Versions recorded in the experiment manifests (results/indonesian/controlled_training_seed42/config.json)
+fairseq==0.10.2
+torch==2.4.1
+sacrebleu==1.5.1
+sentencepiece==0.2.0
+tokenizers==0.20.3
+# Analysis and plotting
+numpy
+pandas
+matplotlib
+nltk

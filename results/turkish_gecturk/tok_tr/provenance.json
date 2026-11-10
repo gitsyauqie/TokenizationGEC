@@ -1,0 +1,105 @@
+{
+  "script_sha256": "88a583d8a7e00cba4a4a76593f899b9697bba7b2171a9ba9be01986860ee514a",
+  "tokenizer_sha256": {
+    "spbpe_5k": "8b773fbd3bea369a35b003ce841d170f9101b6c3597a9c226a1ac2ca1c15ec0d",
+    "spbpe_20k": "1c7aacb0cbc086ce24633383129308a082402b77509dcb5f1829984e0d954d92",
+    "wp_5k": "76a46fcbf2e3025f652fa414b640c8b8bfd2fd042e9d18f269c8d757e504f708",
+    "wp_20k": "1aa831c7fd34a6e356dbcdb20fb8885c038db124170cd18ac49e5a61f193e279",
+    "spuni_5k": "432bb68684e74378a01345ce26a5581c3cff2682cdb697fca5843230c9de34e6",
+    "spuni_20k": "2715481a9891f308cbf6091140656b18fdf88f6027868fd3462fe76a15ee1b97"
+  },
+  "test_source_sha256": "421eae3e9d0ec05e7e175344c61b908d2985c1d1add3af4d008fb127283c35fe",
+  "test_target_sha256": "ca24884d3a334c0cafe0b2c0af5326e88ad8c9531115f5980bf61a0f216c9ff4",
+  "gate": "Concatenated per-word segmentation equals sentence segmentation on ~3000 sampled sentences (source and target).",
+  "gate_results": {
+    "spbpe_5k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "spbpe_20k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "wp_5k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "wp_20k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 0,
+      "examples": []
+    },
+    "spuni_5k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 2,
+      "examples": [
+        {
+          "id": 2136,
+          "side": "source",
+          "word_level": [
+            "i",
+            "\u258130",
+            "\u2581.",
+            "\u2581",
+            "0",
+            "00",
+            "\u2581",
+            "TL",
+            "mi",
+            "\u2581oluyor"
+          ],
+          "sentence_level": [
+            "i",
+            "\u258130",
+            "\u2581.",
+            "\u2581",
+            "00",
+            "0",
+            "\u2581",
+            "TL",
+            "mi",
+            "\u2581oluyor"
+          ]
+        },
+        {
+          "id": 2136,
+          "side": "target",
+          "word_level": [
+            "i",
+            "\u258130",
+            "\u2581.",
+            "\u2581",
+            "0",
+            "00",
+            "\u2581",
+            "TL",
+            "\u2581mi",
+            "\u2581oluyor"
+          ],
+          "sentence_level": [
+            "i",
+            "\u258130",
+            "\u2581.",
+            "\u2581",
+            "00",
+            "0",
+            "\u2581",
+            "TL",
+            "\u2581mi",
+            "\u2581oluyor"
+          ]
+        }
+      ]
+    },
+    "spuni_20k": {
+      "checked_lines": 6924,
+      "mismatched_lines": 0,
+      "examples": []
+    }
+  },
+  "max_mismatch_rate": 0.001,
+  "substitutions": "Merged gold edits spanning one source word and one replacement word (M4 alignment)."
+}

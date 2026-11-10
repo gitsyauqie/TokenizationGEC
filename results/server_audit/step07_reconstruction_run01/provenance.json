@@ -1,0 +1,23 @@
+{
+  "script_sha256": "65b127fe2c029f37d3645936c68d2dca7f056e45e0bb3c8112a1f39d2aa898d1",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "manifest_sha256": "89102aed276e4e63c1743dc9a89f0e7718615b758d5a63d2a71dea127472ddb1",
+  "verification_sha256": "501b519df2bdd12da7dd70ec9629e7705a7930c2ce16089d1462a5927cdebc84",
+  "prior_provenance_sha256": "a9969e1f0f4a5ab665ae6b08396d14099535e5dca9aac8cf6343576700c57761",
+  "raw_sha256": {
+    "source": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+    "target": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+    "category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+  },
+  "python": "3.8.20 (default, Oct  3 2024, 15:24:27) \n[GCC 11.2.0]",
+  "sacrebleu": "1.5.1",
+  "case": "lower",
+  "surface_rule": "[^\\W_]+|[^\\w\\s]|_",
+  "metrics": {
+    "chrF2": "char order 6, beta 2, remove whitespace, corpus aggregation, 1.5.1 score multiplied by 100",
+    "BLEU": "common surface tokens, tokenize none, exp smoothing, effective_order false, corpus aggregation",
+    "exact_match": "same common surface tokens; NOT byte-identical raw strings"
+  },
+  "policy": "Full original test, single raw reference, no row exclusions, NFKC/accent removal, unknown repair or category remapping. Higher is better. Not edit-based GEC F0.5.",
+  "remaining_limits": "Reference quality, non-identical training/checkpoint protocols, incomplete sweep, overlap and historical generator provenance remain unresolved."
+}

@@ -1,0 +1,97 @@
+[
+  {
+    "run_id": "bpe_20k",
+    "status": "SCORED",
+    "generation_sha256": "13708ea8a75640c00ab68696e2e58c56ae78a090bbf1975beef69be1cbabbe00"
+  },
+  {
+    "run_id": "bpe_30k",
+    "status": "SCORED",
+    "generation_sha256": "d49e190b4a0480912a79624a9572de5ffb48b2c693ab0740a3539e2b71253697"
+  },
+  {
+    "run_id": "bpe_30k_seed1",
+    "status": "SCORED",
+    "generation_sha256": "cf3cd511604ce5be953645c5db56ca54a97f6f3a8c32b1d4f82782397f98684c"
+  },
+  {
+    "run_id": "bpe_30k_seed2",
+    "status": "SCORED",
+    "generation_sha256": "a5701177eb4b9cf80cd60317a3dbd0baedbe3d2fde0378f0f82116a5a1a6e8f8"
+  },
+  {
+    "run_id": "bpe_30k_seed3",
+    "status": "SCORED",
+    "generation_sha256": "cb9cc455ad235016a9193561ebf10dd5fe3b68d6865aa189fb1e9b94a3194a84"
+  },
+  {
+    "run_id": "bpe_5k",
+    "status": "BLOCKED",
+    "reason": "Not verified at Step02: ValueError: /ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/tokensweep/gen/bpe_5k.out: S coverage mismatch; expected=134025, actual=134024, missing=[1589], extra=[]"
+  },
+  {
+    "run_id": "legacy_bpe",
+    "status": "BLOCKED",
+    "reason": "Not verified at Step02: ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "legacy_unigram",
+    "status": "BLOCKED",
+    "reason": "Not verified at Step02: ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "legacy_wordpiece",
+    "status": "BLOCKED",
+    "reason": "Not verified at Step02: ValueError: Legacy tokenizer provenance not established; kept separate"
+  },
+  {
+    "run_id": "uni_20k",
+    "status": "SCORED",
+    "generation_sha256": "14f323ca09178683865d992710ffae3a889a6e9b4378b276264d94dc48b5a710"
+  },
+  {
+    "run_id": "uni_30k",
+    "status": "SCORED",
+    "generation_sha256": "3cd4da9e719babf9a23023a761589c9cb2851426c3e16d3ffa57e70c3d66fa03"
+  },
+  {
+    "run_id": "uni_5k",
+    "status": "SCORED",
+    "generation_sha256": "1f1d51e323b384b236b66a39bcea331732aa163aa8cc71f6851eabbad6576ab3"
+  },
+  {
+    "run_id": "wp_10k",
+    "status": "SCORED",
+    "generation_sha256": "de8e3df99e49423c698a909ef083f41a59da39f5b5615161a16f0ddd25a50f37"
+  },
+  {
+    "run_id": "wp_20k",
+    "status": "SCORED",
+    "generation_sha256": "797eeec36a1d62794a167796a592dcf71f0378b03f788c38ea0a1257bd47613f"
+  },
+  {
+    "run_id": "wp_30k",
+    "status": "SCORED",
+    "generation_sha256": "99bf34ed6726c6d15757d90438217c4718950a8060e8af3d1bcd2eb735f31fd6"
+  },
+  {
+    "run_id": "wp_5k",
+    "status": "SCORED",
+    "generation_sha256": "b161ace289edca2c75802de95ba813bc0e6bf12c0e2094d1c9d0071b77638008"
+  },
+  {
+    "run_id": "wp_5k_seed1",
+    "status": "SCORED",
+    "generation_sha256": "fb5b884adb8cec33224b8ed69f9c1b99d3cee2d3d8bd4e5d8cfdc8f30c659d9e"
+  },
+  {
+    "run_id": "wp_5k_seed2",
+    "status": "SCORED",
+    "generation_sha256": "f56b1af3a88b5181169355c62b74e219e96c966ba70c7db92d7f21afcd20f96e"
+  },
+  {
+    "run_id": "wp_5k_seed3",
+    "status": "SCORED",
+    "generation_sha256": "79e013321cd765dac30cd78172a55830145baf2c9a636b3ca5b8155e7da79f41"
+  }
+]

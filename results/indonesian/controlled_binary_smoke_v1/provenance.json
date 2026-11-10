@@ -1,0 +1,19 @@
+{
+  "script_sha256": "2221c1ce653343e51ee497f6f62396feb5dca42e3255f8a3193310e8d35cea8e",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "prepared": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v2",
+  "data_manifest_sha256": "ade85a22d821a1448a3d42a0825b580bb98eec7863007426aef8fa1f490baf16",
+  "tokenizer_manifest_sha256": "b53e26821a67841fd4887d70812977003c4a62c93e0bdf1852d470c9e95970f6",
+  "fairseq": "0.10.2",
+  "torch": "2.4.1+cu121",
+  "gpu": {
+    "physical_id": "0",
+    "name": "NVIDIA GeForce RTX 3090",
+    "total_memory": 25430786048
+  },
+  "cpu_only": false,
+  "max_positions": 4096,
+  "parameters_equal_within_vocab": true,
+  "all_six_completed": true,
+  "scope": "No test or full training. AMP PyTorch3-batch smoke is not the Fairseq full trainer/memory-efficient-fp16 validation. No model checkpoints saved. Sparse binary content checks + full length totals, not a full content equality proof."
+}

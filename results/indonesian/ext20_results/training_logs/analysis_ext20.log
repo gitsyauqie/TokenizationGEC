@@ -1,0 +1,123 @@
+Inputs verified: 19 systems x 134025 rows
+Statistics: spbpe_5k_seed42
+Statistics: spbpe_5k_seed43
+Statistics: spbpe_5k_seed44
+Statistics: spbpe_20k_seed42
+Statistics: spbpe_20k_seed43
+Statistics: spbpe_20k_seed44
+Statistics: wp_5k_seed42
+Statistics: wp_5k_seed43
+Statistics: wp_5k_seed44
+Statistics: wp_20k_seed42
+Statistics: wp_20k_seed43
+Statistics: wp_20k_seed44
+Statistics: spuni_5k_seed42
+Statistics: spuni_5k_seed43
+Statistics: spuni_5k_seed44
+Statistics: spuni_20k_seed42
+Statistics: spuni_20k_seed43
+Statistics: spuni_20k_seed44
+Reproduction gate passed: all overall and category scores match stored values
+Stratified bootstrap 100/2000
+Stratified bootstrap 200/2000
+Stratified bootstrap 300/2000
+Stratified bootstrap 400/2000
+Stratified bootstrap 500/2000
+Stratified bootstrap 600/2000
+Stratified bootstrap 700/2000
+Stratified bootstrap 800/2000
+Stratified bootstrap 900/2000
+Stratified bootstrap 1000/2000
+Stratified bootstrap 1100/2000
+Stratified bootstrap 1200/2000
+Stratified bootstrap 1300/2000
+Stratified bootstrap 1400/2000
+Stratified bootstrap 1500/2000
+Stratified bootstrap 1600/2000
+Stratified bootstrap 1700/2000
+Stratified bootstrap 1800/2000
+Stratified bootstrap 1900/2000
+Stratified bootstrap 2000/2000
+Cluster bootstrap 100/2000
+Cluster bootstrap 200/2000
+Cluster bootstrap 300/2000
+Cluster bootstrap 400/2000
+Cluster bootstrap 500/2000
+Cluster bootstrap 600/2000
+Cluster bootstrap 700/2000
+Cluster bootstrap 800/2000
+Cluster bootstrap 900/2000
+Cluster bootstrap 1000/2000
+Cluster bootstrap 1100/2000
+Cluster bootstrap 1200/2000
+Cluster bootstrap 1300/2000
+Cluster bootstrap 1400/2000
+Cluster bootstrap 1500/2000
+Cluster bootstrap 1600/2000
+Cluster bootstrap 1700/2000
+Cluster bootstrap 1800/2000
+Cluster bootstrap 1900/2000
+Cluster bootstrap 2000/2000
+Approximate randomization spbpe_5k vs spbpe_20k
+Approximate randomization wp_5k vs wp_20k
+Approximate randomization spuni_5k vs spuni_20k
+Approximate randomization spbpe_5k vs wp_5k
+Approximate randomization spbpe_5k vs spuni_5k
+Approximate randomization wp_5k vs spuni_5k
+Approximate randomization spbpe_20k vs wp_20k
+Approximate randomization spbpe_20k vs spuni_20k
+Approximate randomization wp_20k vs spuni_20k
+DONE in 7.2 min -> /ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/paired_stats_ext20/REPORT.md
+Inputs verified: 20 systems x 134025 rows
+Gold edits (source -> reference)
+Statistics: COPY_INPUT
+Statistics: REFERENCE_ORACLE
+Statistics: spbpe_5k_seed42
+Statistics: spbpe_5k_seed43
+Statistics: spbpe_5k_seed44
+Statistics: spbpe_20k_seed42
+Statistics: spbpe_20k_seed43
+Statistics: spbpe_20k_seed44
+Statistics: wp_5k_seed42
+Statistics: wp_5k_seed43
+Statistics: wp_5k_seed44
+Statistics: wp_20k_seed42
+Statistics: wp_20k_seed43
+Statistics: wp_20k_seed44
+Statistics: spuni_5k_seed42
+Statistics: spuni_5k_seed43
+Statistics: spuni_5k_seed44
+Statistics: spuni_20k_seed42
+Statistics: spuni_20k_seed43
+Statistics: spuni_20k_seed44
+Sanity gates passed (oracle F0.5 = GLEU = 100; COPY proposes no edits)
+Bootstrap 100/2000
+Bootstrap 200/2000
+Bootstrap 300/2000
+Bootstrap 400/2000
+Bootstrap 500/2000
+Bootstrap 600/2000
+Bootstrap 700/2000
+Bootstrap 800/2000
+Bootstrap 900/2000
+Bootstrap 1000/2000
+Bootstrap 1100/2000
+Bootstrap 1200/2000
+Bootstrap 1300/2000
+Bootstrap 1400/2000
+Bootstrap 1500/2000
+Bootstrap 1600/2000
+Bootstrap 1700/2000
+Bootstrap 1800/2000
+Bootstrap 1900/2000
+Bootstrap 2000/2000
+Approximate randomization spbpe_5k vs spbpe_20k
+Approximate randomization wp_5k vs wp_20k
+Approximate randomization spuni_5k vs spuni_20k
+Approximate randomization spbpe_5k vs wp_5k
+Approximate randomization spbpe_5k vs spuni_5k
+Approximate randomization wp_5k vs spuni_5k
+Approximate randomization spbpe_20k vs wp_20k
+Approximate randomization spbpe_20k vs spuni_20k
+Approximate randomization wp_20k vs spuni_20k
+DONE in 6.0 min -> /ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/gec_metrics_ext20/REPORT.md

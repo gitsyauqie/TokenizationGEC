@@ -1,0 +1,15 @@
+{
+  "script_sha256": "5c44d76f3aea136436e8d0f96cc56acda0d5f5929af3ff31fe20dd247fced08a",
+  "tokenizer_sha256": {
+    "spbpe_5k": "c0022476ffe0ade4e69f1213a367ebf5a52131be62d87e56e8aa730f3de449a0",
+    "spbpe_20k": "0a1108152274be1e328301e544f10ad0ec794429b60647933f5accd24ed262c9",
+    "wp_5k": "e77984cf5f1e8f3b22a05e193ee4f5e1408c0804486497b2dc72eb75442500c5",
+    "wp_20k": "9e838b038da8c8c5f9b59d946769cd47ea480a9d741519342394a00004add26c",
+    "spuni_5k": "5e85ffd0de1ae2c06c901b3bdb84634d40a7b164d000757cfe661d492a6ad27c",
+    "spuni_20k": "ac63b827ca6a1ec1e07d34f8aa8c7453299a305cb40bca25f62f34e55f2d946b"
+  },
+  "test_source_sha256": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093",
+  "test_target_sha256": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1",
+  "gate": "Concatenated per-word segmentation equals sentence segmentation on ~3000 sampled sentences (source and target).",
+  "substitutions": "Merged gold edits spanning one source word and one replacement word (M4 alignment)."
+}

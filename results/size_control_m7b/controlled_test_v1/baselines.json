@@ -1,0 +1,190 @@
+{
+  "COPY_INPUT": {
+    "overall": {
+      "n": 134025,
+      "chrf2_pct": 90.0784625820025,
+      "bleu": 76.52121909222838,
+      "exact_match_pct": 0.42230927065845925
+    },
+    "categories": [
+      {
+        "category": "afiksasi",
+        "n": 26322,
+        "chrf2_pct": 84.28307687045795,
+        "bleu": 63.453309235439534,
+        "exact_match_pct": 0.22414710128409696
+      },
+      {
+        "category": "ambigu",
+        "n": 6603,
+        "chrf2_pct": 95.15333877333514,
+        "bleu": 90.38571794858338,
+        "exact_match_pct": 3.4075420263516585
+      },
+      {
+        "category": "ambigu_claude",
+        "n": 349,
+        "chrf2_pct": 92.76873689015672,
+        "bleu": 82.95225203800658,
+        "exact_match_pct": 0.0
+      },
+      {
+        "category": "diksi",
+        "n": 14123,
+        "chrf2_pct": 94.07260193405833,
+        "bleu": 89.65771009023,
+        "exact_match_pct": 0.0
+      },
+      {
+        "category": "diksi_claude",
+        "n": 349,
+        "chrf2_pct": 88.61089810815021,
+        "bleu": 59.15281816904289,
+        "exact_match_pct": 0.0
+      },
+      {
+        "category": "kelengkapan_kalimat",
+        "n": 15877,
+        "chrf2_pct": 92.97481009650966,
+        "bleu": 89.96251927748422,
+        "exact_match_pct": 0.0
+      },
+      {
+        "category": "pembentukan_kata",
+        "n": 16373,
+        "chrf2_pct": 86.22020323252829,
+        "bleu": 57.78187399076717,
+        "exact_match_pct": 0.07329139436877787
+      },
+      {
+        "category": "pleonasme",
+        "n": 2717,
+        "chrf2_pct": 96.9141828538265,
+        "bleu": 87.60531702538547,
+        "exact_match_pct": 0.0
+      },
+      {
+        "category": "pleonasme_claude",
+        "n": 350,
+        "chrf2_pct": 84.72324701905102,
+        "bleu": 74.91398151274413,
+        "exact_match_pct": 0.2857142857142857
+      },
+      {
+        "category": "preposisi",
+        "n": 16774,
+        "chrf2_pct": 93.13928877016852,
+        "bleu": 85.21374026572063,
+        "exact_match_pct": 1.1386669846190534
+      },
+      {
+        "category": "reduplikasi",
+        "n": 8927,
+        "chrf2_pct": 97.77925572516018,
+        "bleu": 85.03165955516364,
+        "exact_match_pct": 0.8737537806653971
+      },
+      {
+        "category": "sintaksis_frasa",
+        "n": 25261,
+        "chrf2_pct": 87.1592087652423,
+        "bleu": 66.90739690407172,
+        "exact_match_pct": 0.0
+      }
+    ]
+  },
+  "REFERENCE_ORACLE_SANITY": {
+    "overall": {
+      "n": 134025,
+      "chrf2_pct": 100.0,
+      "bleu": 100.00000000000004,
+      "exact_match_pct": 100.0
+    },
+    "categories": [
+      {
+        "category": "afiksasi",
+        "n": 26322,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "ambigu",
+        "n": 6603,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "ambigu_claude",
+        "n": 349,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "diksi",
+        "n": 14123,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "diksi_claude",
+        "n": 349,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "kelengkapan_kalimat",
+        "n": 15877,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "pembentukan_kata",
+        "n": 16373,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "pleonasme",
+        "n": 2717,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "pleonasme_claude",
+        "n": 350,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "preposisi",
+        "n": 16774,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "reduplikasi",
+        "n": 8927,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      },
+      {
+        "category": "sintaksis_frasa",
+        "n": 25261,
+        "chrf2_pct": 100.0,
+        "bleu": 100.00000000000004,
+        "exact_match_pct": 100.0
+      }
+    ]
+  }
+}

@@ -1,0 +1,344 @@
+{
+  "files": [
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Afiksasi.csv",
+      "bytes": 57481854,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Diksi.csv",
+      "bytes": 32820158,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/combined_160k.csv",
+      "bytes": 22876424,
+      "header": [
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/afiksasi.csv",
+      "bytes": 4002493,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/diksi.csv",
+      "bytes": 2282697,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_afiksasi.csv",
+      "bytes": 7730256,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_diksi_Claude.csv",
+      "bytes": 1008173,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_diksi_IndoBERT.csv",
+      "bytes": 994852,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_kelengkapan_kalimat.csv",
+      "bytes": 4452638,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_makna_ambigu_Claude.csv",
+      "bytes": 1022979,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_makna_ambigu_IndoBERT.csv",
+      "bytes": 614901,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_pembentukan_kata.csv",
+      "bytes": 5089626,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_pleonasme_Claude.csv",
+      "bytes": 1165188,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_pleonasme_IndoBERT.csv",
+      "bytes": 1071714,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_preposisi.csv",
+      "bytes": 5465768,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_reduplikasi.csv",
+      "bytes": 2912887,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/e_sintaksis_frasa.csv",
+      "bytes": 7303634,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/kelengkapan_kalimat.csv",
+      "bytes": 2291721,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/makna_ambigu.csv",
+      "bytes": 1983937,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/pembentukan_kata.csv",
+      "bytes": 2397536,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/pleonasme.csv",
+      "bytes": 1424586,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/preposisi.csv",
+      "bytes": 3227241,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/reduplikasi.csv",
+      "bytes": 1609139,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/IGED_thesis_dataset/subsets/sintaksis_frasa.csv",
+      "bytes": 3653212,
+      "header": [
+        "kalimat"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Kelengkapan kalimat.csv",
+      "bytes": 32850696,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Kesalahan frasa_struktur.csv",
+      "bytes": 52434723,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Makna ambigu.csv",
+      "bytes": 28637988,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Pembentukan kata.csv",
+      "bytes": 34427070,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Pleonasme.csv",
+      "bytes": 5342745,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Preposisi.csv",
+      "bytes": 45889211,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/Reduplikasi.csv",
+      "bytes": 22931732,
+      "header": [
+        "kalimat",
+        "kategori",
+        "sumber",
+        "judul",
+        "tanggal"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_afiksasi.csv",
+      "bytes": 72778230,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_ambigu.csv",
+      "bytes": 24391726,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_diksi.csv",
+      "bytes": 42150476,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_kelengkapan_kalimat.csv",
+      "bytes": 42459660,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_pembentukan_kata.csv",
+      "bytes": 47834426,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_pleonasme.csv",
+      "bytes": 7507580,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_preposisi.csv",
+      "bytes": 51814634,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_reduplikasi.csv",
+      "bytes": 27561500,
+      "header": [
+        "src",
+        "trg"
+      ]
+    },
+    {
+      "path": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/error_categories/e_sintaksis_frasa.csv",
+      "bytes": 68854455,
+      "header": [
+        "src",
+        "trg"
+      ]
+    }
+  ],
+  "candidates_found": 40,
+  "inspected_limit": 100,
+  "note": "CSV headers only, selected directories only; absence does not prove no edit metadata exists."
+}

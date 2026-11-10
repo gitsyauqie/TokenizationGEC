@@ -1,0 +1,22 @@
+{
+  "script_sha256": "f279cc7bbd86d142f0125e9bcc047b67cd06481afe9992aaf6bfd5aef57b204f",
+  "manifest_sha256": "89102aed276e4e63c1743dc9a89f0e7718615b758d5a63d2a71dea127472ddb1",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "diagnosis_sha256": "8edf77ce2b207033f216f01654d7889c53786a42c3f5be110db48d9a7406836f",
+  "inventory_sha256": "ecbc8b0b2fd705b9479644bcb0dc4eb17964601130ae813644a0043b86577961",
+  "raw_sha256": {
+    "source": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+    "target": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+    "category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+  },
+  "packages": {
+    "fairseq": "0.10.2",
+    "torch": "2.4.1",
+    "subword-nmt": "0.3.8",
+    "sentencepiece": "0.2.0",
+    "tokenizers": "0.20.3"
+  },
+  "case": "lower",
+  "surface_rule": "[^\\W_]+|[^\\w\\s]|_",
+  "policy": "Raw gold retained; no NFKC/accent stripping or unknown repair for scoring. Each run scores all rows or none. Legacy/checkpoint/split confounds remain."
+}

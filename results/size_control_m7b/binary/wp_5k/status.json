@@ -1,0 +1,21 @@
+{
+  "tag": "wp_5k",
+  "parameters": 14135296,
+  "sha256": {
+    "dict.source.txt": "f72c61811d778579a373f4074c2ee2ace63cf5ffc7075d35c93ac17fbf265931",
+    "dict.target.txt": "f72c61811d778579a373f4074c2ee2ace63cf5ffc7075d35c93ac17fbf265931",
+    "preprocess.log": "579034a46421ce388c55c88efc4ee2de92793e252036117262247a3e91275b63",
+    "test.source-target.source.bin": "46c48afb9a3f9290d5ef7e761d94c8cdc384e4322e6b8d758f0042f4f2db2215",
+    "test.source-target.source.idx": "0d5a6c33f32fd59fdd1763851bdc30677f167eb93a792b198365826f688b64fc",
+    "test.source-target.target.bin": "6348c5d1b9afaa2587039e5528e6e46cadad1a4f39ca195950dd9a5df86929dd",
+    "test.source-target.target.idx": "8057a90e06d625d93b6ca1caed29e218149add3b12e329bc12856e66b5141894",
+    "train.source-target.source.bin": "788e8bca879587280453d27e33d5daf7da0b8bfcd0c3f5f73e6f848c305292ec",
+    "train.source-target.source.idx": "d83fa83feecfd0b3fdf0a2f640c554ec2f0144bd8f08cac851d6cad3f24754b2",
+    "train.source-target.target.bin": "e3dffb5c03de1f1d2a1d698ae84fedcc4e29d0de80e521281017f62a5a3f7542",
+    "train.source-target.target.idx": "20da55296581227c2b7ba3c69c01e9efa6f1969760a2083af73543960726b839",
+    "valid.source-target.source.bin": "4b6685055bc6ee84c63360dd577676b3a984af9f9a1f672b0449f586de3d0904",
+    "valid.source-target.source.idx": "b563d01a40f9a929be5ff2b8ea4727e634a26f15c9504382c59563ed57397cb5",
+    "valid.source-target.target.bin": "7242dd9f4480760fdc6b57cd2950f0aa77ee130cd39c1c405710f0a411f6085d",
+    "valid.source-target.target.idx": "91d561d9054262e83c59e520ee48e6693f1332ffd570c746a082da128abf0465"
+  }
+}

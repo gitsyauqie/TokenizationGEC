@@ -1,0 +1,594 @@
+{
+  "normalization": "collapse whitespace; preserve case and Unicode",
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50",
+  "script_sha256": "3c9a7be7766a556bd19983b5da24be8bed0a6ef13c0a9938103c9d08ba740b42",
+  "warning": "No document provenance; exact-overlap-free is not leakage-free.",
+  "splits": {
+    "train": {
+      "n": 1072192,
+      "affected_rows": {
+        "any_flag": 281,
+        "duplicate_pair_after_first_in_split": 281
+      },
+      "affected_row_percent": {
+        "any_flag": 0.026207992598340595,
+        "duplicate_pair_after_first_in_split": 0.026207992598340595
+      },
+      "categories": {
+        "sintaksis_frasa": 202086,
+        "diksi": 112979,
+        "preposisi": 134188,
+        "ambigu": 52830,
+        "reduplikasi": 71413,
+        "afiksasi": 210574,
+        "pembentukan_kata": 130980,
+        "pleonasme": 21740,
+        "kelengkapan_kalimat": 127013,
+        "pleonasme_claude": 2800,
+        "ambigu_claude": 2791,
+        "diksi_claude": 2798
+      },
+      "unchanged_by_category": {
+        "sintaksis_frasa": 6,
+        "diksi": 0,
+        "preposisi": 1467,
+        "ambigu": 1664,
+        "reduplikasi": 475,
+        "afiksasi": 499,
+        "pembentukan_kata": 93,
+        "pleonasme": 0,
+        "kelengkapan_kalimat": 0,
+        "pleonasme_claude": 3,
+        "ambigu_claude": 0,
+        "diksi_claude": 0
+      },
+      "by_category_and_flag": [
+        {
+          "category": "afiksasi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 131
+        },
+        {
+          "category": "ambigu",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 1
+        },
+        {
+          "category": "ambigu_claude",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 1
+        },
+        {
+          "category": "diksi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 2
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 98
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 10
+        },
+        {
+          "category": "pleonasme",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 2
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 3
+        },
+        {
+          "category": "preposisi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 29
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 3
+        },
+        {
+          "category": "sintaksis_frasa",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 1
+        }
+      ]
+    },
+    "valid": {
+      "n": 134024,
+      "affected_rows": {
+        "any_flag": 2717,
+        "target_in_train": 2707,
+        "source_in_train": 64,
+        "pair_in_train": 53,
+        "duplicate_pair_after_first_in_split": 6
+      },
+      "affected_row_percent": {
+        "any_flag": 2.027248850952068,
+        "target_in_train": 2.0197875007461352,
+        "source_in_train": 0.0477526413179729,
+        "pair_in_train": 0.03954515609144631,
+        "duplicate_pair_after_first_in_split": 0.0044768101235599595
+      },
+      "categories": {
+        "preposisi": 16773,
+        "sintaksis_frasa": 25261,
+        "pembentukan_kata": 16372,
+        "ambigu": 6604,
+        "kelengkapan_kalimat": 15876,
+        "afiksasi": 26322,
+        "diksi_claude": 350,
+        "reduplikasi": 8927,
+        "diksi": 14122,
+        "pleonasme": 2718,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349
+      },
+      "unchanged_by_category": {
+        "preposisi": 185,
+        "sintaksis_frasa": 1,
+        "pembentukan_kata": 16,
+        "ambigu": 222,
+        "kelengkapan_kalimat": 0,
+        "afiksasi": 52,
+        "diksi_claude": 0,
+        "reduplikasi": 80,
+        "diksi": 0,
+        "pleonasme": 0,
+        "pleonasme_claude": 1,
+        "ambigu_claude": 0
+      },
+      "by_category_and_flag": [
+        {
+          "category": "afiksasi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 1
+        },
+        {
+          "category": "afiksasi",
+          "flag": "pair_in_train",
+          "n": 21
+        },
+        {
+          "category": "afiksasi",
+          "flag": "source_in_train",
+          "n": 21
+        },
+        {
+          "category": "afiksasi",
+          "flag": "target_in_train",
+          "n": 356
+        },
+        {
+          "category": "ambigu",
+          "flag": "target_in_train",
+          "n": 10
+        },
+        {
+          "category": "ambigu_claude",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "ambigu_claude",
+          "flag": "source_in_train",
+          "n": 1
+        },
+        {
+          "category": "ambigu_claude",
+          "flag": "target_in_train",
+          "n": 43
+        },
+        {
+          "category": "diksi",
+          "flag": "target_in_train",
+          "n": 316
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "source_in_train",
+          "n": 1
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "target_in_train",
+          "n": 286
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 4
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "pair_in_train",
+          "n": 18
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "source_in_train",
+          "n": 28
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "target_in_train",
+          "n": 207
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "pair_in_train",
+          "n": 3
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "source_in_train",
+          "n": 3
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "target_in_train",
+          "n": 219
+        },
+        {
+          "category": "pleonasme",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "pleonasme",
+          "flag": "source_in_train",
+          "n": 1
+        },
+        {
+          "category": "pleonasme",
+          "flag": "target_in_train",
+          "n": 281
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "source_in_train",
+          "n": 2
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "target_in_train",
+          "n": 279
+        },
+        {
+          "category": "preposisi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 1
+        },
+        {
+          "category": "preposisi",
+          "flag": "pair_in_train",
+          "n": 5
+        },
+        {
+          "category": "preposisi",
+          "flag": "source_in_train",
+          "n": 5
+        },
+        {
+          "category": "preposisi",
+          "flag": "target_in_train",
+          "n": 249
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "pair_in_train",
+          "n": 2
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "source_in_train",
+          "n": 2
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "target_in_train",
+          "n": 126
+        },
+        {
+          "category": "sintaksis_frasa",
+          "flag": "target_in_train",
+          "n": 335
+        }
+      ]
+    },
+    "test": {
+      "n": 134025,
+      "affected_rows": {
+        "any_flag": 2991,
+        "target_in_train": 2721,
+        "target_in_valid": 395,
+        "source_in_train": 63,
+        "pair_in_train": 57,
+        "source_in_valid": 15,
+        "pair_in_valid": 14,
+        "duplicate_pair_after_first_in_split": 5
+      },
+      "affected_row_percent": {
+        "any_flag": 2.2316731952993845,
+        "target_in_train": 2.030218242865137,
+        "target_in_valid": 0.29472113411676926,
+        "source_in_train": 0.047006155567991044,
+        "pair_in_train": 0.042529378847229994,
+        "source_in_valid": 0.01119194180190263,
+        "pair_in_valid": 0.010445812348442454,
+        "duplicate_pair_after_first_in_split": 0.003730647267300877
+      },
+      "categories": {
+        "sintaksis_frasa": 25261,
+        "preposisi": 16774,
+        "kelengkapan_kalimat": 15877,
+        "diksi": 14123,
+        "pleonasme": 2717,
+        "afiksasi": 26322,
+        "pembentukan_kata": 16373,
+        "ambigu": 6603,
+        "reduplikasi": 8927,
+        "pleonasme_claude": 350,
+        "ambigu_claude": 349,
+        "diksi_claude": 349
+      },
+      "unchanged_by_category": {
+        "sintaksis_frasa": 0,
+        "preposisi": 191,
+        "kelengkapan_kalimat": 0,
+        "diksi": 0,
+        "pleonasme": 0,
+        "afiksasi": 59,
+        "pembentukan_kata": 12,
+        "ambigu": 221,
+        "reduplikasi": 78,
+        "pleonasme_claude": 1,
+        "ambigu_claude": 0,
+        "diksi_claude": 0
+      },
+      "by_category_and_flag": [
+        {
+          "category": "afiksasi",
+          "flag": "pair_in_train",
+          "n": 24
+        },
+        {
+          "category": "afiksasi",
+          "flag": "pair_in_valid",
+          "n": 4
+        },
+        {
+          "category": "afiksasi",
+          "flag": "source_in_train",
+          "n": 24
+        },
+        {
+          "category": "afiksasi",
+          "flag": "source_in_valid",
+          "n": 4
+        },
+        {
+          "category": "afiksasi",
+          "flag": "target_in_train",
+          "n": 340
+        },
+        {
+          "category": "afiksasi",
+          "flag": "target_in_valid",
+          "n": 37
+        },
+        {
+          "category": "ambigu",
+          "flag": "target_in_train",
+          "n": 16
+        },
+        {
+          "category": "ambigu",
+          "flag": "target_in_valid",
+          "n": 1
+        },
+        {
+          "category": "ambigu_claude",
+          "flag": "target_in_train",
+          "n": 40
+        },
+        {
+          "category": "diksi",
+          "flag": "target_in_train",
+          "n": 288
+        },
+        {
+          "category": "diksi",
+          "flag": "target_in_valid",
+          "n": 47
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "source_in_train",
+          "n": 1
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "target_in_train",
+          "n": 284
+        },
+        {
+          "category": "diksi_claude",
+          "flag": "target_in_valid",
+          "n": 49
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 3
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "pair_in_train",
+          "n": 22
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "pair_in_valid",
+          "n": 4
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "source_in_train",
+          "n": 28
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "source_in_valid",
+          "n": 5
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "target_in_train",
+          "n": 203
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "flag": "target_in_valid",
+          "n": 40
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "pair_in_train",
+          "n": 3
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "pair_in_valid",
+          "n": 1
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "source_in_train",
+          "n": 3
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "source_in_valid",
+          "n": 1
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "target_in_train",
+          "n": 236
+        },
+        {
+          "category": "pembentukan_kata",
+          "flag": "target_in_valid",
+          "n": 29
+        },
+        {
+          "category": "pleonasme",
+          "flag": "pair_in_train",
+          "n": 1
+        },
+        {
+          "category": "pleonasme",
+          "flag": "source_in_train",
+          "n": 1
+        },
+        {
+          "category": "pleonasme",
+          "flag": "target_in_train",
+          "n": 313
+        },
+        {
+          "category": "pleonasme",
+          "flag": "target_in_valid",
+          "n": 44
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "target_in_train",
+          "n": 291
+        },
+        {
+          "category": "pleonasme_claude",
+          "flag": "target_in_valid",
+          "n": 33
+        },
+        {
+          "category": "preposisi",
+          "flag": "duplicate_pair_after_first_in_split",
+          "n": 2
+        },
+        {
+          "category": "preposisi",
+          "flag": "pair_in_train",
+          "n": 6
+        },
+        {
+          "category": "preposisi",
+          "flag": "pair_in_valid",
+          "n": 5
+        },
+        {
+          "category": "preposisi",
+          "flag": "source_in_train",
+          "n": 6
+        },
+        {
+          "category": "preposisi",
+          "flag": "source_in_valid",
+          "n": 5
+        },
+        {
+          "category": "preposisi",
+          "flag": "target_in_train",
+          "n": 231
+        },
+        {
+          "category": "preposisi",
+          "flag": "target_in_valid",
+          "n": 43
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "target_in_train",
+          "n": 138
+        },
+        {
+          "category": "reduplikasi",
+          "flag": "target_in_valid",
+          "n": 20
+        },
+        {
+          "category": "sintaksis_frasa",
+          "flag": "target_in_train",
+          "n": 341
+        },
+        {
+          "category": "sintaksis_frasa",
+          "flag": "target_in_valid",
+          "n": 52
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,988 @@
+{
+  "tag": "spbpe_20k",
+  "seed": 44,
+  "status": "COMPLETE",
+  "history": [
+    {
+      "epoch": 1,
+      "n": 134023,
+      "chrf2_pct": 91.93573901540908,
+      "bleu": 83.8462509439415,
+      "exact_match_pct": 17.723077382240362,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 93.05724238464673,
+          "bleu": 84.596773820116,
+          "exact_match_pct": 27.919610971810652
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 93.50707504721849,
+          "bleu": 87.76599106144819,
+          "exact_match_pct": 16.474863718958208
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 91.69905412550547,
+          "bleu": 80.2055901461634,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 91.66026129780802,
+          "bleu": 85.35496916306006,
+          "exact_match_pct": 0.4107066987678799
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.07720981338605,
+          "bleu": 57.810188566739406,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 90.89297688994041,
+          "bleu": 86.03042853648647,
+          "exact_match_pct": 2.752582514487276
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 92.09470083058152,
+          "bleu": 83.42028004086816,
+          "exact_match_pct": 22.434644515025653
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 96.3775521379702,
+          "bleu": 92.1166355122424,
+          "exact_match_pct": 48.93303899926416
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.11096678997069,
+          "bleu": 72.73789622801556,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 92.78852200521108,
+          "bleu": 85.8243206335421,
+          "exact_match_pct": 20.723782269122996
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 97.08917700736168,
+          "bleu": 93.82567283543055,
+          "exact_match_pct": 60.23300100817744
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 87.98898874480405,
+          "bleu": 73.3626285746948,
+          "exact_match_pct": 3.816159296939947
+        }
+      ],
+      "generation_sha256": "2dfc3b74ac43052be044534cb5a0813316eb3448e1cbc5b9bd35aabc5ecf98eb",
+      "checkpoint_sha256": "480a53a62d45614212fdae19880d319fdcda9e5d61891df6c85e4dbd972dbbc0",
+      "train_seconds": 810.7459296416491,
+      "validation_and_overhead_seconds": 2455.0850674863905
+    },
+    {
+      "epoch": 2,
+      "n": 134023,
+      "chrf2_pct": 94.25068402924323,
+      "bleu": 88.16974825496659,
+      "exact_match_pct": 27.093110883952754,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 95.75470903338557,
+          "bleu": 89.66636701846171,
+          "exact_match_pct": 40.468049540308485
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 95.58113082894806,
+          "bleu": 91.5196969396686,
+          "exact_match_pct": 28.36159903089037
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.19922753373243,
+          "bleu": 81.19108839791306,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 92.77852918451785,
+          "bleu": 87.26761073757993,
+          "exact_match_pct": 0.8851437473445688
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.50688866533406,
+          "bleu": 58.80922608086851,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 91.9309769432549,
+          "bleu": 87.94254422353939,
+          "exact_match_pct": 4.377676996724616
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 96.02123386027782,
+          "bleu": 90.63666146340059,
+          "exact_match_pct": 41.668702663083316
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 98.37852269524267,
+          "bleu": 96.4867013125402,
+          "exact_match_pct": 73.76747608535688
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.51690650332263,
+          "bleu": 73.80414890566857,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 94.75708404100536,
+          "bleu": 89.51398465923586,
+          "exact_match_pct": 29.45805759255947
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.23341750553305,
+          "bleu": 95.87350929206514,
+          "exact_match_pct": 70.02352414024868
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 91.23087783016098,
+          "bleu": 79.7677313496029,
+          "exact_match_pct": 11.662246150191995
+        }
+      ],
+      "generation_sha256": "65cff52e3d9b72a43b65afc8c5ff3fcdc003d49522ab461c5dd33a62f0b9b185",
+      "checkpoint_sha256": "3faa54d358f5b892a8167ef6285897ef750a0e553e6ddba8fb7d4d93eacf6a58",
+      "train_seconds": 836.8529723230749,
+      "validation_and_overhead_seconds": 2303.0785869080573
+    },
+    {
+      "epoch": 3,
+      "n": 134023,
+      "chrf2_pct": 94.800135975299,
+      "bleu": 89.44950282615375,
+      "exact_match_pct": 31.332681703886646,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 96.49264584570996,
+          "bleu": 91.51864262731253,
+          "exact_match_pct": 47.150672441303854
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 95.85282796869551,
+          "bleu": 91.93957889892978,
+          "exact_match_pct": 29.663840096910963
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 91.9226385964517,
+          "bleu": 80.91263198024744,
+          "exact_match_pct": 1.7191977077363896
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 92.91172859961262,
+          "bleu": 87.48043618873828,
+          "exact_match_pct": 1.0338478968984564
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.98936481398177,
+          "bleu": 61.422833774731814,
+          "exact_match_pct": 0.2857142857142857
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.10929107480851,
+          "bleu": 88.17251755580432,
+          "exact_match_pct": 5.7697152935248175
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 96.57998453445674,
+          "bleu": 92.20124655657929,
+          "exact_match_pct": 48.27754703151722
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 98.7966218558237,
+          "bleu": 97.2971412837163,
+          "exact_match_pct": 81.01545253863135
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.25826122658006,
+          "bleu": 73.09101502679128,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.02519439459725,
+          "bleu": 90.02808897480212,
+          "exact_match_pct": 30.716031717641446
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.49500270589535,
+          "bleu": 96.37403619380957,
+          "exact_match_pct": 73.31690377506442
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 92.49065556474457,
+          "bleu": 82.82946708944112,
+          "exact_match_pct": 18.803689481809904
+        }
+      ],
+      "generation_sha256": "5762f11d791a3b28dd5d4ed0ecf9770bfd57ea5da5177c3acdc7866bde74d34e",
+      "checkpoint_sha256": "445a1a0ab27ec3d3873de014813473ab347835814cf5cf1ec9f3c2dc7aaef1a0",
+      "train_seconds": 790.111268248409,
+      "validation_and_overhead_seconds": 2233.768117532134
+    },
+    {
+      "epoch": 4,
+      "n": 134023,
+      "chrf2_pct": 95.28696258266277,
+      "bleu": 90.32396208039286,
+      "exact_match_pct": 35.00294725532185,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.02425262264202,
+          "bleu": 92.47111255623825,
+          "exact_match_pct": 51.21951219512195
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.17113126897914,
+          "bleu": 92.57650187564428,
+          "exact_match_pct": 33.73712901271956
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.04766139555318,
+          "bleu": 80.91702378435664,
+          "exact_match_pct": 1.7191977077363896
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 93.00223840929873,
+          "bleu": 87.73539809541032,
+          "exact_match_pct": 1.6782325449653024
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.85962756802846,
+          "bleu": 61.15658715302053,
+          "exact_match_pct": 0.2857142857142857
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.36629340577677,
+          "bleu": 88.64546695546228,
+          "exact_match_pct": 7.898715041572184
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 97.51660957825354,
+          "bleu": 93.81478200829514,
+          "exact_match_pct": 56.022477400439776
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.05918557635228,
+          "bleu": 98.11497106583272,
+          "exact_match_pct": 86.05592347314202
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.38400954891036,
+          "bleu": 73.66581723659738,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.47638523407568,
+          "bleu": 90.95261538773217,
+          "exact_match_pct": 35.16961783819233
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.70056910365899,
+          "bleu": 96.87538238483204,
+          "exact_match_pct": 75.66931779993278
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 93.24301685734588,
+          "bleu": 84.0116136934119,
+          "exact_match_pct": 21.92312260005542
+        }
+      ],
+      "generation_sha256": "c4589d5ad23825aa4e7e00ce5003d80535a7b1f404308eee2beda55b3dc37498",
+      "checkpoint_sha256": "f0ef4300e70b07b47ff0a0ab7270965eb522ac8a2b12839056cd8347c164ae36",
+      "train_seconds": 796.1267798114568,
+      "validation_and_overhead_seconds": 2331.183068022132
+    },
+    {
+      "epoch": 5,
+      "n": 134023,
+      "chrf2_pct": 95.4364555182392,
+      "bleu": 90.67599623983409,
+      "exact_match_pct": 36.57282705207315,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.27236706792914,
+          "bleu": 93.01682186828425,
+          "exact_match_pct": 53.711724033128185
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.23248067573117,
+          "bleu": 92.62938300139204,
+          "exact_match_pct": 33.7976983646275
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 91.9854413962098,
+          "bleu": 81.99652865340724,
+          "exact_match_pct": 7.4498567335243555
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 93.03326314057612,
+          "bleu": 87.7267010177925,
+          "exact_match_pct": 1.7702874946891376
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.79463433915741,
+          "bleu": 63.29197588306771,
+          "exact_match_pct": 2.2857142857142856
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.3209406376654,
+          "bleu": 88.48431981138145,
+          "exact_match_pct": 7.816830435878055
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 97.65726806636754,
+          "bleu": 94.3570248179448,
+          "exact_match_pct": 59.32689958465673
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.16865366083876,
+          "bleu": 98.2381411755137,
+          "exact_match_pct": 87.04930095658572
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 83.8863853865908,
+          "bleu": 72.93570169085164,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.45309378399259,
+          "bleu": 90.85375216799471,
+          "exact_match_pct": 34.710546711977585
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.72348193049,
+          "bleu": 96.84450667498724,
+          "exact_match_pct": 76.30783017811135
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 93.70420834712898,
+          "bleu": 85.20054687453333,
+          "exact_match_pct": 25.36320810735917
+        }
+      ],
+      "generation_sha256": "c852ae993650441b259d666bee1c4a176e43564646257e675baace925178129d",
+      "checkpoint_sha256": "26a5b54231f21af45fb4ce136dfe817935c3cb34e05d2139517345977968c931",
+      "train_seconds": 783.6670825313777,
+      "validation_and_overhead_seconds": 2201.590111365542
+    },
+    {
+      "epoch": 6,
+      "n": 134023,
+      "chrf2_pct": 95.5927498886743,
+      "bleu": 90.99410003805737,
+      "exact_match_pct": 38.20239809584922,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.45323940211952,
+          "bleu": 93.39434421494647,
+          "exact_match_pct": 55.45551249905022
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.3523403646779,
+          "bleu": 92.84902000199642,
+          "exact_match_pct": 35.40278619018777
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.06412558178405,
+          "bleu": 82.95030769060604,
+          "exact_match_pct": 12.607449856733524
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 92.98348354919142,
+          "bleu": 87.6198776740941,
+          "exact_match_pct": 2.2093187933720437
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 88.97359130297906,
+          "bleu": 64.10836643251208,
+          "exact_match_pct": 2.857142857142857
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.31891922184487,
+          "bleu": 88.50023039587461,
+          "exact_match_pct": 8.327034517510707
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 97.97166727524225,
+          "bleu": 94.98553241303833,
+          "exact_match_pct": 62.435866112875644
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.22625797559546,
+          "bleu": 98.41477366983926,
+          "exact_match_pct": 88.30022075055187
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 83.82952563414969,
+          "bleu": 72.73576760586145,
+          "exact_match_pct": 0.5730659025787965
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.6491786701984,
+          "bleu": 91.24543497391548,
+          "exact_match_pct": 36.74953794789245
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.76413829039599,
+          "bleu": 96.89673459455713,
+          "exact_match_pct": 76.36384003584631
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 93.98890659159214,
+          "bleu": 85.8068524540253,
+          "exact_match_pct": 27.599857487827084
+        }
+      ],
+      "generation_sha256": "5a4124f27d8597e0ad29a912eabf5a5c26fa647654d8e68cb18e00e67deecabf",
+      "checkpoint_sha256": "56d193f950531f4f4a206fd1cbb38c0d1200e4a0a632c57bfdfcf7be99812393",
+      "train_seconds": 799.5755513720214,
+      "validation_and_overhead_seconds": 2279.6124483942986
+    },
+    {
+      "epoch": 7,
+      "n": 134023,
+      "chrf2_pct": 95.75799265222464,
+      "bleu": 91.30789826243002,
+      "exact_match_pct": 39.503667280989085,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.62424786284251,
+          "bleu": 93.74488511180621,
+          "exact_match_pct": 57.222095585441835
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.4606196947032,
+          "bleu": 93.0380841433929,
+          "exact_match_pct": 36.084191399152026
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.26036944623826,
+          "bleu": 82.10426132132133,
+          "exact_match_pct": 9.742120343839542
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 93.03986296031199,
+          "bleu": 87.72590153401055,
+          "exact_match_pct": 2.4217532927347403
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 89.34069049897406,
+          "bleu": 63.36241471054443,
+          "exact_match_pct": 2.5714285714285716
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.4834558766941,
+          "bleu": 88.73103137854235,
+          "exact_match_pct": 9.202569916855632
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 98.12489372958545,
+          "bleu": 95.35125548961194,
+          "exact_match_pct": 64.88516980210115
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.34223391488335,
+          "bleu": 98.54677072336003,
+          "exact_match_pct": 88.48417954378219
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 83.81670745481674,
+          "bleu": 72.94303602069913,
+          "exact_match_pct": 0.8595988538681948
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.83361893716615,
+          "bleu": 91.60546692102452,
+          "exact_match_pct": 38.07309366243367
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.88482877600796,
+          "bleu": 97.15837601695704,
+          "exact_match_pct": 76.78951495463201
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 94.24766307479617,
+          "bleu": 86.27601594072885,
+          "exact_match_pct": 29.218954118997665
+        }
+      ],
+      "generation_sha256": "03c8269da192d626f87ee4a83976d74f76758598687425f9cf5a518ddf41b3f9",
+      "checkpoint_sha256": "765cb9652c574b5fabe7f97fe8a30e4b2118acc1cae123fd4306b53bfd323f42",
+      "train_seconds": 802.7613570187241,
+      "validation_and_overhead_seconds": 2135.4228931013495
+    },
+    {
+      "epoch": 8,
+      "n": 134023,
+      "chrf2_pct": 95.8776854693988,
+      "bleu": 91.50966519947944,
+      "exact_match_pct": 40.44081985927789,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.72190523030673,
+          "bleu": 93.93632212012056,
+          "exact_match_pct": 57.79576020059266
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.55275442993104,
+          "bleu": 93.21146809224251,
+          "exact_match_pct": 36.78073894609328
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.2654298348887,
+          "bleu": 81.81973164463717,
+          "exact_match_pct": 7.163323782234957
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 93.08469516661147,
+          "bleu": 87.76800538813362,
+          "exact_match_pct": 2.44299674267101
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 89.3551825532721,
+          "bleu": 62.8355581493568,
+          "exact_match_pct": 2.0
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.56426337365377,
+          "bleu": 88.85259764020057,
+          "exact_match_pct": 9.360040312421265
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 98.43398489643931,
+          "bleu": 95.90843835013216,
+          "exact_match_pct": 68.30564378206694
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.38729008506631,
+          "bleu": 98.65552591579451,
+          "exact_match_pct": 89.51434878587196
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.31713791400173,
+          "bleu": 73.55091452924118,
+          "exact_match_pct": 0.8595988538681948
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.84822524347875,
+          "bleu": 91.6335018106511,
+          "exact_match_pct": 38.240028617420855
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.95200319329133,
+          "bleu": 97.33093927437946,
+          "exact_match_pct": 78.07774168253613
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 94.44815781148799,
+          "bleu": 86.55719756096359,
+          "exact_match_pct": 30.450100946122483
+        }
+      ],
+      "generation_sha256": "678d892a14fb27f5006163c3e1c3d7f2b3aa2a029ec7d201f482eb82f92d55e4",
+      "checkpoint_sha256": "99283a67d69994e090a115aef8a33e13f5246c362dc319930f226e49429c2ff1",
+      "train_seconds": 781.9298755638301,
+      "validation_and_overhead_seconds": 2214.5312400199473
+    },
+    {
+      "epoch": 9,
+      "n": 134023,
+      "chrf2_pct": 95.9457688595568,
+      "bleu": 91.64055400700998,
+      "exact_match_pct": 40.883281227848954,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.80167630687404,
+          "bleu": 94.08987653024265,
+          "exact_match_pct": 58.555580882911634
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.60194419542623,
+          "bleu": 93.23613475671507,
+          "exact_match_pct": 36.88673531193216
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 92.39710707693114,
+          "bleu": 82.95777050312473,
+          "exact_match_pct": 12.893982808022923
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 93.15888382453524,
+          "bleu": 87.88835161258207,
+          "exact_match_pct": 2.44299674267101
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 89.64020105407813,
+          "bleu": 64.34189448045755,
+          "exact_match_pct": 4.285714285714286
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.61658389762903,
+          "bleu": 88.88713478161736,
+          "exact_match_pct": 9.46082136558327
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 98.391957717631,
+          "bleu": 95.90222567788035,
+          "exact_match_pct": 68.28121182506719
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.3784181491007,
+          "bleu": 98.58742316526948,
+          "exact_match_pct": 89.0728476821192
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 84.22070244895669,
+          "bleu": 73.51490061768241,
+          "exact_match_pct": 0.5730659025787965
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.86825175171022,
+          "bleu": 91.64925511764415,
+          "exact_match_pct": 38.28772431884576
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.96910099189394,
+          "bleu": 97.27147021343839,
+          "exact_match_pct": 77.8312983085023
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 94.64854685442698,
+          "bleu": 87.03040780582103,
+          "exact_match_pct": 31.92668540437829
+        }
+      ],
+      "generation_sha256": "614cd10e155488e54c363c26eb8696e0a7806818125479ec9b594e2b4e117ea6",
+      "checkpoint_sha256": "86980a6ef407ee2f3dd2213a05ec59f8673d16b42248c0c05d34b39deb9a74d4",
+      "train_seconds": 837.8551626000553,
+      "validation_and_overhead_seconds": 2308.3386638443917
+    },
+    {
+      "epoch": 10,
+      "n": 134023,
+      "chrf2_pct": 95.93739528620176,
+      "bleu": 91.66392515270218,
+      "exact_match_pct": 41.565253725106885,
+      "category_scores": [
+        {
+          "category": "afiksasi",
+          "n": 26322,
+          "chrf2_pct": 97.85073769466807,
+          "bleu": 94.22742029116417,
+          "exact_match_pct": 59.41417825393207
+        },
+        {
+          "category": "ambigu",
+          "n": 6604,
+          "chrf2_pct": 96.67077608124526,
+          "bleu": 93.3914923597728,
+          "exact_match_pct": 38.58267716535433
+        },
+        {
+          "category": "ambigu_claude",
+          "n": 349,
+          "chrf2_pct": 91.90646090985922,
+          "bleu": 83.48631149162551,
+          "exact_match_pct": 16.045845272206304
+        },
+        {
+          "category": "diksi",
+          "n": 14122,
+          "chrf2_pct": 92.98409554768448,
+          "bleu": 87.56282374293046,
+          "exact_match_pct": 2.6483500920549496
+        },
+        {
+          "category": "diksi_claude",
+          "n": 350,
+          "chrf2_pct": 89.61872050783197,
+          "bleu": 65.48425833224131,
+          "exact_match_pct": 5.428571428571429
+        },
+        {
+          "category": "kelengkapan_kalimat",
+          "n": 15876,
+          "chrf2_pct": 92.491173810367,
+          "bleu": 88.6768300235356,
+          "exact_match_pct": 9.611992945326278
+        },
+        {
+          "category": "pembentukan_kata",
+          "n": 16372,
+          "chrf2_pct": 98.44130830853639,
+          "bleu": 96.01029312586188,
+          "exact_match_pct": 69.13633032005863
+        },
+        {
+          "category": "pleonasme",
+          "n": 2718,
+          "chrf2_pct": 99.45685962899861,
+          "bleu": 98.74746686832717,
+          "exact_match_pct": 90.32376747608535
+        },
+        {
+          "category": "pleonasme_claude",
+          "n": 349,
+          "chrf2_pct": 83.5280504415552,
+          "bleu": 72.48341752770075,
+          "exact_match_pct": 0.28653295128939826
+        },
+        {
+          "category": "preposisi",
+          "n": 16773,
+          "chrf2_pct": 95.93618126318681,
+          "bleu": 91.82100273825114,
+          "exact_match_pct": 39.07470339235677
+        },
+        {
+          "category": "reduplikasi",
+          "n": 8927,
+          "chrf2_pct": 98.97310772936298,
+          "bleu": 97.2575694226124,
+          "exact_match_pct": 78.20096336955304
+        },
+        {
+          "category": "sintaksis_frasa",
+          "n": 25261,
+          "chrf2_pct": 94.6288030508782,
+          "bleu": 87.09195967098661,
+          "exact_match_pct": 32.59965955425359
+        }
+      ],
+      "generation_sha256": "998ebc96e560f3cb3c2b5b5d3b2e3fc1d64734c90ed5cf885d0210dad838425a",
+      "checkpoint_sha256": "1a32101b1630526a222c491b3355983ae9fbcc6d661b1d2d1a7b2e42dfbfd5ca",
+      "train_seconds": 840.9548510983586,
+      "validation_and_overhead_seconds": 2361.306736715138
+    }
+  ],
+  "trained_epoch": 10,
+  "best": {
+    "epoch": 9,
+    "n": 134023,
+    "chrf2_pct": 95.9457688595568,
+    "bleu": 91.64055400700998,
+    "exact_match_pct": 40.883281227848954,
+    "checkpoint_sha256": "86980a6ef407ee2f3dd2213a05ec59f8673d16b42248c0c05d34b39deb9a74d4"
+  },
+  "pending_checkpoint_sha256": "1a32101b1630526a222c491b3355983ae9fbcc6d661b1d2d1a7b2e42dfbfd5ca",
+  "pending_train_seconds": 840.9548510983586
+}

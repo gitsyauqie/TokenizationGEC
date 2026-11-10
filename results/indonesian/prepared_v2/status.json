@@ -1,0 +1,34 @@
+[
+  {
+    "tag": "spbpe_5k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 5000
+  },
+  {
+    "tag": "spbpe_20k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 20000
+  },
+  {
+    "tag": "wp_5k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 5000,
+    "reused_from": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v1/wp_5k"
+  },
+  {
+    "tag": "wp_20k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 20000,
+    "reused_from": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v1/wp_20k"
+  },
+  {
+    "tag": "spuni_5k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 5000
+  },
+  {
+    "tag": "spuni_20k",
+    "status": "PREPARED_PENDING_LENGTH_AND_UNK_REVIEW",
+    "vocab_size": 20000
+  }
+]

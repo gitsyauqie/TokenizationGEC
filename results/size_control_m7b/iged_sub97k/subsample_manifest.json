@@ -1,0 +1,71 @@
+{
+  "seed": 20261101,
+  "source": "/ssd-data1/sq2023/DidugaCASTLE_asli_n_paper6/Paper6/paper6_revision_20261007/controlled_pilot_v2",
+  "splits": {
+    "train": {
+      "from": 1072191,
+      "kept": 96919,
+      "per_category": {
+        "sintaksis_frasa": 18267,
+        "diksi": 10213,
+        "preposisi": 12130,
+        "ambigu": 4775,
+        "reduplikasi": 6455,
+        "afiksasi": 19035,
+        "pembentukan_kata": 11840,
+        "pleonasme": 1965,
+        "kelengkapan_kalimat": 11481,
+        "pleonasme_claude": 253,
+        "ambigu_claude": 252,
+        "diksi_claude": 253
+      }
+    },
+    "valid": {
+      "from": 134023,
+      "kept": 20769,
+      "per_category": {
+        "preposisi": 2599,
+        "sintaksis_frasa": 3915,
+        "pembentukan_kata": 2537,
+        "ambigu": 1024,
+        "kelengkapan_kalimat": 2460,
+        "afiksasi": 4079,
+        "diksi_claude": 54,
+        "reduplikasi": 1383,
+        "diksi": 2189,
+        "pleonasme": 421,
+        "pleonasme_claude": 54,
+        "ambigu_claude": 54
+      }
+    },
+    "test": {
+      "from": 134025,
+      "kept": 134025
+    }
+  },
+  "inputs_sha256": {
+    "surface/train.category": "7aa04d8063b6cc09f0f4a284c80fad23bc3b915ee0afed43e6b95e421a6f2770",
+    "surface/train.ids.csv": "a5556b78033101874b9f0446cad5d82086acf44f6bd154159852cee62a44a2fc",
+    "surface/train.source": "e8ded4508c2b3fd05d02578c32de130aaacb62546a4e7ca344af730674f0b485",
+    "surface/train.source_plus_target.txt": "1ee6868f8ecc25ba32509bfb138e941a0e9c58cb649ef2bf48c4f8824646fa15",
+    "surface/train.target": "69bfa216d6e2a04c793948906424694b0f60be28fab97107726d82a9137f84af",
+    "surface/valid.category": "1dc39fa18eb69a099a1a7fcf535fccf697fb9993d8d522befc0d02b47e3e35d2",
+    "surface/valid.ids.csv": "edb7423aa211d3c6bf75146d873652ced2d5bd511ea8207462abe5eda3e05887",
+    "surface/valid.source": "6b36bfaa66ab500b5f857da3d269f2ee247a9a524aa3674050a46f7740e42883",
+    "surface/valid.target": "ba013e501298d69f0223a0b28893f799c0f749ccdb9393b87a59cb9f0940ef93",
+    "controlled_test_v1/test.source": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093",
+    "controlled_test_v1/test.target": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1",
+    "controlled_test_v1/test.category": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19"
+  },
+  "outputs_sha256": {
+    "dev.cat": "05f4885e83be522a2172f6d1343f97bd0f745052f100d6270b850a48a40fb0b1",
+    "dev.src": "f6180e15385335121e555d67f419ef62bd19099ede898a880375f146e61987a4",
+    "dev.tgt": "f692b626eb2d3fd546339fd39577a8ea6f87f0fcddd42b4bef1167f72ff0dde3",
+    "test.cat": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19",
+    "test.src": "0ee9e5ca46827829146aa6a9409ac5710b184330eb2bc0d8b34bc900555f8093",
+    "test.tgt": "d692a1f351f196fc64a88426963fe233ef270586944e689fc1ec38ccd20efcd1",
+    "train.cat": "66c1303fa161be9ebb5185c237af4deba7d3f7031f95e4519b1773d199280fe0",
+    "train.src": "262919211c2ad01d28bbf8ac7429d11428dc84f8e6cd6b9ead63d4044ed4615e",
+    "train.tgt": "f892997a6c6102d7ec75c30334ebfdb0e533adc266c18d24b4697e60cc9b6f67"
+  }
+}

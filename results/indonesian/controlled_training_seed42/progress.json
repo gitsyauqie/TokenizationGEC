@@ -1,0 +1,15 @@
+{
+  "tag": "spuni_20k",
+  "epoch": 10,
+  "best": {
+    "epoch": 10,
+    "n": 134023,
+    "chrf2_pct": 95.95895518504855,
+    "bleu": 91.85797703693444,
+    "exact_match_pct": 42.64193459331607,
+    "checkpoint_sha256": "cde17310e0058a4b23b99a16fadad975499128b4142492b910d9c8826bd9f0e2"
+  },
+  "last_epoch_seconds": 3062.3564050123096,
+  "rough_remaining_seconds_this_condition": 0.0,
+  "note": "Includes full-validation generation/scoring; estimate only, excludes remaining conditions and interrupted attempts."
+}

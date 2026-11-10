@@ -1,0 +1,28 @@
+cff-version: 1.2.0
+message: "If you use this code or the experiment records, please cite the paper (preferred-citation); until it is published, cite this repository."
+title: "TokenizationGEC: code and experiment records for a controlled study of vocabulary budget and tokenizer family in grammatical error correction"
+type: software
+authors:
+  - family-names: Marier
+    given-names: Syauqie Muhammad
+repository-code: "https://github.com/gitsyauqie/TokenizationGEC"
+url: "https://github.com/gitsyauqie/TokenizationGEC"
+license: MIT
+version: 1.0.0
+date-released: "2026-11-10"
+keywords:
+  - grammatical error correction
+  - subword tokenization
+  - Indonesian
+  - Turkish
+  - BPE
+  - WordPiece
+  - Unigram
+preferred-citation:
+  type: unpublished
+  title: "Vocabulary Budget and Tokenizer Family in Synthetic Grammatical Error Correction: A Controlled Study"
+  authors:
+    - family-names: Marier
+      given-names: Syauqie Muhammad
+  year: 2026
+  notes: "Manuscript under review. Code and experiment records: https://github.com/gitsyauqie/TokenizationGEC"

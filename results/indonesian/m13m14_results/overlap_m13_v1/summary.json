@@ -1,0 +1,55 @@
+{
+  "n_test": 134025,
+  "definition": "whitespace-collapsed raw text, case preserved (Step05); target_surface = shared surface normalization",
+  "counts": {
+    "target": 2721,
+    "pair": 57,
+    "target_surface": 3028
+  },
+  "by_category": {
+    "target": {
+      "pleonasme_claude": 291,
+      "afiksasi": 340,
+      "pembentukan_kata": 236,
+      "pleonasme": 313,
+      "sintaksis_frasa": 341,
+      "ambigu_claude": 40,
+      "diksi": 288,
+      "reduplikasi": 138,
+      "preposisi": 231,
+      "ambigu": 16,
+      "diksi_claude": 284,
+      "kelengkapan_kalimat": 203
+    },
+    "pair": {
+      "afiksasi": 24,
+      "pembentukan_kata": 3,
+      "kelengkapan_kalimat": 22,
+      "preposisi": 6,
+      "diksi_claude": 1,
+      "pleonasme": 1
+    },
+    "target_surface": {
+      "pleonasme_claude": 291,
+      "afiksasi": 398,
+      "pembentukan_kata": 276,
+      "pleonasme": 314,
+      "sintaksis_frasa": 401,
+      "ambigu_claude": 44,
+      "kelengkapan_kalimat": 241,
+      "diksi": 314,
+      "reduplikasi": 161,
+      "preposisi": 276,
+      "ambigu": 28,
+      "diksi_claude": 284
+    }
+  },
+  "pair_subset_of_target": true,
+  "expected": {
+    "target": 2721,
+    "pair": 57
+  },
+  "matches_manuscript": true,
+  "script_sha256": "985aeb10fa8b3695edefe8adb5686b58de18d773feebb2141b83c41dd3ab8c3c",
+  "audit_sha256": "11bca065a0746d197674a8ee7f22a768c63d18b05f3b14c9805096af1e9b9a50"
+}

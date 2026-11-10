@@ -1,0 +1,11 @@
+{
+  "manifest_sha256": "89102aed276e4e63c1743dc9a89f0e7718615b758d5a63d2a71dea127472ddb1",
+  "script_sha256": "2c9718f42e61054f89ec92a3098c94896dce158af41df99dbf81cf25eb5a296b",
+  "common_sha256": "ec44d3cd224ad2f2c1e5759254522dc8f7a386872df912f27892429874b86445",
+  "source_sha256": "982cce569f14a074640c8cea8aa93f6c36ce180c8e7872ba290716a929c48164",
+  "target_sha256": "38eb8d4e672981d16daca60103581417095a7d99e0e375bc9f9bfca7b8272ab1",
+  "category_sha256": "f113981b7442591cea7dab81898bb319b8cfe6967bb23d165ecfc8d178f83b19",
+  "case": "lower",
+  "surface_tokenization": "Unicode \\w+|[^\\w\\s]",
+  "warning": "Diagnostics only. Legacy word-set F1 is NOT edit-based GEC F1."
+}

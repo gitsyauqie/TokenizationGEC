@@ -1,0 +1,3898 @@
+{
+  "tag": "wp_5k",
+  "seed": 43,
+  "trained_epoch": 20,
+  "history": [
+    {
+      "epoch": 1,
+      "n": 20769,
+      "chrf2_pct": 4.087169380979243,
+      "bleu": 0.6531193802042783,
+      "exact_match_pct": 0.01444460494005489,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 3.680099152005349,
+          "bleu": 0.23889347519035786,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 4.355870293568553,
+          "bleu": 1.0616449810404134,
+          "exact_match_pct": 0.028555111364934323
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 3.892380394793888,
+          "bleu": 0.824430855349961,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 4.494125066347759,
+          "bleu": 0.9910909101695154,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 4.233640804959677,
+          "bleu": 0.60458998145627,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 3.9950999713403856,
+          "bleu": 0.587045411796818,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 4.1357411236431165,
+          "bleu": 0.7499134848223851,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 4.205708005256895,
+          "bleu": 1.29142166008406,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 4.568328605359061,
+          "bleu": 1.2606050183052506,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 3.9752794893329586,
+          "bleu": 0.808078015341268,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 2.8287567917498637,
+          "bleu": 0.8523189866049012,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 4.10880345473327,
+          "bleu": 1.2675255793906601,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 5.514292764863775,
+          "bleu": 1.9955808846549181,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 4.354865934056938,
+          "bleu": 0.5970440162840385,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 2.5417165261657284,
+          "bleu": 0.0,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 5.0679663064165,
+          "bleu": 0.7760348550163312,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 4.251334843846407,
+          "bleu": 1.3045272356394828,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 3.2786586286191417,
+          "bleu": 0.9100896754616319,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 2.9559438082153746,
+          "bleu": 0.23357748678521092,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 5.913507339208904,
+          "bleu": 2.955732509502102,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 4.203353286573448,
+          "bleu": 1.1940706658921967,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 4.428861637455138,
+          "bleu": 0.7615299648734469,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 3.9555648945565998,
+          "bleu": 0.37652842912970763,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 4.061004527062809,
+          "bleu": 1.1468192487154059,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 4.305763002023233,
+          "bleu": 0.6946937628309403,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 3.8575576577516966,
+          "bleu": 0.5984757625683136,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "ff2ee00e2e3e64e9b7b766ea857efb649e283add1eccbf40d4654124fcdfb9b7",
+      "train_seconds": 74.12204311799724,
+      "validation_seconds": 389.96952041899203
+    },
+    {
+      "epoch": 2,
+      "n": 20769,
+      "chrf2_pct": 16.266851290621403,
+      "bleu": 2.495469470085915,
+      "exact_match_pct": 0.13481631277384565,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 14.452618000321275,
+          "bleu": 1.625304956597921,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 17.581983988469947,
+          "bleu": 3.114433229288512,
+          "exact_match_pct": 0.2284408909194746
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 16.967962558630585,
+          "bleu": 3.2677139261934425,
+          "exact_match_pct": 0.21299254526091588
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 17.52620101109858,
+          "bleu": 3.2696621278613054,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 17.957236736925612,
+          "bleu": 3.6082097660022305,
+          "exact_match_pct": 0.2109704641350211
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 15.411051940394035,
+          "bleu": 1.9246141446117249,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 15.708753725315267,
+          "bleu": 1.5554711094976001,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 17.672855147958504,
+          "bleu": 2.08168419848302,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 14.531669943847398,
+          "bleu": 1.299537931397119,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 16.514577226964633,
+          "bleu": 1.54887296318451,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 16.56715315716512,
+          "bleu": 2.387162305036878,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 16.62289076551766,
+          "bleu": 2.7823745673350686,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 18.34202033350886,
+          "bleu": 3.241753675118898,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 16.52149202630471,
+          "bleu": 2.0219607826044292,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 9.929528257683872,
+          "bleu": 3.4162113597999784,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 17.56966137861557,
+          "bleu": 2.3688022405621516,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 16.147471467091354,
+          "bleu": 2.8021622182810937,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 15.455856100816664,
+          "bleu": 1.5888440280619955,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 12.201050029098006,
+          "bleu": 2.130770295891124,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 16.400381968347236,
+          "bleu": 2.6702803049698485,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 17.596651162784795,
+          "bleu": 2.5126194978152454,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 17.635417753441562,
+          "bleu": 3.1786532595947543,
+          "exact_match_pct": 0.11862396204033215
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 15.348866199484243,
+          "bleu": 1.9321289572486215,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 17.562621873196598,
+          "bleu": 2.7782467626234912,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 17.231612459641443,
+          "bleu": 2.2109598936596373,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 14.570029275124103,
+          "bleu": 2.2199020062876356,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "c08c9baf460ee973ba78592714eb911056e2f83be0f37ccb9e332c9402997322",
+      "train_seconds": 74.51949926101952,
+      "validation_seconds": 375.6099891740014
+    },
+    {
+      "epoch": 3,
+      "n": 20769,
+      "chrf2_pct": 53.45999740049281,
+      "bleu": 23.001051375085613,
+      "exact_match_pct": 3.317444267899273,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 45.01566611132857,
+          "bleu": 16.137690091070848,
+          "exact_match_pct": 0.2326354270521768
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 59.02526722890858,
+          "bleu": 28.029471736650496,
+          "exact_match_pct": 5.4920997525223685
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 54.418977187497056,
+          "bleu": 24.160859552501698,
+          "exact_match_pct": 2.768903088391906
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 53.609960228034126,
+          "bleu": 19.264918907969406,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 58.81837968836574,
+          "bleu": 27.692096567561254,
+          "exact_match_pct": 6.751054852320675
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 52.62670422152902,
+          "bleu": 20.908721817312355,
+          "exact_match_pct": 1.1095700416088765
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 49.89471866635207,
+          "bleu": 17.478820908356276,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 57.986957754434144,
+          "bleu": 25.122647273275785,
+          "exact_match_pct": 3.278688524590164
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 52.97536855779427,
+          "bleu": 16.88249746108316,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 52.24524485158161,
+          "bleu": 15.32048789366343,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 51.13506749542959,
+          "bleu": 17.313637201797086,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 55.110028643783274,
+          "bleu": 19.183525954240583,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 61.59448459891209,
+          "bleu": 23.925671798052957,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 55.88289632972464,
+          "bleu": 23.47266851995569,
+          "exact_match_pct": 0.8264462809917356
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 37.069413224077806,
+          "bleu": 4.085507150363302,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 56.05868628234418,
+          "bleu": 21.5791844352213,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 56.98110118915136,
+          "bleu": 24.024458528722313,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 50.60212661557152,
+          "bleu": 17.885221008455716,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 38.64843545348135,
+          "bleu": 11.174767812886305,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 46.968397519286576,
+          "bleu": 9.61990817716367,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 51.783048578344605,
+          "bleu": 21.483927041449842,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 56.95795110395176,
+          "bleu": 27.81957321294662,
+          "exact_match_pct": 1.3048635824436536
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 50.890419030618276,
+          "bleu": 20.09222601809286,
+          "exact_match_pct": 0.7021433850702143
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 59.82251827627925,
+          "bleu": 26.530900284507293,
+          "exact_match_pct": 2.2058823529411766
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 58.270175361857966,
+          "bleu": 25.222484938628828,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 53.639261980969934,
+          "bleu": 20.529456849510495,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "a16a04794c7cce379677f4ba563cb2aebc74245a4067b1642e3371d1ea90e206",
+      "train_seconds": 76.09833902699756,
+      "validation_seconds": 371.3930181780015
+    },
+    {
+      "epoch": 4,
+      "n": 20769,
+      "chrf2_pct": 79.25549640007004,
+      "bleu": 56.26194942219648,
+      "exact_match_pct": 26.929558476575664,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 69.04927737106644,
+          "bleu": 41.19550243457205,
+          "exact_match_pct": 3.22366234629445
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 85.4959696303926,
+          "bleu": 67.01688095234314,
+          "exact_match_pct": 41.68094422234913
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 80.75740844971763,
+          "bleu": 55.31752055905909,
+          "exact_match_pct": 17.678381256656017
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 84.2614095990022,
+          "bleu": 50.50818086532225,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 85.36308597502837,
+          "bleu": 62.19590965399988,
+          "exact_match_pct": 32.06751054852321
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 79.23448409252256,
+          "bleu": 56.53053959538596,
+          "exact_match_pct": 19.41747572815534
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 76.32138024464311,
+          "bleu": 44.9579732226723,
+          "exact_match_pct": 2.830188679245283
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 79.40608295801445,
+          "bleu": 55.34804864793889,
+          "exact_match_pct": 18.0327868852459
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 79.70937753965823,
+          "bleu": 46.943250631169114,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 79.654452403189,
+          "bleu": 45.49882491622432,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 77.3296709391596,
+          "bleu": 45.859295073173584,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 80.34213760602911,
+          "bleu": 47.325428776758635,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 84.22063082065527,
+          "bleu": 58.8267315129474,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 82.47047221140824,
+          "bleu": 57.79979146244334,
+          "exact_match_pct": 13.636363636363637
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 86.1735865248708,
+          "bleu": 37.70063804549471,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 83.44252133698642,
+          "bleu": 56.3787437131645,
+          "exact_match_pct": 11.255411255411255
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 84.03729159560041,
+          "bleu": 56.81834059058813,
+          "exact_match_pct": 1.4851485148514851
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 74.21132110857256,
+          "bleu": 45.34288145513454,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 53.319888550457485,
+          "bleu": 27.785183229145044,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 74.34049874822206,
+          "bleu": 34.635194187356895,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 79.06395269800072,
+          "bleu": 61.1046372901141,
+          "exact_match_pct": 3.7037037037037037
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 82.8051338231445,
+          "bleu": 63.05870641219933,
+          "exact_match_pct": 23.013048635824436
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 77.08073735006614,
+          "bleu": 51.66829529553413,
+          "exact_match_pct": 12.158167036215817
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 85.16715490448671,
+          "bleu": 57.00065694847821,
+          "exact_match_pct": 7.352941176470588
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 84.62567212467953,
+          "bleu": 60.01515199384209,
+          "exact_match_pct": 17.97752808988764
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 81.32542132802588,
+          "bleu": 51.14767477615338,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "83558ac3b0d5e9bd1899d61182f6792ab26288083623775ef40a29bd42ba42df",
+      "train_seconds": 75.00662661201204,
+      "validation_seconds": 361.7065383559966
+    },
+    {
+      "epoch": 5,
+      "n": 20769,
+      "chrf2_pct": 90.35530538744808,
+      "bleu": 75.45467223953939,
+      "exact_match_pct": 35.172613029033656,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 82.28619473518938,
+          "bleu": 62.773172594984885,
+          "exact_match_pct": 10.435360584911932
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 94.75351601425709,
+          "bleu": 83.03894600015568,
+          "exact_match_pct": 46.59242337711784
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 91.98586211977033,
+          "bleu": 76.59192354954043,
+          "exact_match_pct": 30.138445154419596
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 92.83773735798238,
+          "bleu": 64.37966718466244,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 95.882944769004,
+          "bleu": 83.61152612602582,
+          "exact_match_pct": 49.57805907172996
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 90.06914496460622,
+          "bleu": 76.14882490628575,
+          "exact_match_pct": 33.42579750346741
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 87.62300919930773,
+          "bleu": 66.19724958027346,
+          "exact_match_pct": 1.8867924528301887
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 90.7015782288495,
+          "bleu": 72.48042393417583,
+          "exact_match_pct": 16.39344262295082
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 87.19344175083205,
+          "bleu": 59.00648894502114,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 92.78185593036096,
+          "bleu": 67.95197082489466,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 89.48387916271373,
+          "bleu": 65.15109619071252,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 92.2211699521849,
+          "bleu": 56.99196491511987,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 92.72435168266304,
+          "bleu": 73.84354298416737,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 93.28134058918246,
+          "bleu": 77.69715371414148,
+          "exact_match_pct": 33.47107438016529
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 99.79311075094012,
+          "bleu": 61.62607099729587,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 94.23630388493791,
+          "bleu": 70.25249087022019,
+          "exact_match_pct": 7.359307359307359
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 93.19790552742755,
+          "bleu": 74.86379078969816,
+          "exact_match_pct": 3.9603960396039604
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 84.6975188474455,
+          "bleu": 64.71667184094898,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 76.67412729429476,
+          "bleu": 56.712222163528025,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 85.20021356975018,
+          "bleu": 49.5508846276815,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 91.47763793259965,
+          "bleu": 80.38321620712333,
+          "exact_match_pct": 51.851851851851855
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 92.48659821550558,
+          "bleu": 78.18944047388081,
+          "exact_match_pct": 29.893238434163703
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 89.87724035165276,
+          "bleu": 74.78859642248545,
+          "exact_match_pct": 30.41389504804139
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 95.9207520522485,
+          "bleu": 79.54066163011558,
+          "exact_match_pct": 21.323529411764707
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 94.72984985471562,
+          "bleu": 75.76613638458551,
+          "exact_match_pct": 21.348314606741575
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 90.3796962610823,
+          "bleu": 71.03930559479532,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "5d41f2ca906afa8d52ad7aacaa9257400be8a798d0af7df7f9acebe71784a4fa",
+      "train_seconds": 74.20111387199722,
+      "validation_seconds": 387.58477321700775
+    },
+    {
+      "epoch": 6,
+      "n": 20769,
+      "chrf2_pct": 96.16111761414142,
+      "bleu": 89.81534181462932,
+      "exact_match_pct": 71.42857142857143,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 91.62583772778362,
+          "bleu": 80.10435743268896,
+          "exact_match_pct": 33.698903290129614
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 98.48570072125494,
+          "bleu": 95.92346845604366,
+          "exact_match_pct": 87.93070626308776
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 97.36614023785998,
+          "bleu": 86.86013934495966,
+          "exact_match_pct": 54.20660276890309
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 97.54854680941885,
+          "bleu": 73.61219714329718,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 98.37842935138441,
+          "bleu": 87.51552472751644,
+          "exact_match_pct": 63.29113924050633
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 95.67048817235226,
+          "bleu": 89.14142749647343,
+          "exact_match_pct": 65.74202496532594
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 93.28794106847872,
+          "bleu": 79.08223495600284,
+          "exact_match_pct": 19.81132075471698
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 95.65942232370041,
+          "bleu": 87.45283055552581,
+          "exact_match_pct": 55.73770491803279
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 93.93697180456876,
+          "bleu": 76.62565801320156,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 95.32041183113621,
+          "bleu": 79.65674181892557,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 96.50127990129195,
+          "bleu": 76.44169854862562,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 93.47541703353332,
+          "bleu": 65.41827669022359,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 92.18962867260576,
+          "bleu": 71.94722849625163,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 98.07534654848111,
+          "bleu": 90.69065257180405,
+          "exact_match_pct": 61.77685950413223
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 98.98856021382358,
+          "bleu": 88.31113030685404,
+          "exact_match_pct": 54.54545454545455
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 96.77056995703384,
+          "bleu": 86.15303779578039,
+          "exact_match_pct": 13.861386138613861
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 92.05635258851588,
+          "bleu": 75.73168669288964,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 87.00705073572308,
+          "bleu": 74.44975983329431,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 90.25806074620992,
+          "bleu": 60.852495973631875,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 97.93867278432529,
+          "bleu": 94.29703741684045,
+          "exact_match_pct": 66.66666666666667
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 97.65998165162742,
+          "bleu": 94.21910572621482,
+          "exact_match_pct": 81.02016607354686
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 96.30777000865139,
+          "bleu": 90.99292118464541,
+          "exact_match_pct": 71.359940872136
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.45484340893731,
+          "bleu": 92.54206167609944,
+          "exact_match_pct": 69.11764705882354
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.1386812906925,
+          "bleu": 93.27430892733925,
+          "exact_match_pct": 70.78651685393258
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 95.61287458656558,
+          "bleu": 81.2586194392253,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "78aff2acfefa23030da17de00c501730d0861fcc9a284f84e839e69851c94c0a",
+      "train_seconds": 73.73968989198329,
+      "validation_seconds": 338.5598033849965
+    },
+    {
+      "epoch": 7,
+      "n": 20769,
+      "chrf2_pct": 97.83279139160221,
+      "bleu": 93.63981869340219,
+      "exact_match_pct": 78.8675429726997,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 94.82883591016265,
+          "bleu": 86.97648339090166,
+          "exact_match_pct": 45.76271186440678
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.29513075765988,
+          "bleu": 97.80173324409022,
+          "exact_match_pct": 92.88977727013135
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 98.76950975176439,
+          "bleu": 91.22174071090024,
+          "exact_match_pct": 66.66666666666667
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.28017980383527,
+          "bleu": 74.44176766995022,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.50823279689948,
+          "bleu": 90.74464693168677,
+          "exact_match_pct": 71.94092827004219
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 97.13582068104597,
+          "bleu": 92.45991028305065,
+          "exact_match_pct": 72.5381414701803
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 95.14738575989917,
+          "bleu": 82.78173073063776,
+          "exact_match_pct": 25.471698113207548
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 96.49936779696544,
+          "bleu": 89.14947409366846,
+          "exact_match_pct": 52.459016393442624
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.01542403004169,
+          "bleu": 78.12064222683483,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 96.09309919911027,
+          "bleu": 81.29524282372282,
+          "exact_match_pct": 3.8461538461538463
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 98.13368759852167,
+          "bleu": 79.45500940917648,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 95.79992876413046,
+          "bleu": 70.88733159187592,
+          "exact_match_pct": 10.714285714285714
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 93.78764815190304,
+          "bleu": 77.22827425876555,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.00155653028277,
+          "bleu": 92.2939573065288,
+          "exact_match_pct": 65.2892561983471
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.81020214838624,
+          "bleu": 97.68515063305853,
+          "exact_match_pct": 84.84848484848484
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 97.60292954540657,
+          "bleu": 88.3588436296673,
+          "exact_match_pct": 17.326732673267326
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 94.62230658316963,
+          "bleu": 80.98704330514587,
+          "exact_match_pct": 6.521739130434782
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 92.64389191209415,
+          "bleu": 84.84177328432564,
+          "exact_match_pct": 31.25
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 93.86792913787714,
+          "bleu": 74.48679401680808,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.70202465159625,
+          "bleu": 98.82855037688513,
+          "exact_match_pct": 81.48148148148148
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 98.7028825022024,
+          "bleu": 96.76094259576794,
+          "exact_match_pct": 84.57888493475681
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 98.28652367450307,
+          "bleu": 95.52941857522067,
+          "exact_match_pct": 82.40946045824094
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.76631606011446,
+          "bleu": 92.48360928585694,
+          "exact_match_pct": 67.6470588235294
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.7655070855499,
+          "bleu": 97.42614013781986,
+          "exact_match_pct": 87.64044943820225
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.39736861688228,
+          "bleu": 83.53533130434916,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "e4d0ae71f53502d8cf0346989f2925d0468908e265c0b3fcdef0554e0f0a926c",
+      "train_seconds": 74.6875145509839,
+      "validation_seconds": 359.6418388210004
+    },
+    {
+      "epoch": 8,
+      "n": 20769,
+      "chrf2_pct": 98.26639788987059,
+      "bleu": 94.14995015748906,
+      "exact_match_pct": 77.74086378737542,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 95.91930182611652,
+          "bleu": 88.51450703670461,
+          "exact_match_pct": 48.65403788634098
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.39655626958455,
+          "bleu": 97.79581799817059,
+          "exact_match_pct": 90.0437845040929
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.15341441171446,
+          "bleu": 89.97730797829522,
+          "exact_match_pct": 59.53141640042598
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.81854346791712,
+          "bleu": 75.19849817584779,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.61621829022108,
+          "bleu": 90.50021319597519,
+          "exact_match_pct": 70.25316455696202
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 97.66361846458662,
+          "bleu": 93.83550550257766,
+          "exact_match_pct": 74.61858529819695
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 95.76299967067791,
+          "bleu": 82.35284859222396,
+          "exact_match_pct": 19.81132075471698
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.09372901255915,
+          "bleu": 90.18053137779782,
+          "exact_match_pct": 54.09836065573771
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.11389204207607,
+          "bleu": 88.6234314500266,
+          "exact_match_pct": 34.61538461538461
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.79343948435279,
+          "bleu": 82.0334862571947,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 95.9414963563945,
+          "bleu": 72.98067108669227,
+          "exact_match_pct": 10.714285714285714
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 76.84075852977855,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.34520137531567,
+          "bleu": 95.01840029212944,
+          "exact_match_pct": 74.79338842975207
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.8082143921396,
+          "bleu": 97.66406875793108,
+          "exact_match_pct": 84.41558441558442
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.06819126390256,
+          "bleu": 89.46673932131691,
+          "exact_match_pct": 20.792079207920793
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 94.94943662296343,
+          "bleu": 82.04457130957823,
+          "exact_match_pct": 10.869565217391305
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 94.66731092627882,
+          "bleu": 88.92964563330891,
+          "exact_match_pct": 31.25
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 93.86792913787714,
+          "bleu": 74.48679401680808,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 98.4282363162602,
+          "bleu": 97.07942443446348,
+          "exact_match_pct": 77.77777777777777
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.11932882070009,
+          "bleu": 97.09432765450207,
+          "exact_match_pct": 85.40925266903915
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 98.61221450563554,
+          "bleu": 96.0027036874706,
+          "exact_match_pct": 81.81818181818181
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.70743796376094,
+          "bleu": 92.19710146799993,
+          "exact_match_pct": 62.5
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.6113637542687,
+          "bleu": 97.5295043082261,
+          "exact_match_pct": 85.3932584269663
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.95674376938528,
+          "bleu": 84.21966180888884,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "dc4777de33810f4a76eb8e7fa1ec1ed4225e6fa0d43876ba3a4f4a230b5e0ad0",
+      "train_seconds": 79.32363752400852,
+      "validation_seconds": 364.1411487059959
+    },
+    {
+      "epoch": 9,
+      "n": 20769,
+      "chrf2_pct": 98.47425052040691,
+      "bleu": 95.27089297152133,
+      "exact_match_pct": 82.52202802253359,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 96.20247856424598,
+          "bleu": 90.27694419985284,
+          "exact_match_pct": 56.26453971419076
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.57197285960608,
+          "bleu": 98.38833792769468,
+          "exact_match_pct": 93.40376927470017
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.06365906727542,
+          "bleu": 92.69703064293121,
+          "exact_match_pct": 71.03301384451544
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.46181225765241,
+          "bleu": 73.92951415454533,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.71932695142887,
+          "bleu": 93.38122035010629,
+          "exact_match_pct": 79.11392405063292
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 97.94834936466962,
+          "bleu": 94.95396488831229,
+          "exact_match_pct": 78.50208044382802
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 95.91642866854805,
+          "bleu": 84.16333148993975,
+          "exact_match_pct": 25.471698113207548
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.7903260288574,
+          "bleu": 93.48297884321961,
+          "exact_match_pct": 68.85245901639344
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.26582662688652,
+          "bleu": 89.1939755499438,
+          "exact_match_pct": 42.30769230769231
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.54672234081265,
+          "bleu": 83.37986126388776,
+          "exact_match_pct": 10.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 96.14214030399143,
+          "bleu": 78.1627705602448,
+          "exact_match_pct": 28.571428571428573
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.32567629693442,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.65839506280204,
+          "bleu": 95.81219216209645,
+          "exact_match_pct": 78.30578512396694
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.83430021119104,
+          "bleu": 98.38039768638936,
+          "exact_match_pct": 90.9090909090909
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.15620437722316,
+          "bleu": 89.55228622917548,
+          "exact_match_pct": 20.297029702970296
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 94.14818418292593,
+          "bleu": 79.04498025707701,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 93.58428745952686,
+          "bleu": 90.07757789847659,
+          "exact_match_pct": 43.75
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 93.86792913787714,
+          "bleu": 72.86555241791388,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.5649768570184,
+          "bleu": 99.06262862323736,
+          "exact_match_pct": 92.5925925925926
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.28124735178045,
+          "bleu": 98.19714011109627,
+          "exact_match_pct": 90.15421115065243
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 98.87403362797596,
+          "bleu": 96.8372018584351,
+          "exact_match_pct": 86.40059127864006
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.91776404026032,
+          "bleu": 93.8786135215805,
+          "exact_match_pct": 70.58823529411765
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.97012679433008,
+          "bleu": 97.8040894822498,
+          "exact_match_pct": 87.64044943820225
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.76414179652603,
+          "bleu": 83.96769984380475,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "f4863cbb5358ab48b9145a18bcb0074a5f8a7c30e5ac49b15e55252aac4261ed",
+      "train_seconds": 77.35188116499921,
+      "validation_seconds": 359.21714538900414
+    },
+    {
+      "epoch": 10,
+      "n": 20769,
+      "chrf2_pct": 98.79146839692713,
+      "bleu": 95.83263455760496,
+      "exact_match_pct": 84.1638981173865,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 96.95236450355537,
+          "bleu": 91.29640519682783,
+          "exact_match_pct": 57.494184114323694
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.67885962404665,
+          "bleu": 98.71721119472548,
+          "exact_match_pct": 95.20274129069104
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.40744396480802,
+          "bleu": 92.94402196702038,
+          "exact_match_pct": 71.8849840255591
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 75.46029720674103,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.77251500087334,
+          "bleu": 94.28087452058577,
+          "exact_match_pct": 81.22362869198312
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.29286198744026,
+          "bleu": 95.59688671180501,
+          "exact_match_pct": 81.96948682385576
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 96.57027203485707,
+          "bleu": 85.60416497728293,
+          "exact_match_pct": 28.30188679245283
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.88732474606557,
+          "bleu": 93.13742707457206,
+          "exact_match_pct": 63.9344262295082
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 94.89700935928515,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.18936597882256,
+          "bleu": 88.91379927278591,
+          "exact_match_pct": 38.46153846153846
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.26190982229338,
+          "bleu": 83.77350215408909,
+          "exact_match_pct": 15.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.62549794533184,
+          "bleu": 83.26849637903274,
+          "exact_match_pct": 46.42857142857143
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 76.96247932393383,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.69204820209671,
+          "bleu": 95.67610765666466,
+          "exact_match_pct": 79.75206611570248
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.83386431980263,
+          "bleu": 98.3645203378683,
+          "exact_match_pct": 90.47619047619048
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.24570549778367,
+          "bleu": 90.46820786963636,
+          "exact_match_pct": 25.742574257425744
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.23383131553618,
+          "bleu": 82.66388230002269,
+          "exact_match_pct": 10.869565217391305
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 97.08624236134497,
+          "bleu": 92.10185040481755,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 93.86792913787714,
+          "bleu": 72.86555241791388,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.51313966584553,
+          "bleu": 98.6576918501192,
+          "exact_match_pct": 92.5925925925926
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.49108665395504,
+          "bleu": 98.32808705824327,
+          "exact_match_pct": 89.91696322657177
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.13434682473353,
+          "bleu": 97.27153147139582,
+          "exact_match_pct": 87.7309682187731
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.99553839570024,
+          "bleu": 95.47134242900387,
+          "exact_match_pct": 78.67647058823529
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.83261363088535,
+          "bleu": 97.6579458332579,
+          "exact_match_pct": 86.51685393258427
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.36417808893691,
+          "bleu": 83.27489986458187,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "1c5f74ba133ed595eae29ebdd8c71fc6a194cd5aa1d0fb791bdf99aca2be3f5e",
+      "train_seconds": 79.72914826398483,
+      "validation_seconds": 368.70828550701845
+    },
+    {
+      "epoch": 11,
+      "n": 20769,
+      "chrf2_pct": 98.90379920206618,
+      "bleu": 96.15810986610701,
+      "exact_match_pct": 84.84760941788242,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 97.25719717566615,
+          "bleu": 92.17769980500671,
+          "exact_match_pct": 60.31904287138584
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.70636554335212,
+          "bleu": 98.79764467529044,
+          "exact_match_pct": 95.13611269750619
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.42596770609762,
+          "bleu": 93.41331387320886,
+          "exact_match_pct": 72.73695420660277
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.81854346791712,
+          "bleu": 75.19849817584779,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.73317036157916,
+          "bleu": 93.61891684972271,
+          "exact_match_pct": 79.957805907173
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.4562911203072,
+          "bleu": 95.88899427356905,
+          "exact_match_pct": 84.18862690707351
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 97.31692187720586,
+          "bleu": 87.7316674409684,
+          "exact_match_pct": 36.79245283018868
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.74300298313956,
+          "bleu": 92.3825627348956,
+          "exact_match_pct": 62.295081967213115
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.02169839819196,
+          "bleu": 79.22730921624078,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.72731474288854,
+          "bleu": 90.3860675204608,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 98.82689825045023,
+          "bleu": 84.0057454721575,
+          "exact_match_pct": 10.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 96.26638796215869,
+          "bleu": 74.37047760651282,
+          "exact_match_pct": 17.857142857142858
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 93.83418269797261,
+          "bleu": 76.96247932393383,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.68787889388203,
+          "bleu": 96.46553429904945,
+          "exact_match_pct": 83.88429752066116
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.82683764265468,
+          "bleu": 98.82647642616598,
+          "exact_match_pct": 92.20779220779221
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.36758604259632,
+          "bleu": 91.2101076855034,
+          "exact_match_pct": 31.683168316831683
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.12750388274235,
+          "bleu": 81.77508867137134,
+          "exact_match_pct": 4.3478260869565215
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 97.77713745049522,
+          "bleu": 94.19694761833442,
+          "exact_match_pct": 62.5
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 95.22743687069958,
+          "bleu": 78.53989483177251,
+          "exact_match_pct": 25.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.73113510035209,
+          "bleu": 98.897084778508,
+          "exact_match_pct": 88.88888888888889
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.36455860215018,
+          "bleu": 98.09821664572289,
+          "exact_match_pct": 88.13760379596678
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.27479292463924,
+          "bleu": 97.66843546540308,
+          "exact_match_pct": 88.17442719881744
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.87581338868459,
+          "bleu": 96.55319761471416,
+          "exact_match_pct": 84.55882352941177
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.88519015101109,
+          "bleu": 97.99088268901357,
+          "exact_match_pct": 89.88764044943821
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.62777706020049,
+          "bleu": 83.49267686615961,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "14f98f1f9ff7da8778f2dd48dd548702f02bccebe8c2647aeec76bc0b5c7cecb",
+      "train_seconds": 78.09291387000121,
+      "validation_seconds": 349.05103051901096
+    },
+    {
+      "epoch": 12,
+      "n": 20769,
+      "chrf2_pct": 99.05178973912328,
+      "bleu": 96.60787548330661,
+      "exact_match_pct": 87.03355963214406,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 97.60516590622046,
+          "bleu": 93.06394372563203,
+          "exact_match_pct": 65.07145230973745
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.7589254351634,
+          "bleu": 98.98913393588643,
+          "exact_match_pct": 96.24976204073863
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.55607027875631,
+          "bleu": 93.68463580230484,
+          "exact_match_pct": 74.12140575079871
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.61349500486271,
+          "bleu": 75.85627212838872,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.87739022294198,
+          "bleu": 94.18341568657725,
+          "exact_match_pct": 82.0675105485232
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.5065188442942,
+          "bleu": 95.55773058815895,
+          "exact_match_pct": 88.62690707350902
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 97.28170506046709,
+          "bleu": 86.88108396395351,
+          "exact_match_pct": 32.075471698113205
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.96404577649861,
+          "bleu": 92.9442972843864,
+          "exact_match_pct": 67.21311475409836
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.73771972752185,
+          "bleu": 90.67088306216463,
+          "exact_match_pct": 53.84615384615385
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.30639384698934,
+          "bleu": 89.305591863041,
+          "exact_match_pct": 35.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 96.69974524935746,
+          "bleu": 76.51362705436122,
+          "exact_match_pct": 25.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.86172485426388,
+          "bleu": 97.16843074392145,
+          "exact_match_pct": 86.5702479338843
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.89381445785676,
+          "bleu": 98.64193448118482,
+          "exact_match_pct": 92.64069264069263
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.2742983477197,
+          "bleu": 91.14994878061675,
+          "exact_match_pct": 29.702970297029704
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.57382769936059,
+          "bleu": 83.65066811261872,
+          "exact_match_pct": 13.043478260869565
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 97.51366337676124,
+          "bleu": 95.35846099643894,
+          "exact_match_pct": 68.75
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 95.22743687069958,
+          "bleu": 78.53989483177251,
+          "exact_match_pct": 25.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.81872786743976,
+          "bleu": 99.43833770457123,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.55442142269246,
+          "bleu": 98.71404345208114,
+          "exact_match_pct": 93.47568208778173
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.38416010910247,
+          "bleu": 97.95777352096229,
+          "exact_match_pct": 90.68736141906874
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.9484317705839,
+          "bleu": 96.94828830810548,
+          "exact_match_pct": 86.76470588235294
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.92661961262789,
+          "bleu": 97.58801833985021,
+          "exact_match_pct": 89.88764044943821
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.76414179652603,
+          "bleu": 83.75931284080555,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "0bbaefe9a80aefdfd395eb5431df243c2f19f2119c2455ae0e0291fcfb2ae50a",
+      "train_seconds": 74.38428486799239,
+      "validation_seconds": 320.8481838629814
+    },
+    {
+      "epoch": 13,
+      "n": 20769,
+      "chrf2_pct": 99.10017333184801,
+      "bleu": 96.83274911105535,
+      "exact_match_pct": 87.10578265684434,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 97.76047878088895,
+          "bleu": 93.59523732711928,
+          "exact_match_pct": 65.80259222333001
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.74558426339838,
+          "bleu": 98.88823284051672,
+          "exact_match_pct": 95.5644393679802
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.48971402910634,
+          "bleu": 94.82371951652608,
+          "exact_match_pct": 78.70074547390841
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 76.46281721937028,
+          "exact_match_pct": 6.666666666666667
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.79000844036649,
+          "bleu": 95.47296372225524,
+          "exact_match_pct": 84.81012658227849
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.68474274300185,
+          "bleu": 96.99338401743528,
+          "exact_match_pct": 88.76560332871013
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 97.6425781220196,
+          "bleu": 88.9503602505608,
+          "exact_match_pct": 42.45283018867924
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.78949325500236,
+          "bleu": 92.38391902028087,
+          "exact_match_pct": 63.9344262295082
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.73771972752185,
+          "bleu": 90.67088306216463,
+          "exact_match_pct": 53.84615384615385
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.35469788939345,
+          "bleu": 88.98590787849018,
+          "exact_match_pct": 35.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 96.83175855575003,
+          "bleu": 80.37319582516739,
+          "exact_match_pct": 35.714285714285715
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.76951483425401,
+          "bleu": 96.91290812767586,
+          "exact_match_pct": 84.7107438016529
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.90424601918487,
+          "bleu": 98.63277998804188,
+          "exact_match_pct": 92.20779220779221
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.29051361825975,
+          "bleu": 91.56520368475103,
+          "exact_match_pct": 34.65346534653465
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 96.38445180809958,
+          "bleu": 85.48808651485936,
+          "exact_match_pct": 23.91304347826087
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 97.03824327497753,
+          "bleu": 91.67204682097861,
+          "exact_match_pct": 43.75
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 94.43200968248284,
+          "bleu": 75.3071668717481,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.46218412529255,
+          "bleu": 98.28880983734899,
+          "exact_match_pct": 85.18518518518519
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.63804739369839,
+          "bleu": 98.93769537828665,
+          "exact_match_pct": 93.83155397390273
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.43483533244537,
+          "bleu": 98.05243967767555,
+          "exact_match_pct": 90.53954175905396
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.86951862210103,
+          "bleu": 97.18297380192922,
+          "exact_match_pct": 86.02941176470588
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.88519015101109,
+          "bleu": 97.99088268901357,
+          "exact_match_pct": 89.88764044943821
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.92332619862574,
+          "bleu": 84.90033682357456,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "9642723adf8f35b15ab7419ba580e4b474c8253047ab7f4e6ab4b058e51bcddc",
+      "train_seconds": 78.65590910302126,
+      "validation_seconds": 339.04317282899865
+    },
+    {
+      "epoch": 14,
+      "n": 20769,
+      "chrf2_pct": 99.17662442721614,
+      "bleu": 96.96525040543597,
+      "exact_match_pct": 87.72208580095334,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 97.87765717444978,
+          "bleu": 93.66603734629156,
+          "exact_match_pct": 65.90229312063809
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.80728263335476,
+          "bleu": 99.09898475473727,
+          "exact_match_pct": 96.45916619074815
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.65348847660898,
+          "bleu": 94.95608830052569,
+          "exact_match_pct": 79.02023429179978
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 75.46029720674103,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.87831135266876,
+          "bleu": 95.4886328691248,
+          "exact_match_pct": 85.86497890295358
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.83293302629471,
+          "bleu": 97.26920349487625,
+          "exact_match_pct": 89.45908460471567
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 97.20066836627738,
+          "bleu": 86.06560595382696,
+          "exact_match_pct": 28.30188679245283
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.7012542311512,
+          "bleu": 91.9323664610073,
+          "exact_match_pct": 59.01639344262295
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.73771972752185,
+          "bleu": 90.67088306216463,
+          "exact_match_pct": 53.84615384615385
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.71645982390254,
+          "bleu": 91.0335205494032,
+          "exact_match_pct": 45.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.26696053007568,
+          "bleu": 84.07080204573056,
+          "exact_match_pct": 46.42857142857143
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 79.00800316465869,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.79402375070582,
+          "bleu": 97.39960704262442,
+          "exact_match_pct": 87.1900826446281
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.84274491673617,
+          "bleu": 98.92727961601481,
+          "exact_match_pct": 93.93939393939394
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.34608152992274,
+          "bleu": 91.75953235902978,
+          "exact_match_pct": 34.65346534653465
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.93954675775224,
+          "bleu": 84.43891083788327,
+          "exact_match_pct": 17.391304347826086
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 98.11710108990827,
+          "bleu": 95.6276311083737,
+          "exact_match_pct": 56.25
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 94.43200968248284,
+          "bleu": 75.3071668717481,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.6404707791902,
+          "bleu": 98.85169283330748,
+          "exact_match_pct": 92.5925925925926
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.61877179446408,
+          "bleu": 98.70127808456803,
+          "exact_match_pct": 93.00118623962041
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.49945011880136,
+          "bleu": 98.24055092520993,
+          "exact_match_pct": 91.27864005912787
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 100.0,
+          "bleu": 97.15190750289688,
+          "exact_match_pct": 87.5
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.89869474224565,
+          "bleu": 97.90726585293176,
+          "exact_match_pct": 89.88764044943821
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.92332619862574,
+          "bleu": 84.63647817921505,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "784a1022a9f0904ae98c5bb50f359d536c0696a487cf147bc4cda3c5d810ba57",
+      "train_seconds": 74.78386227300507,
+      "validation_seconds": 338.23462046700297
+    },
+    {
+      "epoch": 15,
+      "n": 20769,
+      "chrf2_pct": 99.18771268903009,
+      "bleu": 96.96631740989811,
+      "exact_match_pct": 87.22615436467812,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 97.95946630726608,
+          "bleu": 93.86627605054412,
+          "exact_match_pct": 66.40079760717846
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.8114541635602,
+          "bleu": 99.02422079526296,
+          "exact_match_pct": 95.75480677707976
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.54140145628996,
+          "bleu": 94.750432604681,
+          "exact_match_pct": 78.06176783812566
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.66215498900372,
+          "bleu": 75.95577623946312,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.80845463185585,
+          "bleu": 95.47910588627886,
+          "exact_match_pct": 85.0210970464135
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.84144923385153,
+          "bleu": 97.47058724630266,
+          "exact_match_pct": 90.98474341192788
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 97.78223529266776,
+          "bleu": 88.76823668387097,
+          "exact_match_pct": 39.62264150943396
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 98.46209545498722,
+          "bleu": 95.14495347043483,
+          "exact_match_pct": 73.77049180327869
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.6948717125777,
+          "bleu": 90.38679990032377,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.3745879238047,
+          "bleu": 89.27301282646334,
+          "exact_match_pct": 35.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.30948746348464,
+          "bleu": 82.43787818106667,
+          "exact_match_pct": 42.857142857142854
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 79.00800316465869,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.78881717100101,
+          "bleu": 97.241120373691,
+          "exact_match_pct": 86.77685950413223
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.86943875906438,
+          "bleu": 98.8159344765358,
+          "exact_match_pct": 93.07359307359307
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.3556509574436,
+          "bleu": 92.16404046200455,
+          "exact_match_pct": 38.118811881188115
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.74761079209323,
+          "bleu": 84.52930326898547,
+          "exact_match_pct": 15.217391304347826
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 98.5022204597405,
+          "bleu": 96.07436314829525,
+          "exact_match_pct": 62.5
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 93.86792913787714,
+          "bleu": 72.86555241791388,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.70934261856733,
+          "bleu": 99.05172271887464,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.55707383840343,
+          "bleu": 98.26453870473341,
+          "exact_match_pct": 90.0355871886121
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.46383001558236,
+          "bleu": 98.09355081862138,
+          "exact_match_pct": 89.98521803399852
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.87121748839478,
+          "bleu": 96.69878103921997,
+          "exact_match_pct": 84.55882352941177
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.93360628420996,
+          "bleu": 98.38897112901952,
+          "exact_match_pct": 92.13483146067416
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.92332619862574,
+          "bleu": 84.90033682357456,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "ef6aada26f6f6b7f006388b73ee5e21a2d6ce1601633caddb9a7fe611abaeee1",
+      "train_seconds": 73.9537731379969,
+      "validation_seconds": 345.1950342619966
+    },
+    {
+      "epoch": 16,
+      "n": 20769,
+      "chrf2_pct": 99.23597071852322,
+      "bleu": 97.16480597002742,
+      "exact_match_pct": 87.8761615869806,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 98.11373620893619,
+          "bleu": 94.26205875198676,
+          "exact_match_pct": 67.4975074775673
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.82606055452496,
+          "bleu": 99.14089427830896,
+          "exact_match_pct": 96.35446411574338
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.51237619464712,
+          "bleu": 95.00121665739594,
+          "exact_match_pct": 79.33972310969116
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.80888994453416,
+          "bleu": 76.36341725329498,
+          "exact_match_pct": 6.666666666666667
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.86715303594086,
+          "bleu": 96.060380850505,
+          "exact_match_pct": 86.28691983122363
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.80007657602621,
+          "bleu": 97.32480343062714,
+          "exact_match_pct": 90.01386962552012
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 98.14662745397459,
+          "bleu": 90.29859741722869,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.98034428226283,
+          "bleu": 92.78077940024185,
+          "exact_match_pct": 65.57377049180327
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 98.49181315168124,
+          "bleu": 94.01786405067305,
+          "exact_match_pct": 69.23076923076923
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.60055025822486,
+          "bleu": 90.92073905501493,
+          "exact_match_pct": 45.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.76153221235535,
+          "bleu": 85.7637558404813,
+          "exact_match_pct": 53.57142857142857
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.85854048466074,
+          "bleu": 97.88400585050276,
+          "exact_match_pct": 89.0495867768595
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.85361752095734,
+          "bleu": 98.76174516916686,
+          "exact_match_pct": 90.9090909090909
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.46087997438873,
+          "bleu": 92.6101487910812,
+          "exact_match_pct": 40.0990099009901
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.92381209355864,
+          "bleu": 84.93360309807753,
+          "exact_match_pct": 17.391304347826086
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 97.19483873278007,
+          "bleu": 91.22570598754419,
+          "exact_match_pct": 62.5
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 94.43200968248284,
+          "bleu": 75.3071668717481,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.70934261856733,
+          "bleu": 99.05172271887464,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.34484164313297,
+          "bleu": 97.30932387839476,
+          "exact_match_pct": 85.17200474495849
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.53867455135494,
+          "bleu": 98.41309902103191,
+          "exact_match_pct": 91.64818920916481
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.90220249221571,
+          "bleu": 96.44868815204268,
+          "exact_match_pct": 85.29411764705883
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.7719321248831,
+          "bleu": 97.7503068231267,
+          "exact_match_pct": 85.3932584269663
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.73372092682622,
+          "bleu": 84.90033682357456,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "fbce9a6629f2b87f18694b9bfb57995681814343c8eed6132b1844c4bbf54f2d",
+      "train_seconds": 75.37739501401666,
+      "validation_seconds": 335.61195715499343
+    },
+    {
+      "epoch": 17,
+      "n": 20769,
+      "chrf2_pct": 99.26913202610639,
+      "bleu": 97.3161725494553,
+      "exact_match_pct": 88.97395156242477,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 98.132314159766,
+          "bleu": 94.45989346556243,
+          "exact_match_pct": 69.02625456962446
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.84249871074215,
+          "bleu": 99.19272216035304,
+          "exact_match_pct": 96.88749286122216
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.62112629980383,
+          "bleu": 95.1861300104223,
+          "exact_match_pct": 79.87220447284345
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 76.46281721937028,
+          "exact_match_pct": 6.666666666666667
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.8001015310822,
+          "bleu": 96.5572243385201,
+          "exact_match_pct": 88.18565400843882
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.8714293881384,
+          "bleu": 97.50742659530445,
+          "exact_match_pct": 91.4008321775312
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 98.01753187455502,
+          "bleu": 88.85787374073827,
+          "exact_match_pct": 41.509433962264154
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 98.25934002713016,
+          "bleu": 93.72777639725028,
+          "exact_match_pct": 72.1311475409836
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 98.27692391786151,
+          "bleu": 93.41963098130901,
+          "exact_match_pct": 61.53846153846154
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.1807583576265,
+          "bleu": 91.46462359203784,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.4771470390712,
+          "bleu": 85.06529569656146,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.71648102261074,
+          "bleu": 97.7844243906669,
+          "exact_match_pct": 88.84297520661157
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.8493244261523,
+          "bleu": 99.03714413778823,
+          "exact_match_pct": 94.37229437229438
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.1310030987885,
+          "bleu": 92.56893915377162,
+          "exact_match_pct": 41.08910891089109
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 96.37698620528248,
+          "bleu": 86.23438599814956,
+          "exact_match_pct": 28.26086956521739
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 99.33131266111019,
+          "bleu": 97.90379834417988,
+          "exact_match_pct": 81.25
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 94.43200968248284,
+          "bleu": 75.3071668717481,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.70934261856733,
+          "bleu": 99.05172271887464,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.73969950623942,
+          "bleu": 98.95099918445445,
+          "exact_match_pct": 94.18742586002372
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.55544157663766,
+          "bleu": 98.4263085764778,
+          "exact_match_pct": 91.7220990391722
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.95066145718418,
+          "bleu": 97.8301121815612,
+          "exact_match_pct": 91.17647058823529
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.93360628420996,
+          "bleu": 98.06697423675789,
+          "exact_match_pct": 91.01123595505618
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.97952076297133,
+          "bleu": 84.63647817921505,
+          "exact_match_pct": 4.166666666666667
+        }
+      ],
+      "checkpoint_sha256": "3ef5b0b6e2036845afbe37f46cf461edc9f9b354e0780cd89481f54acefb6760",
+      "train_seconds": 76.41289381799288,
+      "validation_seconds": 333.0740616240073
+    },
+    {
+      "epoch": 18,
+      "n": 20769,
+      "chrf2_pct": 99.34483838043252,
+      "bleu": 97.48896863198881,
+      "exact_match_pct": 89.66247773123405,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 98.36227045918478,
+          "bleu": 94.89492412706979,
+          "exact_match_pct": 70.95380525091393
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.85460116694547,
+          "bleu": 99.26688970635995,
+          "exact_match_pct": 97.2587093089663
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.6717168069302,
+          "bleu": 95.48070053551196,
+          "exact_match_pct": 81.15015974440895
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 75.46029720674103,
+          "exact_match_pct": 3.3333333333333335
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.84227462842365,
+          "bleu": 96.17678784612757,
+          "exact_match_pct": 86.91983122362869
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.96357576480628,
+          "bleu": 97.66268836280128,
+          "exact_match_pct": 92.7877947295423
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 98.13179627872638,
+          "bleu": 90.48528860123444,
+          "exact_match_pct": 50.943396226415096
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 97.79429472962063,
+          "bleu": 91.69410254214296,
+          "exact_match_pct": 63.9344262295082
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 98.49181315168124,
+          "bleu": 94.01786405067305,
+          "exact_match_pct": 69.23076923076923
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.30077970489079,
+          "bleu": 92.75293464918674,
+          "exact_match_pct": 55.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.5745901935633,
+          "bleu": 83.97781330333814,
+          "exact_match_pct": 50.0
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.73080394938245,
+          "bleu": 97.8242588158455,
+          "exact_match_pct": 89.46280991735537
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.8790754105935,
+          "bleu": 98.90276660307858,
+          "exact_match_pct": 94.37229437229438
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.20705862931963,
+          "bleu": 92.36753212628953,
+          "exact_match_pct": 39.603960396039604
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 96.60557548549802,
+          "bleu": 86.9102989410275,
+          "exact_match_pct": 30.434782608695652
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 98.39449562805889,
+          "bleu": 95.14096265126891,
+          "exact_match_pct": 68.75
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 95.22743687069958,
+          "bleu": 78.97263790098717,
+          "exact_match_pct": 25.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.70934261856733,
+          "bleu": 99.05172271887464,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.69726538207387,
+          "bleu": 98.88812112872674,
+          "exact_match_pct": 93.23843416370107
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.61517451959253,
+          "bleu": 98.647995124617,
+          "exact_match_pct": 93.08943089430895
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.91112810944158,
+          "bleu": 97.22459961710712,
+          "exact_match_pct": 88.23529411764706
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.86002074287245,
+          "bleu": 97.50686308219535,
+          "exact_match_pct": 88.76404494382022
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 97.01296663622811,
+          "bleu": 85.21469433328117,
+          "exact_match_pct": 4.166666666666667
+        }
+      ],
+      "checkpoint_sha256": "e757f4629e681f4b1b08bfe722ccc97d2ecb79cc3ff19694f0f646d756d72b3a",
+      "train_seconds": 73.42439700398245,
+      "validation_seconds": 321.5485226550081
+    },
+    {
+      "epoch": 19,
+      "n": 20769,
+      "chrf2_pct": 99.36573339733845,
+      "bleu": 97.469916071775,
+      "exact_match_pct": 89.2291395830324,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 98.40882622166424,
+          "bleu": 94.8298894970615,
+          "exact_match_pct": 69.49152542372882
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.8525869166865,
+          "bleu": 99.24532826378132,
+          "exact_match_pct": 96.9160479725871
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.67644180268589,
+          "bleu": 95.54139515637691,
+          "exact_match_pct": 80.61767838125665
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.69438231489856,
+          "bleu": 75.54708320087491,
+          "exact_match_pct": 6.666666666666667
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.89500312020847,
+          "bleu": 95.36685993166026,
+          "exact_match_pct": 85.44303797468355
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.95990194472883,
+          "bleu": 97.68873039342132,
+          "exact_match_pct": 92.64909847434119
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 98.52406363432159,
+          "bleu": 93.02263083112568,
+          "exact_match_pct": 61.320754716981135
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 98.4898216961113,
+          "bleu": 94.91032877183922,
+          "exact_match_pct": 73.77049180327869
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 98.27599619484175,
+          "bleu": 93.6434198679661,
+          "exact_match_pct": 69.23076923076923
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.24338313741833,
+          "bleu": 91.8226486581846,
+          "exact_match_pct": 55.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 97.74218532848587,
+          "bleu": 85.56236885534102,
+          "exact_match_pct": 53.57142857142857
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 94.00982278954608,
+          "bleu": 77.98957349249294,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.71834754775034,
+          "bleu": 97.82350847738344,
+          "exact_match_pct": 88.4297520661157
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.89986686947626,
+          "bleu": 98.90315442165637,
+          "exact_match_pct": 94.37229437229438
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.57922318669803,
+          "bleu": 93.10743623318263,
+          "exact_match_pct": 41.584158415841586
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.556999663785,
+          "bleu": 83.12458564727454,
+          "exact_match_pct": 8.695652173913043
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 98.87386038860531,
+          "bleu": 96.38416948406702,
+          "exact_match_pct": 75.0
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 95.22743687069958,
+          "bleu": 78.97263790098717,
+          "exact_match_pct": 25.0
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 99.85467130928365,
+          "bleu": 99.61365001015737,
+          "exact_match_pct": 96.29629629629629
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.78279580981572,
+          "bleu": 99.15920982225738,
+          "exact_match_pct": 94.78054567022538
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.62907000861394,
+          "bleu": 98.48645288524337,
+          "exact_match_pct": 92.38728750923873
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.8036823272956,
+          "bleu": 97.15128263433836,
+          "exact_match_pct": 87.5
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.70075654375367,
+          "bleu": 97.8309979408098,
+          "exact_match_pct": 89.88764044943821
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 97.01296663622811,
+          "bleu": 85.48119222845288,
+          "exact_match_pct": 4.166666666666667
+        }
+      ],
+      "checkpoint_sha256": "2147b54412a6bba8aaa3bce57ce445b7fa3040a0e9dfacae017feab01fbc5145",
+      "train_seconds": 76.56225649701082,
+      "validation_seconds": 351.8485592530051
+    },
+    {
+      "epoch": 20,
+      "n": 20769,
+      "chrf2_pct": 99.374897962429,
+      "bleu": 97.51531008189038,
+      "exact_match_pct": 89.58062496990708,
+      "category_scores": [
+        {
+          "category": "multi",
+          "n": 3009,
+          "chrf2_pct": 98.48803449919482,
+          "bleu": 94.99393082692401,
+          "exact_match_pct": 70.9205716184779
+        },
+        {
+          "category": "none",
+          "n": 10506,
+          "chrf2_pct": 99.84986298210792,
+          "bleu": 99.21822206678803,
+          "exact_match_pct": 96.8303826384923
+        },
+        {
+          "category": "rule_1",
+          "n": 939,
+          "chrf2_pct": 99.65251726079835,
+          "bleu": 95.54279757877003,
+          "exact_match_pct": 81.36315228966986
+        },
+        {
+          "category": "rule_10",
+          "n": 30,
+          "chrf2_pct": 99.85762149831814,
+          "bleu": 76.46281721937028,
+          "exact_match_pct": 6.666666666666667
+        },
+        {
+          "category": "rule_11",
+          "n": 474,
+          "chrf2_pct": 99.86028468868903,
+          "bleu": 96.77798540958571,
+          "exact_match_pct": 89.66244725738396
+        },
+        {
+          "category": "rule_12",
+          "n": 721,
+          "chrf2_pct": 98.98120214917175,
+          "bleu": 97.66669463435558,
+          "exact_match_pct": 92.09431345353676
+        },
+        {
+          "category": "rule_13",
+          "n": 106,
+          "chrf2_pct": 98.61826090873335,
+          "bleu": 92.67251060229854,
+          "exact_match_pct": 61.320754716981135
+        },
+        {
+          "category": "rule_14",
+          "n": 61,
+          "chrf2_pct": 98.88290351501814,
+          "bleu": 96.00986259858519,
+          "exact_match_pct": 81.9672131147541
+        },
+        {
+          "category": "rule_15",
+          "n": 28,
+          "chrf2_pct": 95.06324435503801,
+          "bleu": 79.51351612825411,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_16",
+          "n": 26,
+          "chrf2_pct": 97.97227010790927,
+          "bleu": 92.6187035414452,
+          "exact_match_pct": 61.53846153846154
+        },
+        {
+          "category": "rule_17",
+          "n": 20,
+          "chrf2_pct": 99.22901142625676,
+          "bleu": 92.19697179255392,
+          "exact_match_pct": 55.0
+        },
+        {
+          "category": "rule_18",
+          "n": 28,
+          "chrf2_pct": 98.25076457377008,
+          "bleu": 87.68495510069947,
+          "exact_match_pct": 57.142857142857146
+        },
+        {
+          "category": "rule_2",
+          "n": 8,
+          "chrf2_pct": 95.50720025281417,
+          "bleu": 80.01534048284674,
+          "exact_match_pct": 12.5
+        },
+        {
+          "category": "rule_20",
+          "n": 484,
+          "chrf2_pct": 99.73068433865926,
+          "bleu": 97.72310509068762,
+          "exact_match_pct": 88.63636363636364
+        },
+        {
+          "category": "rule_21",
+          "n": 1,
+          "chrf2_pct": 100.0,
+          "bleu": 67.03420896351791,
+          "exact_match_pct": 0.0
+        },
+        {
+          "category": "rule_22",
+          "n": 231,
+          "chrf2_pct": 99.85765301425108,
+          "bleu": 98.94034256715027,
+          "exact_match_pct": 93.93939393939394
+        },
+        {
+          "category": "rule_23",
+          "n": 202,
+          "chrf2_pct": 98.27119257844402,
+          "bleu": 92.79147646032125,
+          "exact_match_pct": 44.05940594059406
+        },
+        {
+          "category": "rule_24",
+          "n": 46,
+          "chrf2_pct": 95.4453278976597,
+          "bleu": 82.79171816569344,
+          "exact_match_pct": 6.521739130434782
+        },
+        {
+          "category": "rule_25",
+          "n": 16,
+          "chrf2_pct": 98.72937276726839,
+          "bleu": 95.75728899052514,
+          "exact_match_pct": 68.75
+        },
+        {
+          "category": "rule_3",
+          "n": 8,
+          "chrf2_pct": 96.0228640589163,
+          "bleu": 82.15879503967518,
+          "exact_match_pct": 37.5
+        },
+        {
+          "category": "rule_4",
+          "n": 27,
+          "chrf2_pct": 100.0,
+          "bleu": 100.00000000000004,
+          "exact_match_pct": 100.0
+        },
+        {
+          "category": "rule_5",
+          "n": 843,
+          "chrf2_pct": 99.71115944895072,
+          "bleu": 99.07517962523265,
+          "exact_match_pct": 94.78054567022538
+        },
+        {
+          "category": "rule_6",
+          "n": 2706,
+          "chrf2_pct": 99.59347077845717,
+          "bleu": 98.4583313256396,
+          "exact_match_pct": 92.53510716925351
+        },
+        {
+          "category": "rule_7",
+          "n": 136,
+          "chrf2_pct": 99.91112810944158,
+          "bleu": 97.69480955318605,
+          "exact_match_pct": 90.44117647058823
+        },
+        {
+          "category": "rule_8",
+          "n": 89,
+          "chrf2_pct": 99.63037327046388,
+          "bleu": 97.38780646246371,
+          "exact_match_pct": 88.76404494382022
+        },
+        {
+          "category": "rule_9",
+          "n": 24,
+          "chrf2_pct": 96.92332619862574,
+          "bleu": 84.90033682357456,
+          "exact_match_pct": 0.0
+        }
+      ],
+      "checkpoint_sha256": "811d4669ad55adbe681ab1b76074780fdfe2dfa7cb081312b755160b3096d32d",
+      "train_seconds": 75.96599204899394,
+      "validation_seconds": 340.4765993299952
+    }
+  ],
+  "best": {
+    "epoch": 20,
+    "n": 20769,
+    "chrf2_pct": 99.374897962429,
+    "bleu": 97.51531008189038,
+    "exact_match_pct": 89.58062496990708,
+    "checkpoint_sha256": "811d4669ad55adbe681ab1b76074780fdfe2dfa7cb081312b755160b3096d32d"
+  },
+  "pending_checkpoint_sha256": "811d4669ad55adbe681ab1b76074780fdfe2dfa7cb081312b755160b3096d32d",
+  "pending_train_seconds": 75.96599204899394,
+  "status": "COMPLETE"
+}

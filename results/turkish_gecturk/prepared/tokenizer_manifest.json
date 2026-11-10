@@ -1,0 +1,136 @@
+{
+  "spbpe_5k": {
+    "family": "spbpe",
+    "vocab_size": 5000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "spbpe_5k/dict.shared.txt": "26c1967686c6cfaefb98675e7a808e3486c3c7c953fa13342c580d101499b025",
+      "spbpe_5k/encoded/test.source": "8eff596853b45df7c2aa8ab8742e08cf03d561bc070bc6198ecd33900b274143",
+      "spbpe_5k/encoded/test.target": "e571bbc9ff7096882bd8909e1a4cad46d20648370d03f75d7af049ca35ee6ba9",
+      "spbpe_5k/encoded/train.source": "bc19dcd7cd76299bed7bd6289b9ea61123cd9f89a175a66854abfa9eb442abe7",
+      "spbpe_5k/encoded/train.target": "1fc947733a07e8258139a4975e6f80059f54da9a999be45023a315d85b31d017",
+      "spbpe_5k/encoded/valid.source": "225d4cd1a18c0f81ace0c5087420fe4d0d6703e1c4f6f22b271ce56c1e1fd319",
+      "spbpe_5k/encoded/valid.target": "658237050d91df67c45a0efbc9a6368aef4f4627d3490275ee4be23f1eb72bd8",
+      "spbpe_5k/required_character_inventory.json": "d25637ffda3b42621541bb5a55ab329e513c394961389e590df6caf23a357ea0",
+      "spbpe_5k/tokenizer.model": "8b773fbd3bea369a35b003ce841d170f9101b6c3597a9c226a1ac2ca1c15ec0d",
+      "spbpe_5k/tokenizer.vocab": "b2433cd065a46a6b52a01aeceafa0a474cd8abf63df3e5214c657964fc85bf68",
+      "spbpe_5k/trainer_config.json": "927c4d41ff4ae6cbf2a9880aa8f99b41ec0897e4ef4d586a678ba271af27b211"
+    }
+  },
+  "spbpe_20k": {
+    "family": "spbpe",
+    "vocab_size": 20000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "spbpe_20k/dict.shared.txt": "5ade5c521f242d0378e59cd304e6d2d281f625523f3d39668a2dd0e496c4c4a8",
+      "spbpe_20k/encoded/test.source": "7b3b08ebe531d0e0149f008697807352f57cb848001f77540bbe12f69a815bf2",
+      "spbpe_20k/encoded/test.target": "4b691822e418284d0342b8a0c889d489ab63fc0f890892dba120d4eac67d20ec",
+      "spbpe_20k/encoded/train.source": "f8a6b05e1bf70f805ccc006a736fa0295754b4d762036a8eea57df8d352819ad",
+      "spbpe_20k/encoded/train.target": "d981c63b1f4be7f59e60c4723ed6e65bff7077af3e7483bd2a925a60c7df558d",
+      "spbpe_20k/encoded/valid.source": "81546f99ae157a10f00e933fbd708d9cfee544ab3cc2002fba1cd98c341e95ac",
+      "spbpe_20k/encoded/valid.target": "70048b1af89fe392031e786147ec377d295185a08bda5ff68ad39c96b1cda98b",
+      "spbpe_20k/required_character_inventory.json": "d25637ffda3b42621541bb5a55ab329e513c394961389e590df6caf23a357ea0",
+      "spbpe_20k/tokenizer.model": "1c7aacb0cbc086ce24633383129308a082402b77509dcb5f1829984e0d954d92",
+      "spbpe_20k/tokenizer.vocab": "761d00f06b1a88cd9f062164c33621b065dbb6785c91ac25e349811ac6d43bb9",
+      "spbpe_20k/trainer_config.json": "2c0e504b6c0af5de759acf2f17203a7bd9e535aa8ede8ce6827976a621299fd6"
+    }
+  },
+  "wp_5k": {
+    "family": "wp",
+    "vocab_size": 5000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "wp_5k/dict.shared.txt": "0b5f4e789deeec6191b31339667d7d4ddca957805b617043553cf4e992bc59b8",
+      "wp_5k/encoded/test.source": "032572e3158d4207e5ff0dab54ef2449003a55f65080f653b20c6703b5d94d7f",
+      "wp_5k/encoded/test.target": "15353c90eccc585342555519059159d6b525dbba7b3ffba0f63aa75d248466c2",
+      "wp_5k/encoded/train.source": "5cb8719723f3fa32b61d4c690de0ef708e874c847ff74b177c21c53a00eb40f2",
+      "wp_5k/encoded/train.target": "934c5e3a9391aeb4c693d392c427e188892b66d323358a190b2e07404dfae0da",
+      "wp_5k/encoded/valid.source": "67bf467d649cfb418afa841c1e6ba729f1c1aefc734e7d2bcc41fc7d32cbdfec",
+      "wp_5k/encoded/valid.target": "a0446bfafd26d8617905fe049506e659b6346a8cf9a2cecd604ff40c5f72a7bd",
+      "wp_5k/tokenizer.json": "76a46fcbf2e3025f652fa414b640c8b8bfd2fd042e9d18f269c8d757e504f708",
+      "wp_5k/trainer_config.json": "0ec757b3209b33edcfaba15a7aa350d1109d2d11129a0cc520fe06d77078e2a1"
+    }
+  },
+  "wp_20k": {
+    "family": "wp",
+    "vocab_size": 20000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "wp_20k/dict.shared.txt": "dc7cc27d2ca843a0fdad16af1a09226a7818916274266acba51dbc84fc48731d",
+      "wp_20k/encoded/test.source": "d688f9396db810d6beb25ccc03b412a566751accb46b86ead93ce978170ad004",
+      "wp_20k/encoded/test.target": "6704ef596c975e78a3421aa4a0147819d7fe91766b8c0e36073dc4ff8b9349e2",
+      "wp_20k/encoded/train.source": "63e882a241a3f8d9018a43ddb63159579ff7527b9b4a789f2d9319d74af3a2e5",
+      "wp_20k/encoded/train.target": "c47ec5208336bbed3659d5779e86d04b2cfb9966cf9f2d5438733a6a39c7fefd",
+      "wp_20k/encoded/valid.source": "d3126c382c0a4607970a241a32f1e23783cbb71d9f480157ee1cd82c01b1da6b",
+      "wp_20k/encoded/valid.target": "4fd16b560875808b4ae38fa87311e4f6c46fd7e4151c620aa53ac505d9d0d151",
+      "wp_20k/tokenizer.json": "1aa831c7fd34a6e356dbcdb20fb8885c038db124170cd18ac49e5a61f193e279",
+      "wp_20k/trainer_config.json": "e504af2fa941ad4d3734c66751e1ed23a5a475a4f11c1dbe3c0288d08fdad43b"
+    }
+  },
+  "spuni_5k": {
+    "family": "spuni",
+    "vocab_size": 5000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "spuni_5k/dict.shared.txt": "83b90f2c70a2d8c53bfab4901ec86e6747d240da14acc84b76769c567b1d22e9",
+      "spuni_5k/encoded/test.source": "11ebb2c9cb23b475122a44a80489ea0a141e5c3bb9f2ef5d7981e7028e475da5",
+      "spuni_5k/encoded/test.target": "afd2084f2a65ee7570da88df33af0d9e96bf23e1a585d1883582f4c9c6c12ec8",
+      "spuni_5k/encoded/train.source": "a9811a3d51f7b86956fa7deffe1809c8818407826aaf584df9fe5598845e3acb",
+      "spuni_5k/encoded/train.target": "d636d425f9a6bae41e9b343c9677a5c28240a24d075d4b3c623a354e0ad026ad",
+      "spuni_5k/encoded/valid.source": "c56e889d52980aaa550de5678b058b857c9d42830d986c26af1c606c56b24eec",
+      "spuni_5k/encoded/valid.target": "cc642a59c905acfb60fc24c7ac41d6b79634284fd99ccfd86e72c23bd26edfe7",
+      "spuni_5k/required_character_inventory.json": "d25637ffda3b42621541bb5a55ab329e513c394961389e590df6caf23a357ea0",
+      "spuni_5k/tokenizer.model": "432bb68684e74378a01345ce26a5581c3cff2682cdb697fca5843230c9de34e6",
+      "spuni_5k/tokenizer.vocab": "be4cd3e26bcb5aac23c0eb0b2912be6a6dd05bdd464bec9970f3f23e981b828e",
+      "spuni_5k/trainer_config.json": "dacbf32c4e8a793b5e290ea08870d20ed6058fb95b9e2c5533a25b05433a9d21"
+    }
+  },
+  "spuni_20k": {
+    "family": "spuni",
+    "vocab_size": 20000,
+    "special_ids": {
+      "<s>": 0,
+      "<pad>": 1,
+      "</s>": 2,
+      "<unk>": 3
+    },
+    "files": {
+      "spuni_20k/dict.shared.txt": "437715baa09f9efd7a43e4a375a632cfa89451459685f8636f8be4585ec8c9ad",
+      "spuni_20k/encoded/test.source": "a2c279edbf0e2974ead034e46fcc47dcede011786a5dcdef4366e3d3d56ca341",
+      "spuni_20k/encoded/test.target": "09450f7606f5e572cdedb63bc7f532c843bbbdc09e7331c2d19847b8bd572e1f",
+      "spuni_20k/encoded/train.source": "3d4e8688c8400777c37e40d91b8c91fd6bdfaa3b6ee00d5b44d8970b66a38d7d",
+      "spuni_20k/encoded/train.target": "33ab0682ca2e22c50131f5aeb20e50951ea97b217d722587883519356e362c0c",
+      "spuni_20k/encoded/valid.source": "d7ec7eb0acabd676ba0ab465dd668a9d1ff0e44e675e9724dd0a74018bae20b9",
+      "spuni_20k/encoded/valid.target": "b7ce4fcf21afa4995805d41af73be04d360971fe2cc45ce71679798126d52e4a",
+      "spuni_20k/required_character_inventory.json": "d25637ffda3b42621541bb5a55ab329e513c394961389e590df6caf23a357ea0",
+      "spuni_20k/tokenizer.model": "2715481a9891f308cbf6091140656b18fdf88f6027868fd3462fe76a15ee1b97",
+      "spuni_20k/tokenizer.vocab": "42abfc3394badd309cfa46adcea801bd1826c57e476c387fff5c6df461178f77",
+      "spuni_20k/trainer_config.json": "5f1670aad87fbfe92822ecd961433a13d144325fed5e2ed414365743ebe0cee1"
+    }
+  }
+}
